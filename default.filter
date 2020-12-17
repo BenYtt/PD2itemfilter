@@ -2561,97 +2561,101 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=5 mpi]: %GRAY%%NAME% %ORANGE%(Call to Arms)//
 
 //- Berserker Axe
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 7wa]: %NAME%//%MAP-20%%PX-00%// Base, Berserker Axe, 0s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 7wa]: %GRAY%%NAME% %ORANGE%(Wind/Fury)//%MAP-1E%%PX-00%// Wind/Fury, Berserker Axe, 3s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7wa]: %GRAY%%NAME% %ORANGE%(Famine/Hand of Justice)//%MAP-1E%%PX-00%// Famine/Hand of Justice, Berserker Axe, 4s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7wa]: %GRAY%%NAME% %ORANGE%(Grief/Beast/Doom)%MAP-1E%%PX-00%// Grief/Beast/Doom, Berserker Axe, 5s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=6 7wa]: %GRAY%%NAME% %ORANGE%(Last Wish)%MAP-1E%%PX-00%// Last Wish, Berserker Axe, 6s
-
 ItemDisplay[NMAG SUP !RW !ETH SOCK=0 7wa ED>0]: %NAME%%MAP-20%%PX-00%// Base, Berserker Axe, superior, 0s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=4 7wa ED>0]: %GRAY%%NAME% %ORANGE%(Famine/Hand of Justice)%MAP-1E%%PX-00%// Famine/Hand of Justice, Berserker Axe, superior, 4s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=5 7wa ED>0]: %GRAY%%NAME% %ORANGE%(Grief/Beast/Doom)%MAP-1E%%PX-00%// Grief/Beast/Doom, Berserker Axe, superior, 5s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=6 7wa ED>0]: %GRAY%%NAME% %ORANGE%(Last Wish)%MAP-1E%%PX-00%// Last Wish, Berserker Axe, superior, 6s
-
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 7wa]: %GRAY%%NAME%%MAP-1E%%PX-00%// Base, Berserker Axe, eth, 0s
-ItemDisplay[NMAG !INF !RW ETH SOCK=3 7wa]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Berserker Axe, eth, 3s
-ItemDisplay[NMAG !INF !RW ETH SOCK=4 7wa]: %GRAY%%NAME% %ORANGE%(Kingslayer/Oath)%MAP-1E%%PX-00%// Kingslayer, Berserker Axe, eth, 4s
-ItemDisplay[NMAG !INF !RW ETH SOCK=5 7wa]: %GRAY%%NAME% %ORANGE%(Death/Eternity)%MAP-1E%%PX-00%// Death/Eternity, Berserker Axe, eth, 5s
-ItemDisplay[NMAG !INF !RW ETH SOCK=6 7wa]: %GRAY%%NAME% %ORANGE%(Breath of the Dying)%MAP-1E%%PX-00%// Breath of the Dying, Berserker Axe, eth, 6s
-
 ItemDisplay[NMAG SUP !RW ETH SOCK=0 7wa ED>0]: %GRAY%%NAME%%MAP-1E%%PX-00%// Base, Berserker Axe, superior, eth, 0s
+
+ItemDisplay[NMAG !INF !RW !ETH SOCK=3 7wa]: %GRAY%%NAME% %ORANGE%(Wind/Fury)//%MAP-1E%%PX-00%// Wind/Fury, Berserker Axe, 3s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=3 7wa ED>0]: %GRAY%%NAME% %ORANGE%(Wind/Fury)%MAP-1E%%PX-00%// Wind/Fury, Berserker Axe, superior, 3s
+ItemDisplay[NMAG !INF !RW ETH SOCK=3 7wa]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Berserker Axe, eth, 3s
 ItemDisplay[NMAG SUP !RW ETH SOCK=3 7wa ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Berserker Axe, superior, eth, 3s
+
+ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7wa]: %GRAY%%NAME% %ORANGE%(Famine/Hand of Justice)//%MAP-1E%%PX-00%// Famine/Hand of Justice, Berserker Axe, 4s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=4 7wa ED>0]: %GRAY%%NAME% %ORANGE%(Famine/Hand of Justice)%MAP-1E%%PX-00%// Famine/Hand of Justice, Berserker Axe, superior, 4s
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 7wa]: %GRAY%%NAME% %ORANGE%(Kingslayer/Oath)%MAP-1E%%PX-00%// Kingslayer, Berserker Axe, eth, 4s
 ItemDisplay[NMAG SUP !RW ETH SOCK=4 7wa ED>0]: %GRAY%%NAME% %ORANGE%(Kingslayer/Oath)%MAP-1E%%PX-00%// Kingslayer, Berserker Axe, superior, eth, 4s
+
+ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7wa]: %GRAY%%NAME% %ORANGE%(Grief/Beast/Doom)%MAP-1E%%PX-00%// Grief/Beast/Doom, Berserker Axe, 5s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=5 7wa ED>0]: %GRAY%%NAME% %ORANGE%(Grief/Beast/Doom)%MAP-1E%%PX-00%// Grief/Beast/Doom, Berserker Axe, superior, 5s
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 7wa]: %GRAY%%NAME% %ORANGE%(Death/Eternity)%MAP-1E%%PX-00%// Death/Eternity, Berserker Axe, eth, 5s
 ItemDisplay[NMAG SUP !RW ETH SOCK=5 7wa ED>0]: %GRAY%%NAME% %ORANGE%(Death/Eternity)%MAP-1E%%PX-00%// Death/Eternity, Berserker Axe, superior, eth, 5s
+
+ItemDisplay[NMAG !INF !RW !ETH SOCK=6 7wa]: %GRAY%%NAME% %ORANGE%(Last Wish)%MAP-1E%%PX-00%// Last Wish, Berserker Axe, 6s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=6 7wa ED>0]: %GRAY%%NAME% %ORANGE%(Last Wish)%MAP-1E%%PX-00%// Last Wish, Berserker Axe, superior, 6s
+ItemDisplay[NMAG !INF !RW ETH SOCK=6 7wa]: %GRAY%%NAME% %ORANGE%(Breath of the Dying)%MAP-1E%%PX-00%// Breath of the Dying, Berserker Axe, eth, 6s
 ItemDisplay[NMAG SUP !RW ETH SOCK=6 7wa ED>0]: %GRAY%%NAME% %ORANGE%(Breath of the Dying)%MAP-1E%%PX-00%// Breath of the Dying, Berserker Axe, superior, eth, 6s
 
 //- Decapitator
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 7bt]: %NAME%//%MAP-1E%%PX-00%// Base, Decapitator, 0s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 7bt]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Decapitator, 3s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7bt]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Decapitator, 4s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7bt]: %GRAY%%NAME% %ORANGE%(Death)//%MAP-1E%%PX-00%// Death, Decapitator, 5s
-
 ItemDisplay[NMAG SUP !RW !ETH SOCK=0 7bt ED>0]: %NAME%//%MAP-1E%%PX-00%// Base, Decapitator, superior, 0s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=3 7bt ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Decapitator, superior, 3s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=4 7bt ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Decapitator, superior, 4s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=5 7bt ED>0]: %GRAY%%NAME% %ORANGE%(Death)//%MAP-1E%%PX-00%// Death, Decapitator, superior, 5s
-
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 7bt]: %GRAY%%NAME%%MAP-1E%%PX-00%// Base, Decapitator, eth, 0s
-ItemDisplay[NMAG !INF !RW ETH SOCK=3 7bt]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Decapitator, eth, 3s
-ItemDisplay[NMAG !INF !RW ETH SOCK=4 7bt]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Decapitator, eth, 4s
-ItemDisplay[NMAG !INF !RW ETH SOCK=5 7bt]: %GRAY%%NAME% %ORANGE%(Death)%MAP-1E%%PX-00%// Death, Decapitator, eth, 5s
-
 ItemDisplay[NMAG SUP !RW ETH SOCK=0 7bt ED>0]: %GRAY%%NAME%%MAP-1E%%PX-00%// Base, Decapitator, superior, eth, 0s
+
+ItemDisplay[NMAG !INF !RW !ETH SOCK=3 7bt]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Decapitator, 3s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=3 7bt ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Decapitator, superior, 3s
+ItemDisplay[NMAG !INF !RW ETH SOCK=3 7bt]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Decapitator, eth, 3s
 ItemDisplay[NMAG SUP !RW ETH SOCK=3 7bt ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Decapitator, superior, eth, 3s
+
+ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7bt]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Decapitator, 4s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=4 7bt ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Decapitator, superior, 4s
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 7bt]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Decapitator, eth, 4s
 ItemDisplay[NMAG SUP !RW ETH SOCK=4 7bt ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Decapitator, superior, eth, 4s
+
+ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7bt]: %GRAY%%NAME% %ORANGE%(Death)//%MAP-1E%%PX-00%// Death, Decapitator, 5s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=5 7bt ED>0]: %GRAY%%NAME% %ORANGE%(Death)//%MAP-1E%%PX-00%// Death, Decapitator, superior, 5s
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 7bt]: %GRAY%%NAME% %ORANGE%(Death)%MAP-1E%%PX-00%// Death, Decapitator, eth, 5s
 ItemDisplay[NMAG SUP !RW ETH SOCK=5 7bt ED>0]: %GRAY%%NAME% %ORANGE%(Death)%MAP-1E%%PX-00%// Death, Decapitator, superior, eth, 5s
 
 //- Champion Axe
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 7ga]: %NAME%//%MAP-1E%%PX-00%// Base, Champion Axe, 0s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 7ga]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Champion Axe, 3s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7ga]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Champion Axe, 4s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7ga]: %GRAY%%NAME% %ORANGE%(Death)//%MAP-1E%%PX-00%// Death, Champion Axe, 5s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=6 7ga]: %GRAY%%NAME% %ORANGE%(Breath of the Dying)//%MAP-1E%%PX-00%// Breath of the Dying, Champion Axe, 6s
-
 ItemDisplay[NMAG SUP !RW !ETH SOCK=0 7ga ED>0]: %NAME%//%MAP-1E%%PX-00%// Base, Champion Axe, superior, 0s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=3 7ga ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Champion Axe, superior, 3s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=4 7ga ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Champion Axe, superior, 4s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=5 7ga ED>0]: %GRAY%%NAME% %ORANGE%(Death)//%MAP-1E%%PX-00%// Death, Champion Axe, superior, 5s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=6 7ga ED>0]: %GRAY%%NAME% %ORANGE%(Breath of the Dying)//%MAP-1E%%PX-00%// Breath of the Dying, Champion Axe, superior, 6s
-
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 7ga]: %GRAY%%NAME%%MAP-1E%%PX-00%// Base, Champion Axe, eth, 0s
-ItemDisplay[NMAG !INF !RW ETH SOCK=3 7ga]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Champion Axe, eth, 3s
-ItemDisplay[NMAG !INF !RW ETH SOCK=4 7ga]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Champion Axe, eth, 4s
-ItemDisplay[NMAG !INF !RW ETH SOCK=5 7ga]: %GRAY%%NAME% %ORANGE%(Death)%MAP-1E%%PX-00%// Death, Champion Axe, eth, 5s
-ItemDisplay[NMAG !INF !RW ETH SOCK=6 7ga]: %GRAY%%NAME% %ORANGE%(Breath of the Dying)%MAP-1E%%PX-00%// Breath of the Dying, Champion Axe, eth, 6s
-
 ItemDisplay[NMAG SUP !RW ETH SOCK=0 7ga ED>0]: %GRAY%%NAME%%MAP-1E%%PX-00%// Base, Champion Axe, superior, eth, 0s
+
+ItemDisplay[NMAG !INF !RW !ETH SOCK=3 7ga]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Champion Axe, 3s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=3 7ga ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Champion Axe, superior, 3s
+ItemDisplay[NMAG !INF !RW ETH SOCK=3 7ga]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Champion Axe, eth, 3s
 ItemDisplay[NMAG SUP !RW ETH SOCK=3 7ga ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Champion Axe, superior, eth, 3s
+
+ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7ga]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Champion Axe, 4s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=4 7ga ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Champion Axe, superior, 4s
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 7ga]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Champion Axe, eth, 4s
 ItemDisplay[NMAG SUP !RW ETH SOCK=4 7ga ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Champion Axe, superior, eth, 4s
+
+ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7ga]: %GRAY%%NAME% %ORANGE%(Death)//%MAP-1E%%PX-00%// Death, Champion Axe, 5s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=5 7ga ED>0]: %GRAY%%NAME% %ORANGE%(Death)//%MAP-1E%%PX-00%// Death, Champion Axe, superior, 5s
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 7ga]: %GRAY%%NAME% %ORANGE%(Death)%MAP-1E%%PX-00%// Death, Champion Axe, eth, 5s
 ItemDisplay[NMAG SUP !RW ETH SOCK=5 7ga ED>0]: %GRAY%%NAME% %ORANGE%(Death)%MAP-1E%%PX-00%// Death, Champion Axe, superior, eth, 5s
+
+ItemDisplay[NMAG !INF !RW !ETH SOCK=6 7ga]: %GRAY%%NAME% %ORANGE%(Breath of the Dying)//%MAP-1E%%PX-00%// Breath of the Dying, Champion Axe, 6s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=6 7ga ED>0]: %GRAY%%NAME% %ORANGE%(Breath of the Dying)//%MAP-1E%%PX-00%// Breath of the Dying, Champion Axe, superior, 6s
+ItemDisplay[NMAG !INF !RW ETH SOCK=6 7ga]: %GRAY%%NAME% %ORANGE%(Breath of the Dying)%MAP-1E%%PX-00%// Breath of the Dying, Champion Axe, eth, 6s
 ItemDisplay[NMAG SUP !RW ETH SOCK=6 7ga ED>0]: %GRAY%%NAME% %ORANGE%(Breath of the Dying)%MAP-1E%%PX-00%// Breath of the Dying, Champion Axe, superior, eth, 6s
 
 //- Glorious Axe
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 7gi]: %NAME%//%MAP-1E%%PX-00%// Base, Glorious Axe, 0s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 7gi]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Glorious Axe, 3s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7gi]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Glorious Axe, 4s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7gi]: %GRAY%%NAME% %ORANGE%(Death)//%MAP-1E%%PX-00%// Death, Glorious Axe, 5s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=6 7gi]: %GRAY%%NAME% %ORANGE%(Breath of the Dying)//%MAP-1E%%PX-00%// Breath of the Dying, Glorious Axe, 6s
-
 ItemDisplay[NMAG SUP !RW !ETH SOCK=0 7gi ED>0]: %NAME%//%MAP-1E%%PX-00%// Base, Glorious Axe, superior, 0s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=3 7gi ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Glorious Axe, superior, 3s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=4 7gi ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Glorious Axe, superior, 4s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=5 7gi ED>0]: %GRAY%%NAME% %ORANGE%(Death)//%MAP-1E%%PX-00%// Death, Glorious Axe, superior, 5s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=6 7gi ED>0]: %GRAY%%NAME% %ORANGE%(Breath of the Dying)//%MAP-1E%%PX-00%// Breath of the Dying, Glorious Axe, superior, 6s
-
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 7gi]: %GRAY%%NAME%%MAP-1E%%PX-00%// Base, Glorious Axe, eth, 0s
-ItemDisplay[NMAG !INF !RW ETH SOCK=3 7gi]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Glorious Axe, eth, 3s
-ItemDisplay[NMAG !INF !RW ETH SOCK=4 7gi]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Glorious Axe, eth, 4s
-ItemDisplay[NMAG !INF !RW ETH SOCK=5 7gi]: %GRAY%%NAME% %ORANGE%(Death)%MAP-1E%%PX-00%// Death, Glorious Axe, eth, 5s
-ItemDisplay[NMAG !INF !RW ETH SOCK=6 7gi]: %GRAY%%NAME% %ORANGE%(Breath of the Dying)%MAP-1E%%PX-00%// Breath of the Dying, Glorious Axe, eth, 6s
-
 ItemDisplay[NMAG SUP !RW ETH SOCK=0 7gi ED>0]: %GRAY%%NAME%%MAP-1E%%PX-00%// Base, Glorious Axe, superior, eth, 0s
+
+ItemDisplay[NMAG !INF !RW !ETH SOCK=3 7gi]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Glorious Axe, 3s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=3 7gi ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Glorious Axe, superior, 3s
+ItemDisplay[NMAG !INF !RW ETH SOCK=3 7gi]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Glorious Axe, eth, 3s
 ItemDisplay[NMAG SUP !RW ETH SOCK=3 7gi ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Glorious Axe, superior, eth, 3s
+
+ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7gi]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Glorious Axe, 4s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=4 7gi ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Glorious Axe, superior, 4s
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 7gi]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Glorious Axe, eth, 4s
 ItemDisplay[NMAG SUP !RW ETH SOCK=4 7gi ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Glorious Axe, superior, eth, 4s
+
+ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7gi]: %GRAY%%NAME% %ORANGE%(Death)//%MAP-1E%%PX-00%// Death, Glorious Axe, 5s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=5 7gi ED>0]: %GRAY%%NAME% %ORANGE%(Death)//%MAP-1E%%PX-00%// Death, Glorious Axe, superior, 5s
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 7gi]: %GRAY%%NAME% %ORANGE%(Death)%MAP-1E%%PX-00%// Death, Glorious Axe, eth, 5s
 ItemDisplay[NMAG SUP !RW ETH SOCK=5 7gi ED>0]: %GRAY%%NAME% %ORANGE%(Death)%MAP-1E%%PX-00%// Death, Glorious Axe, superior, eth, 5s
+
+ItemDisplay[NMAG !INF !RW !ETH SOCK=6 7gi]: %GRAY%%NAME% %ORANGE%(Breath of the Dying)//%MAP-1E%%PX-00%// Breath of the Dying, Glorious Axe, 6s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=6 7gi ED>0]: %GRAY%%NAME% %ORANGE%(Breath of the Dying)//%MAP-1E%%PX-00%// Breath of the Dying, Glorious Axe, superior, 6s
+ItemDisplay[NMAG !INF !RW ETH SOCK=6 7gi]: %GRAY%%NAME% %ORANGE%(Breath of the Dying)%MAP-1E%%PX-00%// Breath of the Dying, Glorious Axe, eth, 6s
 ItemDisplay[NMAG SUP !RW ETH SOCK=6 7gi ED>0]: %GRAY%%NAME% %ORANGE%(Breath of the Dying)%MAP-1E%%PX-00%// Breath of the Dying, Glorious Axe, superior, eth, 6s
 
 //- BOWS ------------------------------
@@ -2661,63 +2665,72 @@ ItemDisplay[NMAG !INF !RW SOCK=4 CLVL<80 BOW]: %GRAY%%NAME% %ORANGE%(Harmony)//%
 
 //- Blade Bow
 ItemDisplay[NMAG !INF !RW SOCK=0 6hb]: %NAME%//%MAP-20%%PX-00%// Base, Blade Bow, 0s
-ItemDisplay[NMAG !INF !RW SOCK=3 6hb]: %GRAY%%NAME% %ORANGE%(Edge)//%MAP-1E%%PX-00%// Edge, Blade Bow, 3s
-ItemDisplay[NMAG !INF !RW SOCK=4 6hb]: %GRAY%%NAME% %ORANGE%(Brand/Faith/Ice/Etc)//%MAP-1E%%PX-00%// Brand/Faith/Ice/Wrath/HoJ, Blade Bow, 4s
-ItemDisplay[NMAG !INF !RW SOCK=5 6hb]: %GRAY%%NAME% %ORANGE%(Call to Arms)//%MAP-1E%%PX-00%// Call to Arms, Blade Bow, 5s
-
 ItemDisplay[NMAG SUP !RW SOCK=0 6hb ED>0]: %NAME%%MAP-20%%PX-00%// Base, Blade Bow, superior, 0s
+
+ItemDisplay[NMAG !INF !RW SOCK=3 6hb]: %GRAY%%NAME% %ORANGE%(Edge)//%MAP-1E%%PX-00%// Edge, Blade Bow, 3s
 ItemDisplay[NMAG SUP !RW SOCK=3 6hb ED>0]: %GRAY%%NAME% %ORANGE%(Edge)//%MAP-1E%%PX-00%// Edge, Blade Bow, superior, 3s
+
+ItemDisplay[NMAG !INF !RW SOCK=4 6hb]: %GRAY%%NAME% %ORANGE%(Brand/Faith/Ice/Etc)//%MAP-1E%%PX-00%// Brand/Faith/Ice/Wrath/HoJ, Blade Bow, 4s
 ItemDisplay[NMAG SUP !RW SOCK=4 6hb ED>0]: %GRAY%%NAME% %ORANGE%(Brand/Faith/Ice/Etc)%MAP-1E%%PX-00%// Brand/Faith/Ice/Wrath/HoJ, Blade Bow, superior, 4s
+
+ItemDisplay[NMAG !INF !RW SOCK=5 6hb]: %GRAY%%NAME% %ORANGE%(Call to Arms)//%MAP-1E%%PX-00%// Call to Arms, Blade Bow, 5s
 ItemDisplay[NMAG SUP !RW SOCK=5 6hb ED>0]: %GRAY%%NAME% %ORANGE%(Call to Arms)//%MAP-1E%%PX-00%// Call to Arms, Blade Bow, superior, 5s
 
 //- Great Bow
 ItemDisplay[NMAG !INF !RW SOCK=0 6cb]: %NAME%//%MAP-20%%PX-00%// Base, Great Bow, 0s
-ItemDisplay[NMAG !INF !RW SOCK=3 6cb]: %GRAY%%NAME% %ORANGE%(Edge)//%MAP-1E%%PX-00%// Edge, Great Bow, 3s
-ItemDisplay[NMAG !INF !RW SOCK=4 6cb]: %GRAY%%NAME% %ORANGE%(Brand/Faith/Ice/Etc)//%MAP-1E%%PX-00%// Brand/Faith/Ice/Wrath/HoJ, Great Bow, 4s
-ItemDisplay[NMAG !INF !RW SOCK=5 6cb]: %GRAY%%NAME% %ORANGE%(Call to Arms)//%MAP-1E%%PX-00%// Call to Arms, Great Bow, 5s
-
 ItemDisplay[NMAG SUP !RW SOCK=0 6cb ED>0]: %NAME%%MAP-20%%PX-00%// Base, Great Bow, superior, 0s
+
+ItemDisplay[NMAG !INF !RW SOCK=3 6cb]: %GRAY%%NAME% %ORANGE%(Edge)//%MAP-1E%%PX-00%// Edge, Great Bow, 3s
 ItemDisplay[NMAG SUP !RW SOCK=3 6cb ED>0]: %GRAY%%NAME% %ORANGE%(Edge)//%MAP-1E%%PX-00%// Edge, Great Bow, superior, 3s
+
+ItemDisplay[NMAG !INF !RW SOCK=4 6cb]: %GRAY%%NAME% %ORANGE%(Brand/Faith/Ice/Etc)//%MAP-1E%%PX-00%// Brand/Faith/Ice/Wrath/HoJ, Great Bow, 4s
 ItemDisplay[NMAG SUP !RW SOCK=4 6cb ED>0]: %GRAY%%NAME% %ORANGE%(Brand/Faith/Ice/Etc)%MAP-1E%%PX-00%// Brand/Faith/Ice/Wrath/HoJ, Great Bow, superior, 4s
+
+ItemDisplay[NMAG !INF !RW SOCK=5 6cb]: %GRAY%%NAME% %ORANGE%(Call to Arms)//%MAP-1E%%PX-00%// Call to Arms, Great Bow, 5s
 ItemDisplay[NMAG SUP !RW SOCK=5 6cb ED>0]: %GRAY%%NAME% %ORANGE%(Call to Arms)//%MAP-1E%%PX-00%// Call to Arms, Great Bow, superior, 5s
 
 //- Diamond Bow
 ItemDisplay[NMAG !INF !RW SOCK=0 6cb]: %NAME%//%MAP-20%%PX-00%// Base, Diamond Bow, 0s
-ItemDisplay[NMAG !INF !RW SOCK=3 6cb]: %GRAY%%NAME% %ORANGE%(Edge)//%MAP-1E%%PX-00%// Edge, Diamond Bow, 4s
-ItemDisplay[NMAG !INF !RW SOCK=4 6cb]: %GRAY%%NAME% %ORANGE%(Brand/Faith/Ice/Etc)//%MAP-1E%%PX-00%// Brand/Faith/Ice/Wrath/HoJ, Diamond Bow, 4s
-ItemDisplay[NMAG !INF !RW SOCK=5 6cb]: %GRAY%%NAME% %ORANGE%(Call to Arms)//%MAP-1E%%PX-00%// Call to Arms, Diamond Bow, 5s
-
 ItemDisplay[NMAG SUP !RW SOCK=0 6cb ED>0]: %NAME%%MAP-20%%PX-00%// Base, Diamond Bow, superior, 0s
+
+ItemDisplay[NMAG !INF !RW SOCK=3 6cb]: %GRAY%%NAME% %ORANGE%(Edge)//%MAP-1E%%PX-00%// Edge, Diamond Bow, 3s
 ItemDisplay[NMAG SUP !RW SOCK=3 6cb ED>0]: %GRAY%%NAME% %ORANGE%(Edge)//%MAP-1E%%PX-00%// Edge, Diamond Bow, superior, 3s
+
+ItemDisplay[NMAG !INF !RW SOCK=4 6cb]: %GRAY%%NAME% %ORANGE%(Brand/Faith/Ice/Etc)//%MAP-1E%%PX-00%// Brand/Faith/Ice/Wrath/HoJ, Diamond Bow, 4s
 ItemDisplay[NMAG SUP !RW SOCK=4 6cb ED>0]: %GRAY%%NAME% %ORANGE%(Brand/Faith/Ice/Etc)%MAP-1E%%PX-00%// Brand/Faith/Ice/Wrath/HoJ, Diamond Bow, superior, 4s
+
+ItemDisplay[NMAG !INF !RW SOCK=5 6cb]: %GRAY%%NAME% %ORANGE%(Call to Arms)//%MAP-1E%%PX-00%// Call to Arms, Diamond Bow, 5s
 ItemDisplay[NMAG SUP !RW SOCK=5 6cb ED>0]: %GRAY%%NAME% %ORANGE%(Call to Arms)//%MAP-1E%%PX-00%// Call to Arms, Diamond Bow, superior, 5s
 
 //- Hydra Bow
 ItemDisplay[NMAG !INF !RW SOCK=0 6lw]: %NAME%//%MAP-20%%PX-00%// Base, Hydra Bow, 0s
-ItemDisplay[NMAG !INF !RW SOCK=3 6lw]: %GRAY%%NAME% %ORANGE%(Edge)//%MAP-1E%%PX-00%// Edge, Hydra Bow, 3s
-ItemDisplay[NMAG !INF !RW SOCK=4 6lw]: %GRAY%%NAME% %ORANGE%(Brand/Faith/Ice/Etc)//%MAP-1E%%PX-00%// Brand/Faith/Ice/Wrath/HoJ, Hydra Bow, 4s
-ItemDisplay[NMAG !INF !RW SOCK=5 6lw]: %GRAY%%NAME% %ORANGE%(Call to Arms)//%MAP-1E%%PX-00%// Call to Arms, Hydra Bow, 5s
-
 ItemDisplay[NMAG SUP !RW SOCK=0 6lw ED>0]: %NAME%%MAP-20%%PX-00%// Base, Hydra Bow, superior, 0s
+
+ItemDisplay[NMAG !INF !RW SOCK=3 6lw]: %GRAY%%NAME% %ORANGE%(Edge)//%MAP-1E%%PX-00%// Edge, Hydra Bow, 3s
 ItemDisplay[NMAG SUP !RW SOCK=3 6lw ED>0]: %GRAY%%NAME% %ORANGE%(Edge)//%MAP-1E%%PX-00%// Edge, Hydra Bow, superior, 3s
+
+ItemDisplay[NMAG !INF !RW SOCK=4 6lw]: %GRAY%%NAME% %ORANGE%(Brand/Faith/Ice/Etc)//%MAP-1E%%PX-00%// Brand/Faith/Ice/Wrath/HoJ, Hydra Bow, 4s
 ItemDisplay[NMAG SUP !RW SOCK=4 6lw ED>0]: %GRAY%%NAME% %ORANGE%(Brand/Faith/Ice/Etc)%MAP-1E%%PX-00%// Brand/Faith/Ice/Wrath/HoJ, Hydra Bow, superior, 4s
+
+ItemDisplay[NMAG !INF !RW SOCK=5 6lw]: %GRAY%%NAME% %ORANGE%(Call to Arms)//%MAP-1E%%PX-00%// Call to Arms, Hydra Bow, 5s
 ItemDisplay[NMAG SUP !RW SOCK=5 6lw ED>0]: %GRAY%%NAME% %ORANGE%(Call to Arms)//%MAP-1E%%PX-00%// Call to Arms, Hydra Bow, superior, 5s
 
 //- CROSSBOWS -------------------------
 //- Colossus Crossbow
 ItemDisplay[NMAG !INF !RW SOCK=0 6hx]: %NAME%//%MAP-20%%PX-00%// Colossus Crossbow, non-magic, 0s
-ItemDisplay[NMAG !INF !RW SOCK=4 6hx]: %GRAY%%NAME% %ORANGE%(Brand/Faith/Ice/Etc)//%MAP-1E%%PX-00%// Colossus Crossbow, non-magic, 4s
-ItemDisplay[NMAG !INF !RW SOCK=6 6hx]: %GRAY%%NAME% %ORANGE%(Breath of the Dying)//%MAP-1E%%PX-00%// Colossus Crossbow, non-magic, 6s
-
 ItemDisplay[NMAG SUP !RW SOCK=0 6hx ED>0]: %NAME%//%MAP-20%%PX-00%// Colossus Crossbow, superior, non-magic, 0s
+
+ItemDisplay[NMAG !INF !RW SOCK=4 6hx]: %GRAY%%NAME% %ORANGE%(Brand/Faith/Ice/Etc)//%MAP-1E%%PX-00%// Colossus Crossbow, non-magic, 4s
 ItemDisplay[NMAG SUP !RW SOCK=4 6hx ED>0]: %GRAY%%NAME% %ORANGE%(Brand/Faith/Ice/Etc)//%MAP-1E%%PX-00%// Colossus Crossbow, superior, non-magic, 4s
+
+ItemDisplay[NMAG !INF !RW SOCK=6 6hx]: %GRAY%%NAME% %ORANGE%(Breath of the Dying)//%MAP-1E%%PX-00%// Colossus Crossbow, non-magic, 6s
 ItemDisplay[NMAG SUP !RW SOCK=6 6hx ED>0]: %GRAY%%NAME% %ORANGE%(Breath of the Dying)//%MAP-1E%%PX-00%// Colossus Crossbow, superior, non-magic, 6s
 
 //- Demon Crossbow
 ItemDisplay[NMAG !INF !RW SOCK=0 6rx]: %NAME%//%MAP-20%%PX-00%// Demon Crossbow, non-magic, 0s
-ItemDisplay[NMAG !INF !RW SOCK=4 6rx]: %GRAY%%NAME% %ORANGE%(Brand/Faith/Ice/Etc)//%MAP-1E%%PX-00%// Demon Crossbow, non-magic, 4s
-
 ItemDisplay[NMAG SUP !RW SOCK=0 6rx ED>0]: %NAME%//%MAP-20%%PX-00%// Demon Crossbow, superior, non-magic, 0s
+
+ItemDisplay[NMAG !INF !RW SOCK=4 6rx]: %GRAY%%NAME% %ORANGE%(Brand/Faith/Ice/Etc)//%MAP-1E%%PX-00%// Demon Crossbow, non-magic, 4s
 ItemDisplay[NMAG SUP !RW SOCK=4 6rx ED>0]: %GRAY%%NAME% %ORANGE%(Brand/Faith/Ice/Etc)//%MAP-1E%%PX-00%// Demon Crossbow, superior, non-magic, 4s
 
 //- DAGGERS ---------------------------
@@ -2740,114 +2753,104 @@ ItemDisplay[NMAG SUP !RW !ETH SOCK=3 7fl ED>0]: %GRAY%%NAME% %ORANGE%(Black)%MAP
 
 //- Thunder Maul
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 7gm]: %NAME%//%MAP-1E%%PX-00%// Base, Thunder Maul, 0s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 7gm]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Thunder Maul, 3s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7gm]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Thunder Maul, 4s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7gm]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Thunder Maul, 5s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=6 7gm]: %GRAY%%NAME% %ORANGE%(Breath of the Dying)//%MAP-1E%%PX-00%// Breath of the Dying, Thunder Maul, 6s
-
 ItemDisplay[NMAG SUP !RW !ETH SOCK=0 7gm ED>0]: %NAME%//%MAP-1E%%PX-00%// Base, Thunder Maul, superior, 0s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=3 7gm ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Thunder Maul, superior, 3s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=4 7gm ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Thunder Maul, superior, 4s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=5 7gm ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Thunder Maul, superior, 5s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=6 7gm ED>0]: %GRAY%%NAME% %ORANGE%(Breath of the Dying)//%MAP-1E%%PX-00%// Breath of the Dying, Thunder Maul, superior, 6s
-
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 7gm]: %GRAY%%NAME%%MAP-1E%%PX-00%// Base, Thunder Maul, eth, 0s
-ItemDisplay[NMAG !INF !RW ETH SOCK=3 7gm]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Thunder Maul, eth, 3s
-ItemDisplay[NMAG !INF !RW ETH SOCK=4 7gm]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Thunder Maul, eth, 4s
-ItemDisplay[NMAG !INF !RW ETH SOCK=5 7gm]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Thunder Maul, eth, 5s
-ItemDisplay[NMAG !INF !RW ETH SOCK=6 7gm]: %GRAY%%NAME% %ORANGE%(Breath of the Dying)%MAP-1E%%PX-00%// Breath of the Dying, Thunder Maul, eth, 6s
-
 ItemDisplay[NMAG SUP !RW ETH SOCK=0 7gm ED>0]: %GRAY%%NAME%%MAP-1E%%PX-00%// Base, Thunder Maul, superior, eth, 0s
+
+ItemDisplay[NMAG !INF !RW !ETH SOCK=3 7gm]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Thunder Maul, 3s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=3 7gm ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Thunder Maul, superior, 3s
+ItemDisplay[NMAG !INF !RW ETH SOCK=3 7gm]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Thunder Maul, eth, 3s
 ItemDisplay[NMAG SUP !RW ETH SOCK=3 7gm ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Thunder Maul, superior, eth, 3s
+
+ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7gm]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Thunder Maul, 4s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=4 7gm ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Thunder Maul, superior, 4s
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 7gm]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Thunder Maul, eth, 4s
 ItemDisplay[NMAG SUP !RW ETH SOCK=4 7gm ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Thunder Maul, superior, eth, 4s
+
+ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7gm]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Thunder Maul, 5s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=5 7gm ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Thunder Maul, superior, 5s
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 7gm]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Thunder Maul, eth, 5s
 ItemDisplay[NMAG SUP !RW ETH SOCK=5 7gm ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Thunder Maul, superior, eth, 5s
+
+ItemDisplay[NMAG !INF !RW !ETH SOCK=6 7gm]: %GRAY%%NAME% %ORANGE%(Breath of the Dying)//%MAP-1E%%PX-00%// Breath of the Dying, Thunder Maul, 6s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=6 7gm ED>0]: %GRAY%%NAME% %ORANGE%(Breath of the Dying)//%MAP-1E%%PX-00%// Breath of the Dying, Thunder Maul, superior, 6s
+ItemDisplay[NMAG !INF !RW ETH SOCK=6 7gm]: %GRAY%%NAME% %ORANGE%(Breath of the Dying)%MAP-1E%%PX-00%// Breath of the Dying, Thunder Maul, eth, 6s
 ItemDisplay[NMAG SUP !RW ETH SOCK=6 7gm ED>0]: %GRAY%%NAME% %ORANGE%(Breath of the Dying)%MAP-1E%%PX-00%// Breath of the Dying, Thunder Maul, superior, eth, 6s
 
 //- POLEARMS --------------------------
 //- Thresher
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 7s8]: %NAME%//%MAP-20%%PX-00%// Base, Thresher, 0s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7s8]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Thresher, 4s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7s8]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Thresher, 5s
-
 ItemDisplay[NMAG SUP !RW !ETH SOCK=0 7s8 ED>0]: %NAME%//%MAP-20%%PX-00%// Base, Thresher, superior, 0s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=4 7s8 ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Thresher, superior, 4s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=5 7s8 ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Thresher, superior, 5s
-
-ItemDisplay[NMAG !INF !SUP !RW ETH SOCK=0 7s8]: %GRAY%%NAME%%MAP-1E%%PX-00%// Base, Thresher, eth, 0s
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 7s8]: %GRAY%%NAME%%MAP-1E%%PX-00%// Base, Thresher, eth, 0s
-ItemDisplay[NMAG !INF !RW ETH SOCK=4 7s8]: %GRAY%%NAME% %ORANGE%(Infinity/Insight/Pride)%MAP-1E%%PX-00%// Infinity/Insight/Pride, Thresher, eth, 4s
-ItemDisplay[NMAG !INF !RW ETH SOCK=5 7s8]: %GRAY%%NAME% %ORANGE%(Obedience)%MAP-1E%%PX-00%// Obedience, Thresher, eth, 5s
-
 ItemDisplay[NMAG SUP !RW ETH SOCK=0 7s8 ED>0]: %GRAY%%NAME%%MAP-1E%%PX-00%// Base, Thresher, superior, eth, 0s
+
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7s8]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Thresher, 4s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=4 7s8 ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Thresher, superior, 4s
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 7s8]: %GRAY%%NAME% %ORANGE%(Infinity/Insight/Pride)%MAP-1E%%PX-00%// Infinity/Insight/Pride, Thresher, eth, 4s
 ItemDisplay[NMAG SUP !RW ETH SOCK=4 7s8 ED>0]: %GRAY%%NAME% %ORANGE%(Infinity/Insight/Pride)%MAP-1E%%PX-00%// Infinity/Insight/Pride, Thresher, superior, eth, 4s
+
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7s8]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Thresher, 5s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=5 7s8 ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Thresher, superior, 5s
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 7s8]: %GRAY%%NAME% %ORANGE%(Obedience)%MAP-1E%%PX-00%// Obedience, Thresher, eth, 5s
 ItemDisplay[NMAG SUP !RW ETH SOCK=5 7s8 ED>0]: %GRAY%%NAME% %ORANGE%(Obedience)%MAP-1E%%PX-00%// Obedience, Thresher, superior, eth, 5s
 
 //- Cryptic Axe
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 7pa]: %NAME%//%MAP-20%%PX-00%// Base, Cryptic Axe, 0s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7pa]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Cryptic Axe, 4s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7pa]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Cryptic Axe, 5s
-
 ItemDisplay[NMAG SUP !RW !ETH SOCK=0 7pa ED>0]: %NAME%//%MAP-20%%PX-00%// Base, Cryptic Axe, superior, 0s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=4 7pa ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Cryptic Axe, superior, 4s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=5 7pa ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Cryptic Axe, superior, 5s
-
-ItemDisplay[NMAG !INF !SUP !RW ETH SOCK=0 7pa]: %GRAY%%NAME%%MAP-1E%%PX-00%// Base, Cryptic Axe, eth, 0s
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 7pa]: %GRAY%%NAME%%MAP-1E%%PX-00%// Base, Cryptic Axe, eth, 0s
-ItemDisplay[NMAG !INF !RW ETH SOCK=4 7pa]: %GRAY%%NAME% %ORANGE%(Infinity/Insight/Pride)%MAP-1E%%PX-00%// Infinity/Insight/Pride, Cryptic Axe, eth, 4s
-ItemDisplay[NMAG !INF !RW ETH SOCK=5 7pa]: %GRAY%%NAME% %ORANGE%(Obedience)%MAP-1E%%PX-00%// Obedience, Cryptic Axe, eth, 5s
-
 ItemDisplay[NMAG SUP !RW ETH SOCK=0 7pa ED>0]: %GRAY%%NAME%%MAP-1E%%PX-00%// Base, Cryptic Axe, superior, eth, 0s
+
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7pa]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Cryptic Axe, 4s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=4 7pa ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Cryptic Axe, superior, 4s
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 7pa]: %GRAY%%NAME% %ORANGE%(Infinity/Insight/Pride)%MAP-1E%%PX-00%// Infinity/Insight/Pride, Cryptic Axe, eth, 4s
 ItemDisplay[NMAG SUP !RW ETH SOCK=4 7pa ED>0]: %GRAY%%NAME% %ORANGE%(Infinity/Insight/Pride)%MAP-1E%%PX-00%// Infinity/Insight/Pride, Cryptic Axe, superior, eth, 4s
+
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7pa]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Cryptic Axe, 5s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=5 7pa ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Cryptic Axe, superior, 5s
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 7pa]: %GRAY%%NAME% %ORANGE%(Obedience)%MAP-1E%%PX-00%// Obedience, Cryptic Axe, eth, 5s
 ItemDisplay[NMAG SUP !RW ETH SOCK=5 7pa ED>0]: %GRAY%%NAME% %ORANGE%(Obedience)%MAP-1E%%PX-00%// Obedience, Cryptic Axe, superior, eth, 5s
 
 //- Great Poleaxe
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 7h7]: %NAME%//%MAP-20%%PX-00%// Base, Great Poleaxe, 0s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7h7]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Great Poleaxe, 4s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7h7]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Great Poleaxe, 5s
-
 ItemDisplay[NMAG SUP !RW !ETH SOCK=0 7h7 ED>0]: %NAME%//%MAP-20%%PX-00%// Base, Great Poleaxe, superior, 0s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=4 7h7 ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Great Poleaxe, superior, 4s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=5 7h7 ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Great Poleaxe, superior, 5s
-
-ItemDisplay[NMAG !INF !SUP !RW ETH SOCK=0 7h7]: %GRAY%%NAME%%MAP-1E%%PX-00%// Cube reroll, Great Poleaxe, eth, 0s
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 7h7]: %GRAY%%NAME%%MAP-1E%%PX-00%// Base, Great Poleaxe, eth, 0s
-ItemDisplay[NMAG !INF !RW ETH SOCK=4 7h7]: %GRAY%%NAME% %ORANGE%(Infinity/Insight/Pride)%MAP-1E%%PX-00%// Infinity/Insight/Pride, Great Poleaxe, eth, 4s
-ItemDisplay[NMAG !INF !RW ETH SOCK=5 7h7]: %GRAY%%NAME% %ORANGE%(Obedience)%MAP-1E%%PX-00%// Obedience, Great Poleaxe, eth, 5s
-
 ItemDisplay[NMAG SUP !RW ETH SOCK=0 7h7 ED>0]: %GRAY%%NAME%%MAP-1E%%PX-00%// Base, Great Poleaxe, superior, eth, 0s
+
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7h7]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Great Poleaxe, 4s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=4 7h7 ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Great Poleaxe, superior, 4s
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 7h7]: %GRAY%%NAME% %ORANGE%(Infinity/Insight/Pride)%MAP-1E%%PX-00%// Infinity/Insight/Pride, Great Poleaxe, eth, 4s
 ItemDisplay[NMAG SUP !RW ETH SOCK=4 7h7 ED>0]: %GRAY%%NAME% %ORANGE%(Infinity/Insight/Pride)%MAP-1E%%PX-00%// Infinity/Insight/Pride, Great Poleaxe, superior, eth, 4s
+
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7h7]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Great Poleaxe, 5s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=5 7h7 ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Great Poleaxe, superior, 5s
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 7h7]: %GRAY%%NAME% %ORANGE%(Obedience)%MAP-1E%%PX-00%// Obedience, Great Poleaxe, eth, 5s
 ItemDisplay[NMAG SUP !RW ETH SOCK=5 7h7 ED>0]: %GRAY%%NAME% %ORANGE%(Obedience)%MAP-1E%%PX-00%// Obedience, Great Poleaxe, superior, eth, 5s
 
 //- Giant Thresher
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 7wc]: %NAME%//%MAP-20%%PX-00%// Base, Giant Thresher, 0s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7wc]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Giant Thresher, 4s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7wc]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Giant Thresher, 5s
-
 ItemDisplay[NMAG SUP !RW !ETH SOCK=0 7wc ED>0]: %NAME%//%MAP-20%%PX-00%// Base, Giant Thresher, superior, 0s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=4 7wc ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Giant Thresher, superior, 4s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=5 7wc ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Giant Thresher, superior, 5s
-
-ItemDisplay[NMAG !INF !SUP !RW ETH SOCK=0 7wc]: %GRAY%%NAME%%MAP-1E%%PX-00%// Cube reroll, Giant Thresher, eth, 0s
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 7wc]: %GRAY%%NAME%%MAP-1E%%PX-00%// Base, Giant Thresher, eth, 0s
-ItemDisplay[NMAG !INF !RW ETH SOCK=4 7wc]: %GRAY%%NAME% %ORANGE%(Infinity/Insight/Pride)%MAP-1E%%PX-00%// Infinity/Insight/Pride, Giant Thresher, eth, 4s
-ItemDisplay[NMAG !INF !RW ETH SOCK=5 7wc]: %GRAY%%NAME% %ORANGE%(Obedience)%MAP-1E%%PX-00%// Obedience, Giant Thresher, eth, 5s
-
 ItemDisplay[NMAG SUP !RW ETH SOCK=0 7wc ED>0]: %GRAY%%NAME%%MAP-1E%%PX-00%// Base, Giant Thresher, superior, eth, 0s
+
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7wc]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Giant Thresher, 4s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=4 7wc ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Giant Thresher, superior, 4s
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 7wc]: %GRAY%%NAME% %ORANGE%(Infinity/Insight/Pride)%MAP-1E%%PX-00%// Infinity/Insight/Pride, Giant Thresher, eth, 4s
 ItemDisplay[NMAG SUP !RW ETH SOCK=4 7wc ED>0]: %GRAY%%NAME% %ORANGE%(Infinity/Insight/Pride)%MAP-1E%%PX-00%// Infinity/Insight/Pride, Giant Thresher, superior, eth, 4s
+
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7wc]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Giant Thresher, 5s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=5 7wc ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Giant Thresher, superior, 5s
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 7wc]: %GRAY%%NAME% %ORANGE%(Obedience)%MAP-1E%%PX-00%// Obedience, Giant Thresher, eth, 5s
 ItemDisplay[NMAG SUP !RW ETH SOCK=5 7wc ED>0]: %GRAY%%NAME% %ORANGE%(Obedience)%MAP-1E%%PX-00%// Obedience, Giant Thresher, superior, eth, 5s
 
 //- Colossus Voulge
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 7vo]: %NAME%//%MAP-20%%PX-00%// Base, Colossus Voulge, 0s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7vo]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Colossus Voulge, 4s
-
 ItemDisplay[NMAG SUP !RW !ETH SOCK=0 7vo ED>0]: %NAME%//%MAP-20%%PX-00%// Base, Colossus Voulge, superior, 0s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=4 7vo ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Colossus Voulge, superior, 4s
-
-ItemDisplay[NMAG !INF !SUP !RW ETH SOCK=0 7vo]: %GRAY%%NAME%%MAP-1E%%PX-00%// Cube reroll, Colossus Voulge, eth, 0s
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 7vo]: %GRAY%%NAME%%MAP-1E%%PX-00%// Base, Colossus Voulge, eth, 0s
-ItemDisplay[NMAG !INF !RW ETH SOCK=4 7vo]: %GRAY%%NAME% %ORANGE%(Infinity/Insight/Pride)%MAP-1E%%PX-00%// Infinity/Insight/Pride, Colossus Voulge, eth, 4s
-
 ItemDisplay[NMAG SUP !RW ETH SOCK=0 7vo ED>0]: %GRAY%%NAME%%MAP-1E%%PX-00%// Base, Colossus Voulge, superior, eth, 0s
+
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7vo]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Colossus Voulge, 4s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=4 7vo ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Colossus Voulge, superior, 4s
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 7vo]: %GRAY%%NAME% %ORANGE%(Infinity/Insight/Pride)%MAP-1E%%PX-00%// Infinity/Insight/Pride, Colossus Voulge, eth, 4s
 ItemDisplay[NMAG SUP !RW ETH SOCK=4 7vo ED>0]: %GRAY%%NAME% %ORANGE%(Infinity/Insight/Pride)%MAP-1E%%PX-00%// Infinity/Insight/Pride, Colossus Voulge, superior, eth, 4s
 
 //- SCEPTERS --------------------------
@@ -2895,58 +2898,55 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=5 SK119>2 SCEPTER]: %GRAY%%NAME%{%TAN%Call t
 //- SPEARS ----------------------------
 //- Mancatcher
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 7br]: %NAME%//%MAP-20%%PX-00%// Base, Mancatcher, 0s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7br]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Mancatcher, 4s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7br]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Mancatcher, 5s
-
 ItemDisplay[NMAG SUP !RW !ETH SOCK=0 7br ED>0]: %NAME%//%MAP-20%%PX-00%// Base, Mancatcher, superior, 0s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=4 7br ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Mancatcher, superior, 4s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=5 7br ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Mancatcher, superior, 5s
-
-ItemDisplay[NMAG !INF !SUP !RW ETH SOCK=0 7br]: %GRAY%%NAME%%MAP-1E%%PX-00%// Base, Mancatcher, eth, 0s
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 7br]: %GRAY%%NAME%%MAP-1E%%PX-00%// Base, Mancatcher, eth, 0s
-ItemDisplay[NMAG !INF !RW ETH SOCK=4 7br]: %GRAY%%NAME% %ORANGE%(Infinity/Insight/Pride)%MAP-1E%%PX-00%// Infinity/Insight/Pride, Mancatcher, eth, 4s
-ItemDisplay[NMAG !INF !RW ETH SOCK=5 7br]: %GRAY%%NAME% %ORANGE%(Obedience)%MAP-1E%%PX-00%// Obedience, Mancatcher, eth, 5s
-
 ItemDisplay[NMAG SUP !RW ETH SOCK=0 7br ED>0]: %GRAY%%NAME%%MAP-1E%%PX-00%// Base, Mancatcher, superior, eth, 0s
+
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7br]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Mancatcher, 4s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=4 7br ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Mancatcher, superior, 4s
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 7br]: %GRAY%%NAME% %ORANGE%(Infinity/Insight/Pride)%MAP-1E%%PX-00%// Infinity/Insight/Pride, Mancatcher, eth, 4s
 ItemDisplay[NMAG SUP !RW ETH SOCK=4 7br ED>0]: %GRAY%%NAME% %ORANGE%(Infinity/Insight/Pride)%MAP-1E%%PX-00%// Infinity/Insight/Pride, Mancatcher, superior, eth, 4s
+
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7br]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Mancatcher, 5s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=5 7br ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Mancatcher, superior, 5s
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 7br]: %GRAY%%NAME% %ORANGE%(Obedience)%MAP-1E%%PX-00%// Obedience, Mancatcher, eth, 5s
 ItemDisplay[NMAG SUP !RW ETH SOCK=5 7br ED>0]: %GRAY%%NAME% %ORANGE%(Obedience)%MAP-1E%%PX-00%// Obedience, Mancatcher, superior, eth, 5s
 
 //- Ghost Spear
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 7st]: %NAME%//%MAP-20%%PX-00%// Base, Ghost Spear, 0s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7st]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Ghost Spear, 4s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7st]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Ghost Spear, 5s
-
 ItemDisplay[NMAG SUP !RW !ETH SOCK=0 7st ED>0]: %NAME%//%MAP-20%%PX-00%// Base, Ghost Spear, superior, 0s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=4 7st ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Ghost Spear, superior, 4s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=5 7st ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Ghost Spear, superior, 5s
-
-ItemDisplay[NMAG !INF !SUP !RW ETH SOCK=0 7st]: %GRAY%%NAME%%MAP-1E%%PX-00%// Cube reroll, Ghost Spear, eth, 0s
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 7st]: %GRAY%%NAME%%MAP-1E%%PX-00%// Base, Ghost Spear, eth, 0s
-ItemDisplay[NMAG !INF !RW ETH SOCK=4 7st]: %GRAY%%NAME% %ORANGE%(Infinity/Insight/Pride)%MAP-1E%%PX-00%// Infinity/Insight/Pride, Ghost Spear, eth, 4s
-ItemDisplay[NMAG !INF !RW ETH SOCK=5 7st]: %GRAY%%NAME% %ORANGE%(Obedience)%MAP-1E%%PX-00%// Obedience, Ghost Spear, eth, 5s
-
 ItemDisplay[NMAG SUP !RW ETH SOCK=0 7st ED>0]: %GRAY%%NAME%%MAP-1E%%PX-00%// Base, Ghost Spear, superior, eth, 0s
+
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7st]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Ghost Spear, 4s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=4 7st ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Ghost Spear, superior, 4s
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 7st]: %GRAY%%NAME% %ORANGE%(Infinity/Insight/Pride)%MAP-1E%%PX-00%// Infinity/Insight/Pride, Ghost Spear, eth, 4s
 ItemDisplay[NMAG SUP !RW ETH SOCK=4 7st ED>0]: %GRAY%%NAME% %ORANGE%(Infinity/Insight/Pride)%MAP-1E%%PX-00%// Infinity/Insight/Pride, Ghost Spear, superior, eth, 4s
+
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7st]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Ghost Spear, 5s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=5 7st ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, Ghost Spear, superior, 5s
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 7st]: %GRAY%%NAME% %ORANGE%(Obedience)%MAP-1E%%PX-00%// Obedience, Ghost Spear, eth, 5s
 ItemDisplay[NMAG SUP !RW ETH SOCK=5 7st ED>0]: %GRAY%%NAME% %ORANGE%(Obedience)%MAP-1E%%PX-00%// Obedience, Ghost Spear, superior, eth, 5s
 
 //- War Pike
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 7p7]: %NAME%//%MAP-20%%PX-00%// Base, War Pike, 0s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7p7]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, War Pike, 4s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7p7]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, War Pike, 5s
-
 ItemDisplay[NMAG SUP !RW !ETH SOCK=0 7p7 ED>0]: %NAME%//%MAP-20%%PX-00%// Base, War Pike, superior, 0s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=4 7p7 ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, War Pike, superior, 4s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=5 7p7 ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, War Pike, superior, 5s
-
-ItemDisplay[NMAG !INF !SUP !RW ETH SOCK=0 7p7]: %GRAY%%NAME%%MAP-1E%%PX-00%// Cube reroll, War Pike, eth, 0s
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 7p7]: %GRAY%%NAME%%MAP-1E%%PX-00%// Base, War Pike, eth, 0s
-ItemDisplay[NMAG !INF !RW ETH SOCK=4 7p7]: %GRAY%%NAME% %ORANGE%(Infinity/Insight/Pride)%MAP-1E%%PX-00%// Infinity/Insight/Pride, War Pike, eth, 4s
-ItemDisplay[NMAG !INF !RW ETH SOCK=5 7p7]: %GRAY%%NAME% %ORANGE%(Obedience)%MAP-1E%%PX-00%// Obedience, War Pike, eth, 5s
-ItemDisplay[NMAG !INF !RW ETH SOCK=6 7p7]: %GRAY%%NAME% %ORANGE%(Breath of the Dying)%MAP-1E%%PX-00%// Breath of the Dying, War Pike, eth, 6s
-
 ItemDisplay[NMAG SUP !RW ETH SOCK=0 7p7 ED>0]: %GRAY%%NAME%%MAP-1E%%PX-00%// Base, War Pike, superior, eth, 0s
+
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7p7]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, War Pike, 4s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=4 7p7 ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, War Pike, superior, 4s
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 7p7]: %GRAY%%NAME% %ORANGE%(Infinity/Insight/Pride)%MAP-1E%%PX-00%// Infinity/Insight/Pride, War Pike, eth, 4s
 ItemDisplay[NMAG SUP !RW ETH SOCK=4 7p7 ED>0]: %GRAY%%NAME% %ORANGE%(Infinity/Insight/Pride)%MAP-1E%%PX-00%// Infinity/Insight/Pride, War Pike, superior, eth, 4s
+
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7p7]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, War Pike, 5s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=5 7p7 ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Shapeshift, War Pike, superior, 5s
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 7p7]: %GRAY%%NAME% %ORANGE%(Obedience)%MAP-1E%%PX-00%// Obedience, War Pike, eth, 5s
 ItemDisplay[NMAG SUP !RW ETH SOCK=5 7p7 ED>0]: %GRAY%%NAME% %ORANGE%(Obedience)%MAP-1E%%PX-00%// Obedience, War Pike, superior, eth, 5s
+
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=6 7p7]: %GRAY%%NAME%//%MAP-1E%%PX-00%// War Pike, 6s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=6 7p7 ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// War Pike, superior, 6s
+ItemDisplay[NMAG !INF !RW ETH SOCK=6 7p7]: %GRAY%%NAME% %ORANGE%(Breath of the Dying)%MAP-1E%%PX-00%// Breath of the Dying, War Pike, eth, 6s
 ItemDisplay[NMAG SUP !RW ETH SOCK=6 7p7 ED>0]: %GRAY%%NAME% %ORANGE%(Breath of the Dying)%MAP-1E%%PX-00%// Breath of the Dying, War Pike, superior, eth, 6s
 
 //- STAVES ----------------------------
@@ -3007,60 +3007,64 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=4 bsd]: %GRAY%%NAME% %ORANGE%(Spirit)//%MAP-
 
 //- Phase Blade
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 7cr]: %NAME%//%MAP-20%%PX-00%// Base, Phase Blade, 0s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 7cr]: %GRAY%%NAME% %ORANGE%(Wind/Fury)//%MAP-1E%%PX-00%// Wind/Fury, Phase Blade, 3s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7cr]: %GRAY%%NAME% %ORANGE%(Hand of Justice/Kingslayer/Oath)//%MAP-1E%%PX-00%// Hand of Justice, Phase Blade, 4s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7cr]: %GRAY%%NAME% %ORANGE%(Grief/Destruction/Eternity)%MAP-1E%%PX-00%// Grief/Destruction/Eternity, Phase Blade, 5s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=6 7cr]: %GRAY%%NAME% %ORANGE%(Last Wish)%MAP-1E%%PX-00%// Last Wish, Phase Blade, 6s
-
 ItemDisplay[NMAG SUP !RW !ETH SOCK=0 7cr ED>0]: %NAME%%MAP-20%%PX-00%// Base, Phase Blade, superior, 0s
+
+ItemDisplay[NMAG !INF !RW !ETH SOCK=3 7cr]: %GRAY%%NAME% %ORANGE%(Wind/Fury)//%MAP-1E%%PX-00%// Wind/Fury, Phase Blade, 3s
 ItemDisplay[NMAG SUP !RW !ETH SOCK=3 7cr ED>0]: %GRAY%%NAME% %ORANGE%(Wind/Fury)%MAP-1E%%PX-00%// Wind/Fury, Phase Blade, superior, 3s
+
+ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7cr]: %GRAY%%NAME% %ORANGE%(Hand of Justice/Kingslayer/Oath)//%MAP-1E%%PX-00%// Hand of Justice, Phase Blade, 4s
 ItemDisplay[NMAG SUP !RW !ETH SOCK=4 7cr ED>0]: %GRAY%%NAME% %ORANGE%(Hand of Justice/Kingslayer/Oath)%MAP-1E%%PX-00%// Hand of Justice, Phase Blade, superior, 4s
+
+ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7cr]: %GRAY%%NAME% %ORANGE%(Grief/Destruction/Eternity)%MAP-1E%%PX-00%// Grief/Destruction/Eternity, Phase Blade, 5s
 ItemDisplay[NMAG SUP !RW !ETH SOCK=5 7cr ED>0]: %GRAY%%NAME% %ORANGE%(Grief/Destruction/Eternity)%MAP-1E%%PX-00%// Grief/Destruction/Eternity, Phase Blade, superior, 5s
+
+ItemDisplay[NMAG !INF !RW !ETH SOCK=6 7cr]: %GRAY%%NAME% %ORANGE%(Last Wish)%MAP-1E%%PX-00%// Last Wish, Phase Blade, 6s
 ItemDisplay[NMAG SUP !RW !ETH SOCK=6 7cr ED>0]: %GRAY%%NAME% %ORANGE%(Last Wish)%MAP-1E%%PX-00%// Last Wish, Phase Blade, superior, 6s
 
 //- Colossus Sword
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 7fb]: %NAME%//%MAP-1E%%PX-00%// Colossus Sword, 3s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7fb]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Colossus Sword, 4s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7fb]: %GRAY%%NAME% %ORANGE%(Destruction)%MAP-1E%%PX-00%// Destruction, Colossus Sword, 5s
-
 ItemDisplay[NMAG SUP !RW !ETH SOCK=0 7fb ED>0]: %NAME%%MAP-1E%%PX-00%// Base, Colossus Sword, superior, 0s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=3 7fb ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Colossus Sword, superior, 3s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=4 7fb ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Colossus Sword, superior, 4s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=5 7fb ED>0]: %GRAY%%NAME% %ORANGE%(Destruction)%MAP-1E%%PX-00%// Destruction, Colossus Sword, superior, 5s
-
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 7fb]: %GRAY%%NAME%%MAP-1E%%PX-00%// Base, Colossus Sword, eth, 0s
-ItemDisplay[NMAG !INF !RW ETH SOCK=3 7fb]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Colossus Sword, eth, 3s
-ItemDisplay[NMAG !INF !RW ETH SOCK=4 7fb]: %GRAY%%NAME% %ORANGE%(Kingslayer)%MAP-1E%%PX-00%// Kingslayer, Colossus Sword, eth, 4s
-ItemDisplay[NMAG !INF !RW ETH SOCK=5 7fb]: %GRAY%%NAME% %ORANGE%(Death)%MAP-1E%%PX-00%// Death, Colossus Sword, eth, 5s
-
 ItemDisplay[NMAG SUP !RW ETH SOCK=0 7fb ED>0]: %GRAY%%NAME%%MAP-1E%%PX-00%// Base, Colossus Sword, superior, eth, 0s
+
+ItemDisplay[NMAG !INF !RW !ETH SOCK=3 7fb]: %NAME%//%MAP-1E%%PX-00%// Colossus Sword, 3s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=3 7fb ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Colossus Sword, superior, 3s
+ItemDisplay[NMAG !INF !RW ETH SOCK=3 7fb]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Colossus Sword, eth, 3s
 ItemDisplay[NMAG SUP !RW ETH SOCK=3 7fb ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Colossus Sword, superior, eth, 3s
+
+ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7fb]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Colossus Sword, 4s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=4 7fb ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Colossus Sword, superior, 4s
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 7fb]: %GRAY%%NAME% %ORANGE%(Kingslayer)%MAP-1E%%PX-00%// Kingslayer, Colossus Sword, eth, 4s
 ItemDisplay[NMAG SUP !RW ETH SOCK=4 7fb ED>0]: %GRAY%%NAME% %ORANGE%(Kingslayer)%MAP-1E%%PX-00%// Kingslayer, Colossus Sword, superior, eth, 4s
+
+ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7fb]: %GRAY%%NAME% %ORANGE%(Destruction)%MAP-1E%%PX-00%// Destruction, Colossus Sword, 5s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=5 7fb ED>0]: %GRAY%%NAME% %ORANGE%(Destruction)%MAP-1E%%PX-00%// Destruction, Colossus Sword, superior, 5s
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 7fb]: %GRAY%%NAME% %ORANGE%(Death)%MAP-1E%%PX-00%// Death, Colossus Sword, eth, 5s
 ItemDisplay[NMAG SUP !RW ETH SOCK=5 7fb ED>0]: %GRAY%%NAME% %ORANGE%(Death)%MAP-1E%%PX-00%// Death, Colossus Sword, superior, eth, 5s
 
 //- Colossus Blade
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 7gd]: %NAME%//%MAP-1E%%PX-00%// Colossus Blade, 0s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 7gd]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Colossus Blade, 3s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7gd]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Colossus Blade, 4s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7gd]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Colossus Blade, 5s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=6 7gd]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Colossus Blade, 6s
-
 ItemDisplay[NMAG SUP !RW !ETH SOCK=0 7gd ED>0]: %NAME%//%MAP-1E%%PX-00%// Colossus Blade, superior, 0s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=3 7gd ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Colossus Blade, superior, 3s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=4 7gd ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Colossus Blade, superior, 4s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=5 7gd ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Colossus Blade, superior, 5s
-ItemDisplay[NMAG SUP !RW !ETH SOCK=6 7gd ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Colossus Blade, superior, 6s
-
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 7gd]: %GRAY%%NAME%%MAP-1E%%PX-00%// Base, Colossus Blade, eth, 0s
-ItemDisplay[NMAG !INF !RW ETH SOCK=3 7gd]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Colossus Blade, eth, 3s
-ItemDisplay[NMAG !INF !RW ETH SOCK=4 7gd]: %GRAY%%NAME% %ORANGE%(Kingslayer)%MAP-1E%%PX-00%// Kingslayer, Colossus Blade, eth, 4s
-ItemDisplay[NMAG !INF !RW ETH SOCK=5 7gd]: %GRAY%%NAME% %ORANGE%(Death)%MAP-1E%%PX-00%// Death, Colossus Blade, eth, 5s
-ItemDisplay[NMAG !INF !RW ETH SOCK=6 7gd]: %GRAY%%NAME% %ORANGE%(Breath of the Dying)%MAP-1E%%PX-00%// Breath of the Dying, Colossus Blade, eth, 6s
-
 ItemDisplay[NMAG SUP !RW ETH SOCK=0 7gd ED>0]: %GRAY%%NAME%%MAP-1E%%PX-00%// Base, Colossus Blade, superior, eth, 0s
+
+ItemDisplay[NMAG !INF !RW !ETH SOCK=3 7gd]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Colossus Blade, 3s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=3 7gd ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Colossus Blade, superior, 3s
+ItemDisplay[NMAG !INF !RW ETH SOCK=3 7gd]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Colossus Blade, eth, 3s
 ItemDisplay[NMAG SUP !RW ETH SOCK=3 7gd ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Colossus Blade, superior, eth, 3s
+
+ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7gd]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Colossus Blade, 4s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=4 7gd ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Colossus Blade, superior, 4s
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 7gd]: %GRAY%%NAME% %ORANGE%(Kingslayer)%MAP-1E%%PX-00%// Kingslayer, Colossus Blade, eth, 4s
 ItemDisplay[NMAG SUP !RW ETH SOCK=4 7gd ED>0]: %GRAY%%NAME% %ORANGE%(Kingslayer)%MAP-1E%%PX-00%// Kingslayer, Colossus Blade, superior, eth, 4s
+
+ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7gd]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Colossus Blade, 5s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=5 7gd ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Colossus Blade, superior, 5s
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 7gd]: %GRAY%%NAME% %ORANGE%(Death)%MAP-1E%%PX-00%// Death, Colossus Blade, eth, 5s
 ItemDisplay[NMAG SUP !RW ETH SOCK=5 7gd ED>0]: %GRAY%%NAME% %ORANGE%(Death)%MAP-1E%%PX-00%// Death, Colossus Blade, superior, eth, 5s
+
+ItemDisplay[NMAG !INF !RW !ETH SOCK=6 7gd]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Colossus Blade, 6s
+ItemDisplay[NMAG SUP !RW !ETH SOCK=6 7gd ED>0]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Colossus Blade, superior, 6s
+ItemDisplay[NMAG !INF !RW ETH SOCK=6 7gd]: %GRAY%%NAME% %ORANGE%(Breath of the Dying)%MAP-1E%%PX-00%// Breath of the Dying, Colossus Blade, eth, 6s
 ItemDisplay[NMAG SUP !RW ETH SOCK=6 7gd ED>0]: %GRAY%%NAME% %ORANGE%(Breath of the Dying)%MAP-1E%%PX-00%// Breath of the Dying, Colossus Blade, superior, eth, 6s
 
 //- WANDS -----------------------------
