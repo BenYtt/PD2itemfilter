@@ -1200,6 +1200,83 @@ ItemDisplay[RARE !ID 7cr]: %NAME%%MAP-0C%// Phase Blade, rare
 //ItemDisplay[RARE ETH !ID JAV]: %NAME%%MAP-0C%
 
 //############################################################################################
+//- CRAFTED -------------- CRAFTED -------------- CRAFTED -------------- CRAFTED -------------
+//############################################################################################
+
+//- Charms
+// iLvl 91 or higher grand charms for cube rerolling
+ItemDisplay[MAG ILVL>90 cm3 (!TABSK0>0 AND !TABSK1>0 AND !TABSK2>0 AND !TABSK8>0 AND !TABSK9>0 AND !TABSK10>0 AND !TABSK16>0 AND !TABSK17>0 AND !TABSK18>0 AND !TABSK24>0 AND !TABSK25>0 AND !TABSK26>0 AND !TABSK32>0 AND !TABSK33>0 AND !TABSK34>0 AND !TABSK40>0 AND !TABSK41>0 AND !TABSK42>0 AND !TABSK48>0 AND !TABSK49>0 AND !TABSK50>0)]: %NAME% %ORANGE%(Cube reroll)%MAP-97%%PX-68%
+
+//- Amulets
+ItemDisplay[MAG amu ILVL=88]: %NAME% %ORANGE%(Craft at 92+){%NL%%GREEN%Safety: Thul, P.Emerald%NL%%PURPLE%Caster: Ral, P.Amethyst%NL%%RED%Blood: Amn, P.Ruby%NL%%BLUE%Hit: Thul, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
+ItemDisplay[MAG amu ILVL=89]: %NAME% %ORANGE%(Craft at 92+){%NL%%GREEN%Safety: Thul, P.Emerald%NL%%PURPLE%Caster: Ral, P.Amethyst%NL%%RED%Blood: Amn, P.Ruby%NL%%BLUE%Hit: Thul, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
+ItemDisplay[MAG amu ILVL=90]: %NAME% %ORANGE%(Craft at 90+){%NL%%GREEN%Safety: Thul, P.Emerald%NL%%PURPLE%Caster: Ral, P.Amethyst%NL%%RED%Blood: Amn, P.Ruby%NL%%BLUE%Hit: Thul, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
+ItemDisplay[MAG amu ILVL=91]: %NAME% %ORANGE%(Craft at 90+){%NL%%GREEN%Safety: Thul, P.Emerald%NL%%PURPLE%Caster: Ral, P.Amethyst%NL%%RED%Blood: Amn, P.Ruby%NL%%BLUE%Hit: Thul, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
+ItemDisplay[MAG amu ILVL=92]: %NAME% %ORANGE%(Craft at 88+){%NL%%GREEN%Safety: Thul, P.Emerald%NL%%PURPLE%Caster: Ral, P.Amethyst%NL%%RED%Blood: Amn, P.Ruby%NL%%BLUE%Hit: Thul, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
+ItemDisplay[MAG amu ILVL=93]: %NAME% %ORANGE%(Craft at 88+){%NL%%GREEN%Safety: Thul, P.Emerald%NL%%PURPLE%Caster: Ral, P.Amethyst%NL%%RED%Blood: Amn, P.Ruby%NL%%BLUE%Hit: Thul, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
+ItemDisplay[MAG amu ILVL=94]: %NAME% %ORANGE%(Craft at 86+){%NL%%GREEN%Safety: Thul, P.Emerald%NL%%PURPLE%Caster: Ral, P.Amethyst%NL%%RED%Blood: Amn, P.Ruby%NL%%BLUE%Hit: Thul, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
+ItemDisplay[MAG amu ILVL=95]: %NAME% %ORANGE%(Craft at 86+){%NL%%GREEN%Safety: Thul, P.Emerald%NL%%PURPLE%Caster: Ral, P.Amethyst%NL%%RED%Blood: Amn, P.Ruby%NL%%BLUE%Hit: Thul, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
+ItemDisplay[MAG amu ILVL=96]: %NAME% %ORANGE%(Craft at 84+){%NL%%GREEN%Safety: Thul, P.Emerald%NL%%PURPLE%Caster: Ral, P.Amethyst%NL%%RED%Blood: Amn, P.Ruby%NL%%BLUE%Hit: Thul, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
+ItemDisplay[MAG amu ILVL=97]: %NAME% %ORANGE%(Craft at 84+){%NL%%GREEN%Safety: Thul, P.Emerald%NL%%PURPLE%Caster: Ral, P.Amethyst%NL%%RED%Blood: Amn, P.Ruby%NL%%BLUE%Hit: Thul, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
+ItemDisplay[MAG amu ILVL=98]: %NAME% %ORANGE%(Craft at 82+){%NL%%GREEN%Safety: Thul, P.Emerald%NL%%PURPLE%Caster: Ral, P.Amethyst%NL%%RED%Blood: Amn, P.Ruby%NL%%BLUE%Hit: Thul, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
+ItemDisplay[MAG amu ILVL=99]: %NAME% %ORANGE%(Craft at 82+){%NL%%GREEN%Safety: Thul, P.Emerald%NL%%PURPLE%Caster: Ral, P.Amethyst%NL%%RED%Blood: Amn, P.Ruby%NL%%BLUE%Hit: Thul, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
+
+//- Rings
+ItemDisplay[MAG rin ILVL=86]: %NAME% %ORANGE%(Craft at 84+){%NL%%GREEN%Safety: Amn, P.Emerald%NL%%PURPLE%Caster: Amn, P.Amethyst%NL%%RED%Blood: Sol, P.Ruby%NL%%BLUE%Hit: Amn, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
+ItemDisplay[MAG rin ILVL=87]: %NAME% %ORANGE%(Craft at 84+){%NL%%GREEN%Safety: Amn, P.Emerald%NL%%PURPLE%Caster: Amn, P.Amethyst%NL%%RED%Blood: Sol, P.Ruby%NL%%BLUE%Hit: Amn, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
+ItemDisplay[MAG rin ILVL=88]: %NAME% %ORANGE%(Craft at 82+){%NL%%GREEN%Safety: Amn, P.Emerald%NL%%PURPLE%Caster: Amn, P.Amethyst%NL%%RED%Blood: Sol, P.Ruby%NL%%BLUE%Hit: Amn, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
+ItemDisplay[MAG rin ILVL=89]: %NAME% %ORANGE%(Craft at 82+){%NL%%GREEN%Safety: Amn, P.Emerald%NL%%PURPLE%Caster: Amn, P.Amethyst%NL%%RED%Blood: Sol, P.Ruby%NL%%BLUE%Hit: Amn, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
+ItemDisplay[MAG rin ILVL=90]: %NAME% %ORANGE%(Craft at 80+){%NL%%GREEN%Safety: Amn, P.Emerald%NL%%PURPLE%Caster: Amn, P.Amethyst%NL%%RED%Blood: Sol, P.Ruby%NL%%BLUE%Hit: Amn, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
+ItemDisplay[MAG rin ILVL=91]: %NAME% %ORANGE%(Craft at 78+){%NL%%GREEN%Safety: Amn, P.Emerald%NL%%PURPLE%Caster: Amn, P.Amethyst%NL%%RED%Blood: Sol, P.Ruby%NL%%BLUE%Hit: Amn, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
+ItemDisplay[MAG rin ILVL=92]: %NAME% %ORANGE%(Craft at 78+){%NL%%GREEN%Safety: Amn, P.Emerald%NL%%PURPLE%Caster: Amn, P.Amethyst%NL%%RED%Blood: Sol, P.Ruby%NL%%BLUE%Hit: Amn, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
+ItemDisplay[MAG rin ILVL=93]: %NAME% %ORANGE%(Craft at 76+){%NL%%GREEN%Safety: Amn, P.Emerald%NL%%PURPLE%Caster: Amn, P.Amethyst%NL%%RED%Blood: Sol, P.Ruby%NL%%BLUE%Hit: Amn, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
+ItemDisplay[MAG rin ILVL=94]: %NAME% %ORANGE%(Craft at 76+){%NL%%GREEN%Safety: Amn, P.Emerald%NL%%PURPLE%Caster: Amn, P.Amethyst%NL%%RED%Blood: Sol, P.Ruby%NL%%BLUE%Hit: Amn, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
+ItemDisplay[MAG rin ILVL>94]: %NAME% %ORANGE%(Craft at 74+){%NL%%GREEN%Safety: Amn, P.Emerald%NL%%PURPLE%Caster: Amn, P.Amethyst%NL%%RED%Blood: Sol, P.Ruby%NL%%BLUE%Hit: Amn, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
+
+// Use the following lines at your own choice. It's going to add a giant block of text to magic items that displays crafting recipes. It's off by default
+//- AMAZON ----------------------------
+//ItemDisplay[MAG ILVL>80 CL7]: %NAME% %GRAY%(Craftable){%NL%%GREEN%Safe: Sol, P.Emerald%NL%%PURPLE%Cast: Tir, P.Amethyst%NL%%RED%Blood: Ort, P.Ruby%NL%%BLUE%Hit: Tir, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
+
+//- ASSASSIN --------------------------
+//ItemDisplay[MAG ILVL>80 CL5]: %NAME% %GRAY%(Craftable){%NL%%GREEN%Safe: Sol, P.Emerald%NL%%PURPLE%Cast: Tir, P.Amethyst%NL%%RED%Blood: Ort, P.Ruby%NL%%BLUE%Hit: Tir, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
+
+//- BARBARIAN -------------------------
+//ItemDisplay[MAG ILVL>80 CL2]: %NAME% %GRAY%(Craftable){%NL%%GREEN%Safe: Ith, P.Emerald%NL%%PURPLE%Cast: Nef, P.Amethyst%NL%%RED%Blood: Ral, P.Ruby%NL%%BLUE%Hit: Ith, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
+
+//- DRUID -----------------------------
+//ItemDisplay[MAG ILVL>80 CL1]: %NAME% %GRAY%(Craftable){%NL%%GREEN%Safe: Ith, P.Emerald%NL%%PURPLE%Cast: Nef, P.Amethyst%NL%%RED%Blood: Ral, P.Ruby%NL%%BLUE%Hit: Ith, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
+
+//- NECROMANCER -----------------------
+//ItemDisplay[MAG ILVL>80 CL4]: %NAME% %GRAY%(Craftable){%NL%%GREEN%Safe: Nef, P.Emerald%NL%%PURPLE%Cast: Eth, P.Amethyst%NL%%RED%Blood: Ith, P.Ruby%NL%%BLUE%Hit: Eth, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
+
+//- PALADIN ---------------------------
+//ItemDisplay[MAG ILVL>80 CL3]: %NAME% %GRAY%(Craftable){%NL%%GREEN%Safe: Nef, P.Emerald%NL%%PURPLE%Cast: Eth, P.Amethyst%NL%%RED%Blood: Ith, P.Ruby%NL%%BLUE%Hit: Eth, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
+
+//- SORCERESS -------------------------
+//ItemDisplay[MAG ILVL>80 CL6]: %NAME% %GRAY%(Craftable){%NL%%GREEN%Safe: Sol, P.Emerald%NL%%PURPLE%Cast: Tir, P.Amethyst%NL%%RED%Blood: Ort, P.Ruby%NL%%BLUE%Hit: Tir, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
+
+//- HELMS -----------------------------
+//ItemDisplay[MAG ILVL>80 HELM !CL2 !CL1]: %NAME% %GRAY%(Craftable){%NL%%GREEN%Safe: Ith, P.Emerald%NL%%PURPLE%Cast: Nef, P.Amethyst%NL%%RED%Blood: Ral, P.Ruby%NL%%BLUE%Hit: Ith, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
+
+//- CHEST -----------------------------
+//ItemDisplay[MAG ILVL>80 CHEST]: %NAME% %GRAY%(Craftable){%NL%%GREEN%Safe: Eth, P.Emerald%NL%%PURPLE%Cast: Tal, P.Amethyst%NL%%RED%Blood: Thul, P.Ruby%NL%%BLUE%Hit: Nef, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
+
+//- GLOVES ----------------------------
+//ItemDisplay[MAG ILVL>80 GLOVES]: %NAME% %GRAY%(Craftable){%NL%%GREEN%Safe: Ral, P.Emerald%NL%%PURPLE%Cast: Ort, P.Amethyst%NL%%RED%Blood: Nef, P.Ruby%NL%%BLUE%Hit: Ort, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
+
+//- BELT ------------------------------
+//ItemDisplay[MAG ILVL>80 BELT]: %NAME% %GRAY%(Craftable){%NL%%GREEN%Safe: Tal, P.Emerald%NL%%PURPLE%Cast: Ith, P.Amethyst%NL%%RED%Blood: Tal, P.Ruby%NL%%BLUE%Hit: Tal, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
+
+//- BOOTS -----------------------------
+//ItemDisplay[MAG ILVL>80 BOOTS]: %NAME% %GRAY%(Craftable){%NL%%GREEN%Safe: Ort, P.Emerald%NL%%PURPLE%Cast: Thul, P.Amethyst%NL%%RED%Blood: Eth, P.Ruby%NL%%BLUE%Hit: Ral, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
+
+//- SHIELD ----------------------------
+//ItemDisplay[MAG ILVL>80 SHIELD !CL4 !CL3]: %NAME% %GRAY%(Craftable){%NL%%GREEN%Safe: Nef, P.Emerald%NL%%PURPLE%Cast: Eth, P.Amethyst%NL%%RED%Blood: Ith, P.Ruby%NL%%BLUE%Hit: Eth, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
+
+//- WEAPONS ---------------------------
+//ItemDisplay[MAG ILVL>80 WEAPON !CL7 !CL5 !CL6]: %NAME% %GRAY%(Craftable){%NL%%GREEN%Safe: Sol, P.Emerald%NL%%PURPLE%Cast: Tir, P.Amethyst%NL%%RED%Blood: Ort, P.Ruby%NL%%BLUE%Hit: Tir, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
+
+//############################################################################################
 //- MAGICS ---------------- MAGICS ---------------- MAGICS ---------------- MAGICS -----------
 //############################################################################################
 // Comment lines out in this section and they will be completely hidden at higher levels.
@@ -1271,85 +1348,6 @@ ItemDisplay[MAG !ID uit]: %NAME%%MAP-97%%PX-00%// Monarch, magic
 
 //- WANDS -----------------------------
 //ItemDisplay[MAG !ID WAND]: %NAME%%MAP-97%%PX-00%
-
-//############################################################################################
-//- CRAFTED -------------- CRAFTED -------------- CRAFTED -------------- CRAFTED -------------
-//############################################################################################
-
-//- Charms
-// iLvl 91 or higher grand charms for cube rerolling
-ItemDisplay[MAG ILVL>90 cm3 (!TABSK0>0 AND !TABSK1>0 AND !TABSK2>0 AND !TABSK8>0 AND !TABSK9>0 AND !TABSK10>0 AND !TABSK16>0 AND !TABSK17>0 AND !TABSK18>0 AND !TABSK24>0 AND !TABSK25>0 AND !TABSK26>0 AND !TABSK32>0 AND !TABSK33>0 AND !TABSK34>0 AND !TABSK40>0 AND !TABSK41>0 AND !TABSK42>0 AND !TABSK48>0 AND !TABSK49>0 AND !TABSK50>0)]: %NAME% %ORANGE%(Cube reroll)%MAP-97%%PX-68%
-
-//- Amulets
-ItemDisplay[MAG amu ILVL=88]: %NAME% %ORANGE%(Craft at 92+){%NL%%GREEN%Safety: Thul, P.Emerald%NL%%PURPLE%Caster: Ral, P.Amethyst%NL%%RED%Blood: Amn, P.Ruby%NL%%BLUE%Hit: Thul, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
-ItemDisplay[MAG amu ILVL=89]: %NAME% %ORANGE%(Craft at 92+){%NL%%GREEN%Safety: Thul, P.Emerald%NL%%PURPLE%Caster: Ral, P.Amethyst%NL%%RED%Blood: Amn, P.Ruby%NL%%BLUE%Hit: Thul, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
-ItemDisplay[MAG amu ILVL=90]: %NAME% %ORANGE%(Craft at 90+){%NL%%GREEN%Safety: Thul, P.Emerald%NL%%PURPLE%Caster: Ral, P.Amethyst%NL%%RED%Blood: Amn, P.Ruby%NL%%BLUE%Hit: Thul, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
-ItemDisplay[MAG amu ILVL=91]: %NAME% %ORANGE%(Craft at 90+){%NL%%GREEN%Safety: Thul, P.Emerald%NL%%PURPLE%Caster: Ral, P.Amethyst%NL%%RED%Blood: Amn, P.Ruby%NL%%BLUE%Hit: Thul, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
-ItemDisplay[MAG amu ILVL=92]: %NAME% %ORANGE%(Craft at 88+){%NL%%GREEN%Safety: Thul, P.Emerald%NL%%PURPLE%Caster: Ral, P.Amethyst%NL%%RED%Blood: Amn, P.Ruby%NL%%BLUE%Hit: Thul, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
-ItemDisplay[MAG amu ILVL=93]: %NAME% %ORANGE%(Craft at 88+){%NL%%GREEN%Safety: Thul, P.Emerald%NL%%PURPLE%Caster: Ral, P.Amethyst%NL%%RED%Blood: Amn, P.Ruby%NL%%BLUE%Hit: Thul, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
-ItemDisplay[MAG amu ILVL=94]: %NAME% %ORANGE%(Craft at 86+){%NL%%GREEN%Safety: Thul, P.Emerald%NL%%PURPLE%Caster: Ral, P.Amethyst%NL%%RED%Blood: Amn, P.Ruby%NL%%BLUE%Hit: Thul, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
-ItemDisplay[MAG amu ILVL=95]: %NAME% %ORANGE%(Craft at 86+){%NL%%GREEN%Safety: Thul, P.Emerald%NL%%PURPLE%Caster: Ral, P.Amethyst%NL%%RED%Blood: Amn, P.Ruby%NL%%BLUE%Hit: Thul, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
-ItemDisplay[MAG amu ILVL=96]: %NAME% %ORANGE%(Craft at 84+){%NL%%GREEN%Safety: Thul, P.Emerald%NL%%PURPLE%Caster: Ral, P.Amethyst%NL%%RED%Blood: Amn, P.Ruby%NL%%BLUE%Hit: Thul, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
-ItemDisplay[MAG amu ILVL=97]: %NAME% %ORANGE%(Craft at 84+){%NL%%GREEN%Safety: Thul, P.Emerald%NL%%PURPLE%Caster: Ral, P.Amethyst%NL%%RED%Blood: Amn, P.Ruby%NL%%BLUE%Hit: Thul, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
-ItemDisplay[MAG amu ILVL=98]: %NAME% %ORANGE%(Craft at 82+){%NL%%GREEN%Safety: Thul, P.Emerald%NL%%PURPLE%Caster: Ral, P.Amethyst%NL%%RED%Blood: Amn, P.Ruby%NL%%BLUE%Hit: Thul, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
-ItemDisplay[MAG amu ILVL=99]: %NAME% %ORANGE%(Craft at 82+){%NL%%GREEN%Safety: Thul, P.Emerald%NL%%PURPLE%Caster: Ral, P.Amethyst%NL%%RED%Blood: Amn, P.Ruby%NL%%BLUE%Hit: Thul, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
-ItemDisplay[MAG !ID amu ILVL<88]:
-
-//- Rings
-ItemDisplay[MAG rin ILVL=86]: %NAME% %ORANGE%(Craft at 84+){%NL%%GREEN%Safety: Amn, P.Emerald%NL%%PURPLE%Caster: Amn, P.Amethyst%NL%%RED%Blood: Sol, P.Ruby%NL%%BLUE%Hit: Amn, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
-ItemDisplay[MAG rin ILVL=87]: %NAME% %ORANGE%(Craft at 84+){%NL%%GREEN%Safety: Amn, P.Emerald%NL%%PURPLE%Caster: Amn, P.Amethyst%NL%%RED%Blood: Sol, P.Ruby%NL%%BLUE%Hit: Amn, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
-ItemDisplay[MAG rin ILVL=88]: %NAME% %ORANGE%(Craft at 82+){%NL%%GREEN%Safety: Amn, P.Emerald%NL%%PURPLE%Caster: Amn, P.Amethyst%NL%%RED%Blood: Sol, P.Ruby%NL%%BLUE%Hit: Amn, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
-ItemDisplay[MAG rin ILVL=89]: %NAME% %ORANGE%(Craft at 82+){%NL%%GREEN%Safety: Amn, P.Emerald%NL%%PURPLE%Caster: Amn, P.Amethyst%NL%%RED%Blood: Sol, P.Ruby%NL%%BLUE%Hit: Amn, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
-ItemDisplay[MAG rin ILVL=90]: %NAME% %ORANGE%(Craft at 80+){%NL%%GREEN%Safety: Amn, P.Emerald%NL%%PURPLE%Caster: Amn, P.Amethyst%NL%%RED%Blood: Sol, P.Ruby%NL%%BLUE%Hit: Amn, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
-ItemDisplay[MAG rin ILVL=91]: %NAME% %ORANGE%(Craft at 78+){%NL%%GREEN%Safety: Amn, P.Emerald%NL%%PURPLE%Caster: Amn, P.Amethyst%NL%%RED%Blood: Sol, P.Ruby%NL%%BLUE%Hit: Amn, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
-ItemDisplay[MAG rin ILVL=92]: %NAME% %ORANGE%(Craft at 78+){%NL%%GREEN%Safety: Amn, P.Emerald%NL%%PURPLE%Caster: Amn, P.Amethyst%NL%%RED%Blood: Sol, P.Ruby%NL%%BLUE%Hit: Amn, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
-ItemDisplay[MAG rin ILVL=93]: %NAME% %ORANGE%(Craft at 76+){%NL%%GREEN%Safety: Amn, P.Emerald%NL%%PURPLE%Caster: Amn, P.Amethyst%NL%%RED%Blood: Sol, P.Ruby%NL%%BLUE%Hit: Amn, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
-ItemDisplay[MAG rin ILVL=94]: %NAME% %ORANGE%(Craft at 76+){%NL%%GREEN%Safety: Amn, P.Emerald%NL%%PURPLE%Caster: Amn, P.Amethyst%NL%%RED%Blood: Sol, P.Ruby%NL%%BLUE%Hit: Amn, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
-ItemDisplay[MAG rin ILVL>94]: %NAME% %ORANGE%(Craft at 74+){%NL%%GREEN%Safety: Amn, P.Emerald%NL%%PURPLE%Caster: Amn, P.Amethyst%NL%%RED%Blood: Sol, P.Ruby%NL%%BLUE%Hit: Amn, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
-ItemDisplay[MAG !ID rin ILVL<86]:
-
-// Use the following lines at your own choice. It's going to add a giant block of text to magic items that displays crafting recipes. It's off by default
-//- AMAZON ----------------------------
-//ItemDisplay[MAG ILVL>80 CL7]: %NAME% %GRAY%(Craftable){%NL%%GREEN%Safe: Sol, P.Emerald%NL%%PURPLE%Cast: Tir, P.Amethyst%NL%%RED%Blood: Ort, P.Ruby%NL%%BLUE%Hit: Tir, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
-
-//- ASSASSIN --------------------------
-//ItemDisplay[MAG ILVL>80 CL5]: %NAME% %GRAY%(Craftable){%NL%%GREEN%Safe: Sol, P.Emerald%NL%%PURPLE%Cast: Tir, P.Amethyst%NL%%RED%Blood: Ort, P.Ruby%NL%%BLUE%Hit: Tir, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
-
-//- BARBARIAN -------------------------
-//ItemDisplay[MAG ILVL>80 CL2]: %NAME% %GRAY%(Craftable){%NL%%GREEN%Safe: Ith, P.Emerald%NL%%PURPLE%Cast: Nef, P.Amethyst%NL%%RED%Blood: Ral, P.Ruby%NL%%BLUE%Hit: Ith, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
-
-//- DRUID -----------------------------
-//ItemDisplay[MAG ILVL>80 CL1]: %NAME% %GRAY%(Craftable){%NL%%GREEN%Safe: Ith, P.Emerald%NL%%PURPLE%Cast: Nef, P.Amethyst%NL%%RED%Blood: Ral, P.Ruby%NL%%BLUE%Hit: Ith, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
-
-//- NECROMANCER -----------------------
-//ItemDisplay[MAG ILVL>80 CL4]: %NAME% %GRAY%(Craftable){%NL%%GREEN%Safe: Nef, P.Emerald%NL%%PURPLE%Cast: Eth, P.Amethyst%NL%%RED%Blood: Ith, P.Ruby%NL%%BLUE%Hit: Eth, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
-
-//- PALADIN ---------------------------
-//ItemDisplay[MAG ILVL>80 CL3]: %NAME% %GRAY%(Craftable){%NL%%GREEN%Safe: Nef, P.Emerald%NL%%PURPLE%Cast: Eth, P.Amethyst%NL%%RED%Blood: Ith, P.Ruby%NL%%BLUE%Hit: Eth, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
-
-//- SORCERESS -------------------------
-//ItemDisplay[MAG ILVL>80 CL6]: %NAME% %GRAY%(Craftable){%NL%%GREEN%Safe: Sol, P.Emerald%NL%%PURPLE%Cast: Tir, P.Amethyst%NL%%RED%Blood: Ort, P.Ruby%NL%%BLUE%Hit: Tir, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
-
-//- HELMS -----------------------------
-//ItemDisplay[MAG ILVL>80 HELM !CL2 !CL1]: %NAME% %GRAY%(Craftable){%NL%%GREEN%Safe: Ith, P.Emerald%NL%%PURPLE%Cast: Nef, P.Amethyst%NL%%RED%Blood: Ral, P.Ruby%NL%%BLUE%Hit: Ith, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
-
-//- CHEST -----------------------------
-//ItemDisplay[MAG ILVL>80 CHEST]: %NAME% %GRAY%(Craftable){%NL%%GREEN%Safe: Eth, P.Emerald%NL%%PURPLE%Cast: Tal, P.Amethyst%NL%%RED%Blood: Thul, P.Ruby%NL%%BLUE%Hit: Nef, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
-
-//- GLOVES ----------------------------
-//ItemDisplay[MAG ILVL>80 GLOVES]: %NAME% %GRAY%(Craftable){%NL%%GREEN%Safe: Ral, P.Emerald%NL%%PURPLE%Cast: Ort, P.Amethyst%NL%%RED%Blood: Nef, P.Ruby%NL%%BLUE%Hit: Ort, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
-
-//- BELT ------------------------------
-//ItemDisplay[MAG ILVL>80 BELT]: %NAME% %GRAY%(Craftable){%NL%%GREEN%Safe: Tal, P.Emerald%NL%%PURPLE%Cast: Ith, P.Amethyst%NL%%RED%Blood: Tal, P.Ruby%NL%%BLUE%Hit: Tal, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
-
-//- BOOTS -----------------------------
-//ItemDisplay[MAG ILVL>80 BOOTS]: %NAME% %GRAY%(Craftable){%NL%%GREEN%Safe: Ort, P.Emerald%NL%%PURPLE%Cast: Thul, P.Amethyst%NL%%RED%Blood: Eth, P.Ruby%NL%%BLUE%Hit: Ral, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
-
-//- SHIELD ----------------------------
-//ItemDisplay[MAG ILVL>80 SHIELD !CL4 !CL3]: %NAME% %GRAY%(Craftable){%NL%%GREEN%Safe: Nef, P.Emerald%NL%%PURPLE%Cast: Eth, P.Amethyst%NL%%RED%Blood: Ith, P.Ruby%NL%%BLUE%Hit: Eth, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
-
-//- WEAPONS ---------------------------
-//ItemDisplay[MAG ILVL>80 WEAPON !CL7 !CL5 !CL6]: %NAME% %GRAY%(Craftable){%NL%%GREEN%Safe: Sol, P.Emerald%NL%%PURPLE%Cast: Tir, P.Amethyst%NL%%RED%Blood: Ort, P.Ruby%NL%%BLUE%Hit: Tir, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
 
 //############################################################################################
 //- NON-MAGIC DESCRIPTIONS AND NAME TAGS -------------- NON-MAGIC DESCRIPTIONS AND NAME TAGS -
