@@ -1200,6 +1200,79 @@ ItemDisplay[RARE !ID 7cr]: %NAME%%MAP-0C%// Phase Blade, rare
 //ItemDisplay[RARE ETH !ID JAV]: %NAME%%MAP-0C%
 
 //############################################################################################
+//- MAGICS ---------------- MAGICS ---------------- MAGICS ---------------- MAGICS -----------
+//############################################################################################
+// Comment lines out in this section and they will be completely hidden at higher levels.
+// Universal hide/show options are handled in UNIVERSAL SHOW/HIDE section near the bottom of this document
+
+//- AMULETS ---------------------------
+ItemDisplay[MAG !ID amu]: %NAME%
+
+//- RINGS -----------------------------
+ItemDisplay[MAG !ID rin]: %NAME%
+
+//- CHARMS ----------------------------
+ItemDisplay[MAG !ID cm1]: %NAME%%MAP-97%// Small charms, magic
+ItemDisplay[MAG !ID cm2]: %NAME%//%MAP-97%// Large charms, magic
+ItemDisplay[MAG !ID cm3]: %NAME%%MAP-97%// Grand charms, magic
+
+//- JEWELS ----------------------------
+ItemDisplay[MAG !ID jew]: %NAME%%MAP-97%
+
+//- AMAZON ----------------------------
+ItemDisplay[MAG !ID (am5 OR ama OR amf)]: %NAME%%MAP-97%%PX-00%// Amazon, javelins only, magic for 6/40
+
+//- ASSASSIN --------------------------
+ItemDisplay[MAG !ID (9cs OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7xf OR 7cs OR 7lw OR 7tw OR 7qr)]: %NAME%//%MAP-97%%PX-00%// Assassin claws, magic, best skill bases
+
+//- BARBARIAN -------------------------
+ItemDisplay[MAG !ID BAR]: %NAME%//%MAP-97%%PX-00%// All barbarian helmets, magic
+//ItemDisplay[MAG !ID (ba4 OR ba5 OR ba9 OR baa OR bae OR baf)]: %NAME%%MAP-97%%PX-00%// Barbarian helmets, magic, wings only
+
+//- DRUID -----------------------------
+ItemDisplay[MAG !ID DRU]: %NAME%//%MAP-97%%PX-00%// All druid pelts, magic
+//ItemDisplay[MAG !ID (dr1 OR dr5 OR dr6 OR dra OR drb OR drf)]: %NAME%%MAP-97%%PX-00%// Druid pelts, wolf head only, magic
+
+//- NECRO -----------------------------
+//ItemDisplay[MAG !ID NEC]: %NAME%%MAP-97%%PX-00%
+
+//- PALADIN ---------------------------
+//ItemDisplay[MAG !ID DIN]: %NAME%%MAP-97%%PX-00%
+
+//- SORCERESS -------------------------
+ItemDisplay[MAG !ID SOR]: %NAME%//%MAP-97%%PX-00%
+
+//- HELMS -----------------------------
+//ItemDisplay[MAG !ID HELM]: %NAME%%MAP-97%%PX-00%
+
+//- CIRCLETS --------------------------
+ItemDisplay[MAG !ID ci3]: %NAME%%MAP-97%%PX-00%// Diadem, magic
+ItemDisplay[MAG !ID CIRC]: %NAME%//%MAP-97%%PX-00%// All circlets, magic
+
+//- ARMORS ----------------------------
+ItemDisplay[MAG !ID (uui OR uea OR ula OR utu OR utp)]: %NAME%//%MAP-97%%PX-00%// Whale Armor, elite, magic, lower strength requirement
+
+//- GLOVES ----------------------------
+//ItemDisplay[MAG !ID GLOVES]: %NAME%%MAP-97%%PX-00%// All gloves, magic
+ItemDisplay[MAG !ID (lgl OR vgl OR mgl OR tgl OR hgl OR xlg OR xvg OR xmg OR ulg OR uvg)]: %NAME%//%MAP-97%%PX-00%// Gloves, magic, lower strength requirement
+
+//- BELTS -----------------------------
+//ItemDisplay[MAG !ID BELT]: %NAME%%MAP-97%%PX-00%
+
+//- BOOTS -----------------------------
+//ItemDisplay[MAG !ID BOOTS]: %NAME%%MAP-97%%PX-00%
+
+//- SHIELDS ---------------------------
+//ItemDisplay[MAG !ID SHIELD]: %NAME%%MAP-97%%PX-00%// All shields, magic
+ItemDisplay[MAG !ID uit]: %NAME%%MAP-97%%PX-00%// Monarch, magic
+
+//- SCEPTERS --------------------------
+//ItemDisplay[MAG !ID SCEPTER]: %NAME%%MAP-97%%PX-00%
+
+//- WANDS -----------------------------
+//ItemDisplay[MAG !ID WAND]: %NAME%%MAP-97%%PX-00%
+
+//############################################################################################
 //- CRAFTED -------------- CRAFTED -------------- CRAFTED -------------- CRAFTED -------------
 //############################################################################################
 
@@ -1277,79 +1350,6 @@ ItemDisplay[MAG !ID rin ILVL<86]:
 
 //- WEAPONS ---------------------------
 //ItemDisplay[MAG ILVL>80 WEAPON !CL7 !CL5 !CL6]: %NAME% %GRAY%(Craftable){%NL%%GREEN%Safe: Sol, P.Emerald%NL%%PURPLE%Cast: Tir, P.Amethyst%NL%%RED%Blood: Ort, P.Ruby%NL%%BLUE%Hit: Tir, P.Sapphire%NL%%TAN%Craft with Jewel:%NL%}
-
-//############################################################################################
-//- MAGICS ---------------- MAGICS ---------------- MAGICS ---------------- MAGICS -----------
-//############################################################################################
-// Comment lines out in this section and they will be completely hidden at higher levels.
-// Universal hide/show options are handled in UNIVERSAL SHOW/HIDE section near the bottom of this document
-
-//- AMULETS ---------------------------
-ItemDisplay[MAG !ID amu]: %NAME%
-
-//- RINGS -----------------------------
-ItemDisplay[MAG !ID rin]: %NAME%
-
-//- CHARMS ----------------------------
-ItemDisplay[MAG !ID cm1]: %NAME%%MAP-97%// Small charms, magic
-ItemDisplay[MAG !ID cm2]: %NAME%//%MAP-97%// Large charms, magic
-ItemDisplay[MAG !ID cm3]: %NAME%%MAP-97%// Grand charms, magic
-
-//- JEWELS ----------------------------
-ItemDisplay[MAG !ID jew]: %NAME%%MAP-97%
-
-//- AMAZON ----------------------------
-ItemDisplay[MAG !ID (am5 OR ama OR amf)]: %NAME%%MAP-97%%PX-00%// Amazon, javelins only, magic for 6/40
-
-//- ASSASSIN --------------------------
-ItemDisplay[MAG !ID (9cs OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7xf OR 7cs OR 7lw OR 7tw OR 7qr)]: %NAME%//%MAP-97%%PX-00%// Assassin claws, magic, best skill bases
-
-//- BARBARIAN -------------------------
-ItemDisplay[MAG !ID BAR]: %NAME%//%MAP-97%%PX-00%// All barbarian helmets, magic
-//ItemDisplay[MAG !ID (ba4 OR ba5 OR ba9 OR baa OR bae OR baf)]: %NAME%%MAP-97%%PX-00%// Barbarian helmets, magic, wings only
-
-//- DRUID -----------------------------
-ItemDisplay[MAG !ID DRU]: %NAME%//%MAP-97%%PX-00%// All druid pelts, magic
-//ItemDisplay[MAG !ID (dr1 OR dr5 OR dr6 OR dra OR drb OR drf)]: %NAME%%MAP-97%%PX-00%// Druid pelts, wolf head only, magic
-
-//- NECRO -----------------------------
-//ItemDisplay[MAG !ID NEC]: %NAME%%MAP-97%%PX-00%
-
-//- PALADIN ---------------------------
-//ItemDisplay[MAG !ID DIN]: %NAME%%MAP-97%%PX-00%
-
-//- SORCERESS -------------------------
-ItemDisplay[MAG !ID SOR]: %NAME%//%MAP-97%%PX-00%
-
-//- HELMS -----------------------------
-//ItemDisplay[MAG !ID HELM]: %NAME%%MAP-97%%PX-00%
-
-//- CIRCLETS --------------------------
-ItemDisplay[MAG !ID ci3]: %NAME%%MAP-97%%PX-00%// Diadem, magic
-ItemDisplay[MAG !ID CIRC]: %NAME%//%MAP-97%%PX-00%// All circlets, magic
-
-//- ARMORS ----------------------------
-ItemDisplay[MAG !ID (uui OR uea OR ula OR utu OR utp)]: %NAME%//%MAP-97%%PX-00%// Whale Armor, elite, magic, lower strength requirement
-
-//- GLOVES ----------------------------
-//ItemDisplay[MAG !ID GLOVES]: %NAME%%MAP-97%%PX-00%// All gloves, magic
-ItemDisplay[MAG !ID (lgl OR vgl OR mgl OR tgl OR hgl OR xlg OR xvg OR xmg OR ulg OR uvg)]: %NAME%//%MAP-97%%PX-00%// Gloves, magic, lower strength requirement
-
-//- BELTS -----------------------------
-//ItemDisplay[MAG !ID BELT]: %NAME%%MAP-97%%PX-00%
-
-//- BOOTS -----------------------------
-//ItemDisplay[MAG !ID BOOTS]: %NAME%%MAP-97%%PX-00%
-
-//- SHIELDS ---------------------------
-//ItemDisplay[MAG !ID SHIELD]: %NAME%%MAP-97%%PX-00%// All shields, magic
-ItemDisplay[MAG !ID uit]: %NAME%%MAP-97%%PX-00%// Monarch, magic
-
-//- SCEPTERS --------------------------
-//ItemDisplay[MAG !ID SCEPTER]: %NAME%%MAP-97%%PX-00%
-
-//- WANDS -----------------------------
-//ItemDisplay[MAG !ID WAND]: %NAME%%MAP-97%%PX-00%
 
 //############################################################################################
 //- NON-MAGIC DESCRIPTIONS AND NAME TAGS -------------- NON-MAGIC DESCRIPTIONS AND NAME TAGS -
