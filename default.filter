@@ -1684,34 +1684,74 @@ ItemDisplay[NMAG SUP !RW ETH SOCK=6 ame TABSK2>2 ED>0]: %GRAY%%NAME%%MAP-1E%%PX-
 // Scissors Suwayyah - 7qr
 
 // No sockets
-ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK262>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Greater Claws, +3 Wake of Fire, 0s
-ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK272>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Greater Claws, +3 Wake of Inferno, 0s
-ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK271>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Greater Claws, +3 Chain Lightning Sentry, 0s
-ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK276>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Greater Claws, +3 Death Sentry, 0s
-ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK273>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Greater Claws, +3 Mind Blast, 0s
-ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK253>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Greater Claws, +3 Psychic Hammer, 0s
-ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK266>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Greater Claws, +3 Blade Fury, 0s
-ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK277>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Greater Claws, +3 Blade Shield, 0s
-ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK278>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Greater Claws, +3 Venom, 0s
-ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK263>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Greater Claws, +3 Weapon Block, 0s
-ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK267>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Greater Claws, +3 Fade, 0s
-ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK275>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Greater Claws, +3 Dragon Flight, 0s
-ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK279>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Greater Claws, +3 Shadow Master, 0s
+ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK259>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Fists of Fire, 0s
+ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK269>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Claws of Thunder, 0s
+ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK274>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Blades of Ice, 0s
+ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK254>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Tiger Strike, 0s
+ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK265>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Cobra Strike, 0s
+ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK280>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Phoenix Strike, 0s
+ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK255>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Dragon Talon, 0s
+ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK260>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Dragon Claw, 0s
+ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK270>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Dragon Tail, 0s
+ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK275>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Dragon Flight, 0s
+
+ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK258>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Burst of Speed, 0s
+ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK267>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Multi-claw, +3 Fade, 0s
+ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK278>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Multi-claw, +3 Venom, 0s
+ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK252>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Claw Mastery, 0s
+ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK263>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Weapon Block, 0s
+ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK268>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Shadow Warrior, 0s
+ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK279>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Shadow Master, 0s
+ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK253>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Multi-claw, +3 Psychic Hammer, 0s
+ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK264>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Cloak of Shadows, 0s
+ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK273>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Multi-claw, +3 Mind Blast, 0s
+
+ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK256>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Multi-claw, +3 Shock Web, 0s
+ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK261>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Charged Bolt Sentry, 0s
+ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK366>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Multi-claw, +3 Lightning Sentry, 0s
+ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK271>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Multi-claw, +3 Chain Lightning Sentry, 0s
+ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK251>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Multi-claw, +3 Fire Blast, 0s
+ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK262>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Multi-claw, +3 Wake of Fire, 0s
+ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK272>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Multi-claw, +3 Wake of Inferno, 0s
+ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK276>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Multi-claw, +3 Death Sentry, 0s
+ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK257>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Blade Sentinel, 0s
+ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK266>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Multi-claw, +3 Blade Fury, 0s
+ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK277>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Blade Shield, 0s
 
 // Three sockets
-ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK262>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Greater Claws, +3 Wake of Fire, 3s
-ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK272>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Greater Claws, +3 Wake of Inferno, 3s
-ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK271>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Greater Claws, +3 Chain Lightning Sentry, 3s
-ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK276>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Greater Claws, +3 Death Sentry, 3s
-ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK273>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Greater Claws, +3 Mind Blast, 3s
-ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK253>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Greater Claws, +3 Psychic Hammer, 3s
-ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK266>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Greater Claws, +3 Blade Fury, 3s
-ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK277>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Greater Claws, +3 Blade Shield, 3s
-ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK278>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Greater Claws, +3 Venom, 3s
-ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK263>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Greater Claws, +3 Weapon Block, 3s
-ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK267>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Greater Claws, +3 Fade, 3s
-ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK275>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Greater Claws, +3 Dragon Flight, 3s
-ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK279>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Greater Claws, +3 Shadow Master, 3s
+ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK259>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Fists of Fire, 3s
+ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK269>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Claws of Thunder, 3s
+ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK274>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Blades of Ice, 3s
+ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK254>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Tiger Strike, 3s
+ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK265>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Cobra Strike, 3s
+ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK280>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Phoenix Strike, 3s
+ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK255>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Dragon Talon, 3s
+ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK260>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Dragon Claw, 3s
+ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK270>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Dragon Tail, 3s
+ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK275>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Dragon Flight, 3s
+
+ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK258>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Burst of Speed, 3s
+ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK267>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Multi-claw, +3 Fade, 3s
+ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK278>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Multi-claw, +3 Venom, 3s
+ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK252>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Claw Mastery, 3s
+ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK263>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Weapon Block, 3s
+ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK268>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Shadow Warrior, 3s
+ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK279>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Shadow Master, 3s
+ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK253>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Multi-claw, +3 Psychic Hammer, 3s
+ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK264>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Cloak of Shadows, 3s
+ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK273>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Multi-claw, +3 Mind Blast, 3s
+
+ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK256>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Multi-claw, +3 Shock Web, 3s
+ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK261>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Charged Bolt Sentry, 3s
+ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK366>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Multi-claw, +3 Lightning Sentry, 3s
+ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK271>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Multi-claw, +3 Chain Lightning Sentry, 3s
+ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK251>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Multi-claw, +3 Fire Blast, 3s
+ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK262>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Multi-claw, +3 Wake of Fire, 3s
+ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK272>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Multi-claw, +3 Wake of Inferno, 3s
+ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK276>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Multi-claw, +3 Death Sentry, 3s
+ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK257>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Blade Sentinel, 3s
+ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK266>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Multi-claw, +3 Blade Fury, 3s
+ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK277>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Blade Shield, 3s
 
 //- BARBARIAN -------------------------
 // No sockets
