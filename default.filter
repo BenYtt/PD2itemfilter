@@ -1851,6 +1851,7 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=2 NEC SK86>2]: %GRAY%%NAME%{%TAN%Rhyme/Splen
 //- Resists
 //- General
 ItemDisplay[NMAG !INF !RW DIN (RES>9 AND RES<35)]: %NAME%// Continue showing paladin shields between 10 and 34 resistances, but don't notify
+ItemDisplay[NMAG !RW DIN RES>34]: %NAME%
 
 //- Sacred Targe
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 pab RES>34]: %NAME%%MAP-20%%PX-00%// Sacred Targe, resists, 0s
