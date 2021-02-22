@@ -580,7 +580,7 @@ ItemDisplay[UNI !ID lbt]: %NAME% %GRAY%(Hotspur)%MAP-A5%// Hotspur Boots
 ItemDisplay[UNI !ID vbt]: %NAME% %GRAY%(Gorefoot)%MAP-A5%// Gorefoot Heavy Boots
 ItemDisplay[UNI !ID mbt]: %NAME% %GRAY%(Treads of Cthon)%MAP-A5%// Treads of Cthon Chain Boots
 ItemDisplay[UNI !ID tbt]: %NAME% %GRAY%(Goblin Toe)%MAP-A5%// Goblin Toe Light Plated Boots
-ItemDisplay[UNI !ID hbt]: %NAME% %GRAY%(Tearhaunch)//%MAP-A5%// Tearhaunch Greaves
+ItemDisplay[UNI !ID hbt]: %NAME% %GRAY%(Tearhaunch)%MAP-A5%// Tearhaunch Greaves
 
 ItemDisplay[UNI !ID xlb]: %NAME% %GRAY%(Infernostride)%MAP-A5%// Infernostride Demonhide Boots
 ItemDisplay[UNI !ID xvb]: %NAME% %GRAY%(Waterwalk)%MAP-A5%// Waterwalk Sharkskin Boots
