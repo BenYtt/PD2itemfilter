@@ -1116,7 +1116,7 @@ ItemDisplay[RARE !ID DRU]: %NAME%%MAP-0C%// All druid pelts, rare
 //ItemDisplay[RARE !ID (dr1 OR dr5 OR dr6 OR dra OR drb OR drf)]: %NAME%%MAP-0C%// Druid pelts, wolf head only, rare
 
 //- NECRO -----------------------------
-//ItemDisplay[RARE !ID NEC]: %NAME%%MAP-0C%
+ItemDisplay[RARE !ID NEC]: %NAME%%MAP-0C%
 
 //- PALADIN ---------------------------
 //ItemDisplay[RARE !ID DIN]: %NAME%%MAP-0C%// All paladin shields, rare
@@ -1430,7 +1430,7 @@ ItemDisplay[MAG !ID DRU]: %NAME%//%MAP-97%%PX-00%// All druid pelts, magic
 //ItemDisplay[MAG !ID (dr1 OR dr5 OR dr6 OR dra OR drb OR drf)]: %NAME%%MAP-97%%PX-00%// Druid pelts, wolf head only, magic
 
 //- NECRO -----------------------------
-//ItemDisplay[MAG !ID NEC]: %NAME%%MAP-97%%PX-00%
+ItemDisplay[MAG !ID NEC]: %NAME%%MAP-97%%PX-00%
 
 //- PALADIN ---------------------------
 //ItemDisplay[MAG !ID DIN]: %NAME%%MAP-97%%PX-00%
