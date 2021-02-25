@@ -3699,52 +3699,52 @@ ItemDisplay[NMAG !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK86>2]: %GRAY%%NAME%{%TAN%
 //- Rares by difficulty
 // All rare weapon and armor notifications in normal until level 40
 // At 40, follow rules listed in RARES and UNIVERSAL SHOW/HIDE sections
-ItemDisplay[RARE !ID CLVL<40 DIFF=0 ARMOR]: %NAME%%MAP-0C%
-ItemDisplay[RARE !ID CLVL<40 DIFF=0 WEAPON]: %NAME%%MAP-0C%
+ItemDisplay[RARE !ID CLVL<40 DIFF=0 ARMOR]: %NAME%{%BLUE%These show at low level. Located in EARLY GEAR section}%MAP-0C%
+ItemDisplay[RARE !ID CLVL<40 DIFF=0 WEAPON]: %NAME%{%BLUE%These show at low level. Located in EARLY GEAR section}%MAP-0C%
 
 // Only exceptional and elite weapon and armor notifications in nightmare until level 55
 // At 55, follow rules listed in RARES and UNIVERSAL SHOW/HIDE sections
-ItemDisplay[RARE !ID CLVL<55 (EXC OR ELT) DIFF=1 ARMOR]: %NAME%%MAP-0C%
-ItemDisplay[RARE !ID CLVL<55 (EXC OR ELT) DIFF=1 WEAPON]: %NAME%%MAP-0C%
+ItemDisplay[RARE !ID CLVL<55 (EXC OR ELT) DIFF=1 ARMOR]: %NAME%{%BLUE%These show at low level. Located in EARLY GEAR section}%MAP-0C%
+ItemDisplay[RARE !ID CLVL<55 (EXC OR ELT) DIFF=1 WEAPON]: %NAME%{%BLUE%These show at low level. Located in EARLY GEAR section}%MAP-0C%
 
 // Only elite weapon and armor notifications in hell until level 70
 // At 70, follow rules listed in RARES and UNIVERSAL SHOW/HIDE sections
-ItemDisplay[RARE !ID CLVL<70 ELT DIFF=2 ARMOR]: %NAME%%MAP-0C%
-ItemDisplay[RARE !ID CLVL<70 ELT DIFF=2 WEAPON]: %NAME%%MAP-0C%
+ItemDisplay[RARE !ID CLVL<70 ELT DIFF=2 ARMOR]: %NAME%{%BLUE%These show at low level. Located in EARLY GEAR section}%MAP-0C%
+ItemDisplay[RARE !ID CLVL<70 ELT DIFF=2 WEAPON]: %NAME%{%BLUE%These show at low level. Located in EARLY GEAR section}%MAP-0C%
 
 //- Socketed bases unsorted
 // Notifications for all 2+ socketed non-magics in normal until level 40
 // At 40, follow rules listed in NON-MAGICS and UNIVERSAL SHOW/HIDE sections
-ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<40 DIFF=0 HELM]: %GRAY%%NAME%%MAP-1E%%PX-00%
-ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<40 DIFF=0 CIRC]: %GRAY%%NAME%%MAP-1E%%PX-00%
-ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<40 DIFF=0 CHEST]: %GRAY%%NAME%%MAP-1E%%PX-00%
-ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<40 DIFF=0 SHIELD]: %GRAY%%NAME%%MAP-1E%%PX-00%
-ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<40 DIFF=0 WEAPON]: %GRAY%%NAME%%MAP-1E%%PX-00%
+ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<40 DIFF=0 HELM]: %GRAY%%NAME%{%BLUE%These show at low level. Located in EARLY GEAR section}%MAP-1E%%PX-00%
+ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<40 DIFF=0 CIRC]: %GRAY%%NAME%{%BLUE%These show at low level. Located in EARLY GEAR section}%MAP-1E%%PX-00%
+ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<40 DIFF=0 CHEST]: %GRAY%%NAME%{%BLUE%These show at low level. Located in EARLY GEAR section}%MAP-1E%%PX-00%
+ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<40 DIFF=0 SHIELD]: %GRAY%%NAME%{%BLUE%These show at low level. Located in EARLY GEAR section}%MAP-1E%%PX-00%
+ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<40 DIFF=0 WEAPON]: %GRAY%%NAME%{%BLUE%These show at low level. Located in EARLY GEAR section}%MAP-1E%%PX-00%
 
 // Notifications for exceptional and elite 2+ socketed non-magics in nightmare until level 55
 // At 55, follow rules listed in NON-MAGICS and UNIVERSAL SHOW/HIDE sections
-ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<55 (EXC OR ELT) DIFF=1 HELM]: %GRAY%%NAME%%MAP-1E%%PX-00%
-ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<55 (EXC OR ELT) DIFF=1 CIRC]: %GRAY%%NAME%%MAP-1E%%PX-00%
-ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<55 (EXC OR ELT) DIFF=1 CHEST]: %GRAY%%NAME%%MAP-1E%%PX-00%
-ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<55 (EXC OR ELT) DIFF=1 SHIELD]: %GRAY%%NAME%%MAP-1E%%PX-00%
-ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<55 (EXC OR ELT) DIFF=1 WEAPON]: %GRAY%%NAME%%MAP-1E%%PX-00%
+ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<55 (EXC OR ELT) DIFF=1 HELM]: %GRAY%%NAME%{%BLUE%These show at low level. Located in EARLY GEAR section}%MAP-1E%%PX-00%
+ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<55 (EXC OR ELT) DIFF=1 CIRC]: %GRAY%%NAME%{%BLUE%These show at low level. Located in EARLY GEAR section}%MAP-1E%%PX-00%
+ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<55 (EXC OR ELT) DIFF=1 CHEST]: %GRAY%%NAME%{%BLUE%These show at low level. Located in EARLY GEAR section}%MAP-1E%%PX-00%
+ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<55 (EXC OR ELT) DIFF=1 SHIELD]: %GRAY%%NAME%{%BLUE%These show at low level. Located in EARLY GEAR section}%MAP-1E%%PX-00%
+ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<55 (EXC OR ELT) DIFF=1 WEAPON]: %GRAY%%NAME%{%BLUE%These show at low level. Located in EARLY GEAR section}%MAP-1E%%PX-00%
 
 // Notifications for elite 2+ socketed non-magics in hell until level 70
 // At 70, follow rules listed in NON-MAGICS and UNIVERSAL SHOW/HIDE sections
-ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<70 ELT DIFF=2 HELM]: %GRAY%%NAME%%MAP-1E%%PX-00%
-ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<70 ELT DIFF=2 CIRC]: %GRAY%%NAME%%MAP-1E%%PX-00%
-ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<70 ELT DIFF=2 CHEST]: %GRAY%%NAME%%MAP-1E%%PX-00%
-ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<70 ELT DIFF=2 SHIELD]: %GRAY%%NAME%%MAP-1E%%PX-00%
-ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<70 ELT DIFF=2 WEAPON]: %GRAY%%NAME%%MAP-1E%%PX-00%
+ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<70 ELT DIFF=2 HELM]: %GRAY%%NAME%{%BLUE%These show at low level. Located in EARLY GEAR section}%MAP-1E%%PX-00%
+ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<70 ELT DIFF=2 CIRC]: %GRAY%%NAME%{%BLUE%These show at low level. Located in EARLY GEAR section}%MAP-1E%%PX-00%
+ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<70 ELT DIFF=2 CHEST]: %GRAY%%NAME%{%BLUE%These show at low level. Located in EARLY GEAR section}%MAP-1E%%PX-00%
+ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<70 ELT DIFF=2 SHIELD]: %GRAY%%NAME%{%BLUE%These show at low level. Located in EARLY GEAR section}%MAP-1E%%PX-00%
+ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<70 ELT DIFF=2 WEAPON]: %GRAY%%NAME%{%BLUE%These show at low level. Located in EARLY GEAR section}%MAP-1E%%PX-00%
 
 //- Socketed bases unsorted
 // Visibility for all 2+ socketed non-magics until level 80
 // At 80, follow rules listed in NON-MAGICS and UNIVERSAL SHOW/HIDE sections
-ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<80 HELM]: %GRAY%%NAME%
-ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<80 CIRC]: %GRAY%%NAME%
-ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<80 CHEST]: %GRAY%%NAME%
-ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<80 SHIELD]: %GRAY%%NAME%
-ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<80 WEAPON]: %GRAY%%NAME%
+ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<80 HELM]: %GRAY%%NAME%{%BLUE%These show at low level. Located in EARLY GEAR section}
+ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<80 CIRC]: %GRAY%%NAME%{%BLUE%These show at low level. Located in EARLY GEAR section}
+ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<80 CHEST]: %GRAY%%NAME%{%BLUE%These show at low level. Located in EARLY GEAR section}
+ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<80 SHIELD]: %GRAY%%NAME%{%BLUE%These show at low level. Located in EARLY GEAR section}
+ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<80 WEAPON]: %GRAY%%NAME%{%BLUE%These show at low level. Located in EARLY GEAR section}
 
 //############################################################################################
 //- VENDOR ITEMS ---------------- VENDOR ITEMS ---------------- VENDOR ITEMS -----------------
@@ -3753,13 +3753,13 @@ ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<80 WEAPON]: %GRAY%%NAME%
 //- VENDOR FOR GOLD -------------------
 // Due to the PRICE condition not functioning correctly, here are a list of high value vendor items in hell. Each will have a "vendor" tag added to them
 // This section stops functioning at level 80
-ItemDisplay[RARE CLVL<80 !ID (xrs OR xhn OR xpl OR xtp OR xld OR xlt OR xth OR xul OR xar OR uui OR uea OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uar OR uul OR urg OR uit OR upk OR uow OR ush OR uts OR ukp OR ulm OR uhl OR uhm OR usk OR urn OR uh9)]: %NAME%%DARK_GREEN% Vendor%DOT-80%
-ItemDisplay[MAG CLVL<80 !ID (xrs OR xhn OR xpl OR xtp OR xld OR xlt OR xth OR xul OR xar OR uui OR uea OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uar OR uul OR urg OR uit OR upk OR uow OR ush OR uts OR ukp OR ulm OR uhl OR uhm OR usk OR urn OR uh9)]: %NAME%%DARK_GREEN% Vendor%DOT-80%
-ItemDisplay[NMAG CLVL<80 !INF !RW !ETH SOCK=0 (xrs OR xhn OR xpl OR xtp OR xld OR xlt OR xth OR xul OR xar OR uui OR uea OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uar OR uul OR urg OR uit OR upk OR uow OR ush OR uts)]: %WHITE%%NAME%%DARK_GREEN% Vendor%DOT-80%
-ItemDisplay[NMAG CLVL<80 !INF !RW (ETH OR SOCK>0) (xrs OR xhn OR xpl OR xtp OR xld OR xlt OR xth OR xul OR xar OR uui OR uea OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uar OR uul OR urg OR uit OR upk OR uow OR ush OR uts)]: %GRAY%%NAME%%DARK_GREEN% Vendor%DOT-80%
-ItemDisplay[NMAG CLVL<80 !INF !RW !ETH (wnd OR ywn OR 9wn) (SK83>2 OR SK85>2 OR SK87>2 OR SK88>2 OR SK90>1)]: %GRAY%%NAME%%DARK_GREEN% Vendor%DOT-80%
-ItemDisplay[NMAG CLVL<80 !INF !RW !ETH (wnd OR ywn OR 9wn) (SK91>1 OR SK92>0 OR SK93>1 OR SK94>1 OR SK95>0)]: %GRAY%%NAME%%DARK_GREEN% Vendor%DOT-80%
-ItemDisplay[NMAG CLVL<80 !INF !RW !ETH WP12 (SK83>2 OR SK85>2 OR SK87>2 OR SK88>2 OR SK90>1 OR SK91>1 OR SK92>0 OR SK93>1 OR SK94>1 OR SK95>0)]: %GRAY%%NAME%%DARK_GREEN% Vendor%DOT-80%
+ItemDisplay[RARE CLVL<80 !ID (xrs OR xhn OR xpl OR xtp OR xld OR xlt OR xth OR xul OR xar OR uui OR uea OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uar OR uul OR urg OR uit OR upk OR uow OR ush OR uts OR ukp OR ulm OR uhl OR uhm OR usk OR urn OR uh9)]: %NAME%%DARK_GREEN% Vendor{%BLUE%Vendor items stop at level 80}%DOT-80%
+ItemDisplay[MAG CLVL<80 !ID (xrs OR xhn OR xpl OR xtp OR xld OR xlt OR xth OR xul OR xar OR uui OR uea OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uar OR uul OR urg OR uit OR upk OR uow OR ush OR uts OR ukp OR ulm OR uhl OR uhm OR usk OR urn OR uh9)]: %NAME%%DARK_GREEN% Vendor{%BLUE%Vendor items stop at level 80}%DOT-80%
+ItemDisplay[NMAG CLVL<80 !INF !RW !ETH SOCK=0 (xrs OR xhn OR xpl OR xtp OR xld OR xlt OR xth OR xul OR xar OR uui OR uea OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uar OR uul OR urg OR uit OR upk OR uow OR ush OR uts)]: %WHITE%%NAME%%DARK_GREEN% Vendor{%BLUE%Vendor items stop at level 80}%DOT-80%
+ItemDisplay[NMAG CLVL<80 !INF !RW (ETH OR SOCK>0) (xrs OR xhn OR xpl OR xtp OR xld OR xlt OR xth OR xul OR xar OR uui OR uea OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uar OR uul OR urg OR uit OR upk OR uow OR ush OR uts)]: %GRAY%%NAME%%DARK_GREEN% Vendor{%BLUE%Vendor items stop at level 80}%DOT-80%
+ItemDisplay[NMAG CLVL<80 !INF !RW !ETH (wnd OR ywn OR 9wn) (SK83>2 OR SK85>2 OR SK87>2 OR SK88>2 OR SK90>1)]: %GRAY%%NAME%%DARK_GREEN% Vendor{%BLUE%Vendor items stop at level 80}%DOT-80%
+ItemDisplay[NMAG CLVL<80 !INF !RW !ETH (wnd OR ywn OR 9wn) (SK91>1 OR SK92>0 OR SK93>1 OR SK94>1 OR SK95>0)]: %GRAY%%NAME%%DARK_GREEN% Vendor{%BLUE%Vendor items stop at level 80}%DOT-80%
+ItemDisplay[NMAG CLVL<80 !INF !RW !ETH WP12 (SK83>2 OR SK85>2 OR SK87>2 OR SK88>2 OR SK90>1 OR SK91>1 OR SK92>0 OR SK93>1 OR SK94>1 OR SK95>0)]: %GRAY%%NAME%%DARK_GREEN% Vendor{%BLUE%Vendor items stop at level 80}%DOT-80%
 
 //############################################################################################
 //- UNIVERSAL SHOW/HIDE --------- UNIVERSAL SHOW/HIDE --------- UNIVERSAL SHOW/HIDE ----------
@@ -3782,7 +3782,7 @@ ItemDisplay[MAG CLVL<10 !ID]: %NAME%%MAP-97%// Notification and map ping for all
 ItemDisplay[MAG CLVL>29 !ID]:// At level 30, hide all magics not listed in MAGICS section above. Add %NAME% to this line if you no longer want them hidden.
 
 //- NON-MAGICS - HIDING ---------------
-ItemDisplay[INF]:// Hide all Low Quality, Cracked, Crude, Damaged items not specified above
+ItemDisplay[INF]:// Hide all Low Quality, Cracked, Crude, Damaged items
 ItemDisplay[NMAG CLVL>5 SOCK=1]:// At level 6, hide all base items which have 1 socket
 ItemDisplay[NMAG CLVL<10 !RW]: %NAME%// Show base items up until level 9
 ItemDisplay[NMAG CLVL>9 !RW]:// Hide all other base items at level 10
