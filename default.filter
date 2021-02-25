@@ -98,8 +98,6 @@ ItemDisplay[ops CLVL>14]:
 //- RUNES ---------------- RUNES ---------------- RUNES ---------------- RUNES ---------------
 //############################################################################################
 
-ItemDisplay[RUNE<10 DIFF=0 CLVL<70]: %RUNENAME% (%RUNENUM%)%DOT-68%//Alert for all runes while in normal
-
 //- RUNE STACK QTY --------------------
 // Quantity tag if QTY greater than 1
 ItemDisplay[RUNE=1 QTY>1]: %ORANGE%El (%RUNENUM%) %WHITE%x%QTY%{%TAN%3 El = Eld}// El Rune
@@ -380,6 +378,418 @@ ItemDisplay[dcho]: %ORANGE%%NAME% %GRAY%(Uber Trist Bosses)%MAP-68%// Black Soul
 ItemDisplay[dcma]: %ORANGE%%NAME% %GRAY%(Starts the Diablo Clone encounter){%RED%prepared to fight Diablo clone!%NL%Do not use unless you are}%MAP-68%// Vision of Terror
 
 //############################################################################################
+//- ID'D ITEMS AND SHOPPING ----- ID'D ITEMS AND SHOPPING ----- ID'D ITEMS AND SHOPPING ------
+//############################################################################################
+// The purple plus signs act as a rating system. If your item has one purple plus sign, it has one "good" stat based on the thresholds in this list.
+// If your item has 2, 3, 4, etc purple plus signs, it has multiple good stats. For example if you ID a rare circlet and see 4 plus signs, you know it's good right away.  
+// Amulets currently not finished because I'm lazy.  
+// Some are green so they're easier to shop, some are purple plus signs so they're not intrusive.
+
+//- AMULETS ---------------------------
+ItemDisplay[(CRAFT OR RARE) ID amu CLSK0>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Amazon, 10+ FCR
+ItemDisplay[(CRAFT OR RARE) ID amu CLSK1>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Sorceress, 10+ FCR
+ItemDisplay[(CRAFT OR RARE) ID amu CLSK2>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Necro, 10+ FCR
+ItemDisplay[(CRAFT OR RARE) ID amu CLSK3>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Paladin, 10+ FCR
+ItemDisplay[(CRAFT OR RARE) ID amu CLSK4>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Barb, 10+ FCR
+ItemDisplay[(CRAFT OR RARE) ID amu CLSK5>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Druid, 10+ FCR
+ItemDisplay[(CRAFT OR RARE) ID amu CLSK6>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Assassin, 10+ FCR
+
+ItemDisplay[(CRAFT OR RARE) ID amu TABSK0>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Bow and Crossbow, 10+ FCR
+ItemDisplay[(CRAFT OR RARE) ID amu TABSK1>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Passive and Magic, 10+ FCR
+ItemDisplay[(CRAFT OR RARE) ID amu TABSK2>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Javelin and Spear, 10+ FCR
+ItemDisplay[(CRAFT OR RARE) ID amu TABSK8>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Fire, 10+ FCR
+ItemDisplay[(CRAFT OR RARE) ID amu TABSK9>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Lightning, 10+ FCR
+ItemDisplay[(CRAFT OR RARE) ID amu TABSK10>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Cold, 10+ FCR
+ItemDisplay[(CRAFT OR RARE) ID amu TABSK16>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Curses, 10+ FCR
+ItemDisplay[(CRAFT OR RARE) ID amu TABSK17>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Poison and Bone, 10+ FCR
+ItemDisplay[(CRAFT OR RARE) ID amu TABSK18>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Summoning, 10+ FCR
+ItemDisplay[(CRAFT OR RARE) ID amu TABSK24>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Combat, 10+ FCR
+ItemDisplay[(CRAFT OR RARE) ID amu TABSK25>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Offensive, 10+ FCR
+ItemDisplay[(CRAFT OR RARE) ID amu TABSK26>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Defensive, 10+ FCR
+ItemDisplay[(CRAFT OR RARE) ID amu TABSK32>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Combat, 10+ FCR
+ItemDisplay[(CRAFT OR RARE) ID amu TABSK33>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Masteries, 10+ FCR
+ItemDisplay[(CRAFT OR RARE) ID amu TABSK34>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Warcries, 10+ FCR
+ItemDisplay[(CRAFT OR RARE) ID amu TABSK40>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Summoning, 10+ FCR
+ItemDisplay[(CRAFT OR RARE) ID amu TABSK41>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Shape, 10+ FCR
+ItemDisplay[(CRAFT OR RARE) ID amu TABSK42>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Elemental, 10+ FCR
+ItemDisplay[(CRAFT OR RARE) ID amu TABSK48>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Traps, 10+ FCR
+ItemDisplay[(CRAFT OR RARE) ID amu TABSK49>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Shadow, 10+ FCR
+ItemDisplay[(CRAFT OR RARE) ID amu TABSK50>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Martial Arts, 10+ FCR
+
+//- RINGS -----------------------------
+ItemDisplay[(CRAFT OR RARE) ID rin FCR>1]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID rin STR>14]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID rin DEX>9]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID rin LIFE>29]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID rin MANA>69]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID rin MFIND>19]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID rin RES>9]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID rin FRES>19]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID rin CRES>19]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID rin LRES>19]: %NAME%%PURPLE% +%CONTINUE%
+
+//- CHARMS ----------------------------
+ItemDisplay[MAG ID cm1 GFIND>9]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm1 RES>2]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm1 FRES>9]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm1 CRES>9]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm1 LRES>9]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm1 PRES>9]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm1 FHR>4]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm1 MAXDMG>2]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm1 LIFE>17]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm1 MANA>16]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm1 GFIND>9]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm1 MFIND>5]: %NAME%%PURPLE% +%CONTINUE%
+
+ItemDisplay[MAG ID cm2 MAXDMG>5]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm2 AR>69]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm2 MANA>33]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm2 RES>5]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm2 FRES>14]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm2 CRES>14]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm2 LRES>14]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm2 PRES>14]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm2 DEX>4]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm2 FHR>7]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm2 GFIND>21]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm2 LIFE>34]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm2 STR>4]: %NAME%%PURPLE% +%CONTINUE%
+
+ItemDisplay[MAG ID cm3 MAXDMG>8]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm3 AR>99]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm3 MANA>49]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm3 RES>8]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm3 FRES>28]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm3 CRES>28]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm3 LRES>28]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm3 PRES>28]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm3 FRW>6]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm3 FHR>11]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm3 GFIND>35]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm3 LIFE>35]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm3 TABSK0>0]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm3 TABSK1>0]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm3 TABSK2>0]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm3 TABSK8>0]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm3 TABSK9>0]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm3 TABSK10>0]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm3 TABSK16>0]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm3 TABSK17>0]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm3 TABSK18>0]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm3 TABSK24>0]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm3 TABSK25>0]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm3 TABSK26>0]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm3 TABSK32>0]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm3 TABSK33>0]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm3 TABSK34>0]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm3 TABSK40>0]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm3 TABSK41>0]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm3 TABSK42>0]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm3 TABSK48>0]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm3 TABSK49>0]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID cm3 TABSK50>0]: %NAME%%PURPLE% +%CONTINUE%
+
+//- JEWELS ----------------------------
+ItemDisplay[(RARE OR MAG) ID jew MINDMG>10]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(RARE OR MAG) ID jew MAXDMG>15]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[MAG ID jew ED>34]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[RARE ID jew ED>29]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(RARE OR MAG) ID jew RES>11]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(RARE OR MAG) ID jew FRES>29]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(RARE OR MAG) ID jew CRES>29]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(RARE OR MAG) ID jew LRES>29]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(RARE OR MAG) ID jew PRES>29]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(RARE OR MAG) ID jew MAEK>2]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(RARE OR MAG) ID jew IAS>14]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(RARE OR MAG) ID jew FHR>6]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(RARE OR MAG) ID jew DEX>8]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(RARE OR MAG) ID jew STR>8]: %NAME%%PURPLE% +%CONTINUE%
+
+//- AMAZON ----------------------------
+ItemDisplay[(CRAFT OR RARE OR MAG) ID ZON (CLSK0>1 AND TABSK2>2)]: %NAME%%PURPLE% +// +2 Amazon, +3 Javelin skills javelins
+ItemDisplay[(CRAFT OR RARE OR MAG) ID ZON TABSK2>4]: %NAME%%PURPLE% +// +5 Javelin skills javelins
+
+//- ASSASSIN --------------------------
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN TABSK50>2]: %GREEN%%NAME%// +3 Martial Arts
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN TABSK49>2]: %GREEN%%NAME%// +3 Shadow Disciplines
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN TABSK48>2]: %GREEN%%NAME%// +3 Trap claw
+
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK254>2)]: %GREEN%%NAME%// +2 Assassin, +3 Tiger Strike
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK255>2)]: %GREEN%%NAME%// +2 Assassin, +3 Dragon Talon
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK259>2)]: %GREEN%%NAME%// +2 Assassin, +3 Fists of Fire
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK260>2)]: %GREEN%%NAME%// +2 Assassin, +3 Dragon Claw
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK265>2)]: %GREEN%%NAME%// +2 Assassin, +3 Cobra Strike
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK269>2)]: %GREEN%%NAME%// +2 Assassin, +3 Claws of Thunder
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK270>2)]: %GREEN%%NAME%// +2 Assassin, +3 Dragon Tail
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK274>2)]: %GREEN%%NAME%// +2 Assassin, +3 Blades of Ice
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK275>2)]: %GREEN%%NAME%// +2 Assassin, +3 Dragon Flight
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK280>2)]: %GREEN%%NAME%// +2 Assassin, +3 Phoenix Strike
+
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK258>2)]: %GREEN%%NAME%// +2 Assassin, +3 Burst of Speed
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK267>2)]: %GREEN%%NAME%// +2 Assassin, +3 Fade
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK268>2)]: %GREEN%%NAME%// +2 Assassin, +3 Shadow Warrior
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK273>2)]: %GREEN%%NAME%// +2 Assassin, +3 Mind Blast
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK278>2)]: %GREEN%%NAME%// +2 Assassin, +3 Venom
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK279>2)]: %GREEN%%NAME%// +2 Assassin, +3 Shadow Master
+
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK251>2)]: %GREEN%%NAME%// +2 Assassin, +3 Fire Blast
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK256>2)]: %GREEN%%NAME%// +2 Assassin, +3 Shock Web
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK257>2)]: %GREEN%%NAME%// +2 Assassin, +3 Blade Sentinel
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK261>2)]: %GREEN%%NAME%// +2 Assassin, +3 Charged Bolt Sentry
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK262>2)]: %GREEN%%NAME%// +2 Assassin, +3 Wake of Fire
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK266>2)]: %GREEN%%NAME%// +2 Assassin, +3 Blade Fury
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK271>2)]: %GREEN%%NAME%// +2 Assassin, +3 Chain Lightnin Sentry
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK272>2)]: %GREEN%%NAME%// +2 Assassin, +3 Wake of Inferno
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK276>2)]: %GREEN%%NAME%// +2 Assassin, +3 Death Sentry
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK277>2)]: %GREEN%%NAME%// +2 Assassin, +3 Blade Shield
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK366>2)]: %GREEN%%NAME%// +2 Assassin, +3 Lightning Sentry
+
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK50>1 AND SK254>2)]: %GREEN%%NAME%// +2 Martial Arts, +3 Tiger Strike
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK50>1 AND SK255>2)]: %GREEN%%NAME%// +2 Martial Arts, +3 Dragon Talon
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK50>1 AND SK259>2)]: %GREEN%%NAME%// +2 Martial Arts, +3 Fists of Fire
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK50>1 AND SK260>2)]: %GREEN%%NAME%// +2 Martial Arts, +3 Dragon Claw
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK50>1 AND SK265>2)]: %GREEN%%NAME%// +2 Martial Arts, +3 Cobra Strike
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK50>1 AND SK269>2)]: %GREEN%%NAME%// +2 Martial Arts, +3 Claws of Thunder
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK50>1 AND SK270>2)]: %GREEN%%NAME%// +2 Martial Arts, +3 Dragon Tail
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK50>1 AND SK274>2)]: %GREEN%%NAME%// +2 Martial Arts, +3 Blades of Ice
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK50>1 AND SK275>2)]: %GREEN%%NAME%// +2 Martial Arts, +3 Dragon Flight
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK50>1 AND SK280>2)]: %GREEN%%NAME%// +2 Martial Arts, +3 Phoenix Strike
+
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK49>1 AND SK258>2)]: %GREEN%%NAME%// +2 Shadow Disciplines, +3 Burst of Speed
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK49>1 AND SK267>2)]: %GREEN%%NAME%// +2 Shadow Disciplines, +3 Fade
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK49>1 AND SK268>2)]: %GREEN%%NAME%// +2 Shadow Disciplines, +3 Shadow Warrior
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK49>1 AND SK273>2)]: %GREEN%%NAME%// +2 Shadow Disciplines, +3 Mind Blast
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK49>1 AND SK278>2)]: %GREEN%%NAME%// +2 Shadow Disciplines, +3 Venom
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK49>1 AND SK279>2)]: %GREEN%%NAME%// +2 Shadow Disciplines, +3 Shadow Master
+
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK48>1 AND SK251>2)]: %GREEN%%NAME%// +2 Traps, +3 Fire Blast
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK48>1 AND SK256>2)]: %GREEN%%NAME%// +2 Traps, +3 Shock Web
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK48>1 AND SK257>2)]: %GREEN%%NAME%// +2 Traps, +3 Blade Sentinel
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK48>1 AND SK261>2)]: %GREEN%%NAME%// +2 Traps, +3 Charged Bolt Sentry
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK48>1 AND SK262>2)]: %GREEN%%NAME%// +2 Traps, +3 Wake of Fire
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK48>1 AND SK266>2)]: %GREEN%%NAME%// +2 Traps, +3 Blade Fury
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK48>1 AND SK271>2)]: %GREEN%%NAME%// +2 Traps, +3 Chain Lightnin Sentry
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK48>1 AND SK272>2)]: %GREEN%%NAME%// +2 Traps, +3 Wake of Inferno
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK48>1 AND SK276>2)]: %GREEN%%NAME%// +2 Traps, +3 Death Sentry
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK48>1 AND SK277>2)]: %GREEN%%NAME%// +2 Traps, +3 Blade Shield
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK48>1 AND SK366>2)]: %GREEN%%NAME%// +2 Traps, +3 Lightning Sentry
+
+//- BARBARIAN -------------------------
+ItemDisplay[(CRAFT OR RARE OR MAG) ID BAR (CLSK4>1 AND SK149>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Barbarian, +3 Battle Orders
+ItemDisplay[(CRAFT OR RARE OR MAG) ID BAR (CLSK4>1 AND SK154>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Barbarian, +3 War Cry
+
+ItemDisplay[(CRAFT OR RARE OR MAG) ID BAR (TABSK34>1 AND SK149>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Warcries, +3 Battle Orders
+ItemDisplay[(CRAFT OR RARE OR MAG) ID BAR (TABSK34>1 AND SK154>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Warcries, +3 War Cry
+
+//- DRUID -----------------------------
+ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (CLSK5>1 AND SK225>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Druid, +3 Firestorm
+ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (CLSK5>1 AND SK229>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Druid, +3 Molten Boulder
+ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (CLSK5>1 AND SK234>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Druid, +3 Fissure
+ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (CLSK5>1 AND SK240>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Druid, +3 Twister
+ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (CLSK5>1 AND SK244>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Druid, +3 Volcano
+ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (CLSK5>1 AND SK245>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Druid, +3 Tornado
+ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (CLSK5>1 AND SK249>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Druid, +3 Armageddon
+ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (CLSK5>1 AND SK250>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Druid, +3 Hurricane
+
+ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (CLSK5>1 AND SK238>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Druid, +3 Rabies
+ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (CLSK5>1 AND SK239>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Druid, +3 Fire Claws
+
+ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (CLSK5>1 AND SK221>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Druid, +3 Raven
+ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (CLSK5>1 AND SK237>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Druid, +3 Summon Dire Wolf
+ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (CLSK5>1 AND SK247>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Druid, +3 Summon Grizzly
+
+ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (TABSK42>1 AND SK225>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Elemental, +3 Firestorm
+ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (TABSK42>1 AND SK229>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Elemental, +3 Molten Boulder
+ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (TABSK42>1 AND SK234>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Elemental, +3 Fissure
+ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (TABSK42>1 AND SK240>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Elemental, +3 Twister
+ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (TABSK42>1 AND SK244>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Elemental, +3 Volcano
+ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (TABSK42>1 AND SK245>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Elemental, +3 Tornado
+ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (TABSK42>1 AND SK249>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Elemental, +3 Armageddon
+ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (TABSK42>1 AND SK250>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Elemental, +3 Hurricane
+
+ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (TABSK41>1 AND SK238>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Shapeshift, +3 Rabies
+ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (TABSK41>1 AND SK239>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Shapeshift, +3 Fire Claws
+
+ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (TABSK40>1 AND SK221>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Summon, +3 Raven
+ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (TABSK40>1 AND SK237>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Summon, +3 Summon Dire Wolf
+ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (TABSK40>1 AND SK247>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Summon, +3 Summon Grizzly
+
+//- NECRO -----------------------------
+ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (CLSK2>1 AND SK70>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Necro, +3 Raise Skeleton Warrior
+ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (CLSK2>1 AND SK75>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Necro, +3 Clay Golem
+ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (CLSK2>1 AND SK80>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Necro, +3 Raise Skeleton Mage
+ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (CLSK2>1 AND SK85>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Necro, +3 Blood Golem
+ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (CLSK2>1 AND SK94>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Necro, +3 Fire Golem
+ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (CLSK2>1 AND SK95>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Necro, +3 Revive
+
+ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (CLSK2>1 AND SK67>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Necro, +3 Teeth
+ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (CLSK2>1 AND SK73>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Necro, +3 Poison Dagger
+ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (CLSK2>1 AND SK74>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Necro, +3 Corpse Explosion
+ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (CLSK2>1 AND SK83>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Necro, +3 Desecrate
+ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (CLSK2>1 AND SK84>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Necro, +3 Bone Spear
+ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (CLSK2>1 AND SK92>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Necro, +3 Poison Nova
+ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (CLSK2>1 AND SK93>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Necro, +3 Bone Spirit
+
+ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (TABSK18>1 AND SK70>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Summon, +3 Raise Skeleton Warrior
+ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (TABSK18>1 AND SK75>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Summon, +3 Clay Golem
+ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (TABSK18>1 AND SK80>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Summon, +3 Raise Skeleton Mage
+ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (TABSK18>1 AND SK85>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Summon, +3 Blood Golem
+ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (TABSK18>1 AND SK94>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Summon, +3 Fire Golem
+ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (TABSK18>1 AND SK95>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Summon, +3 Revive
+
+ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (TABSK17>1 AND SK67>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Poison and Bone, +3 Teeth
+ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (TABSK17>1 AND SK73>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Poison and Bone, +3 Poison Dagger
+ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (TABSK17>1 AND SK74>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Poison and Bone, +3 Corpse Explosion
+ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (TABSK17>1 AND SK83>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Poison and Bone, +3 Desecrate
+ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (TABSK17>1 AND SK84>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Poison and Bone, +3 Bone Spear
+ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (TABSK17>1 AND SK92>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Poison and Bone, +3 Poison Nova
+ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (TABSK17>1 AND SK93>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Poison and Bone, +3 Bone Spirit
+
+//- SORCERESS -------------------------
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (CLSK1>1 AND SK44>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Sorceress, +3 Frost Nova
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (CLSK1>1 AND SK59>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Sorceress, +3 Blizzard
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (CLSK1>1 AND SK64>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Sorceress, +3 Frozen Orb
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (CLSK1>1 AND SK369>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Sorceress, +3 Ice Barrage
+
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (CLSK1>1 AND SK48>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Sorceress, +3 Nova
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (CLSK1>1 AND SK49>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Sorceress, +3 Lightning
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (CLSK1>1 AND SK58>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Sorceress, +3 Energy Shield
+
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (CLSK1>1 AND SK47>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Sorceress, +3 Fire Ball
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (CLSK1>1 AND SK52>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Sorceress, +3 Enchant Fire
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (CLSK1>1 AND SK56>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Sorceress, +3 Meteor
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (CLSK1>1 AND SK62>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Sorceress, +3 Hydra
+
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (TABSK10>1 AND SK44>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Cold, +3 Frost Nova
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (TABSK10>1 AND SK59>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Cold, +3 Blizzard
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (TABSK10>1 AND SK64>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Cold, +3 Frozen Orb
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (TABSK10>1 AND SK369>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Cold, +3 Ice Barrage
+
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (TABSK9>1 AND SK48>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Lightning, +3 Nova
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (TABSK9>1 AND SK49>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Lightning, +3 Lightning
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (TABSK9>1 AND SK58>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Lightning, +3 Energy Shield
+
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (TABSK8>1 AND SK47>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Fire, +3 Fire Ball
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (TABSK8>1 AND SK52>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Fire, +3 Enchant Fire
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (TABSK8>1 AND SK56>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Fire, +3 Meteor
+ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (TABSK8>1 AND SK62>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Fire, +3 Hydra
+
+//- CIRCLETS --------------------------
+ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC CLSK0>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Amazon, 20 FCR
+ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC CLSK1>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Sorceress, 20 FCR
+ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC CLSK2>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Necro, 20 FCR
+ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC CLSK3>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Paladin, 20 FCR
+ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC CLSK4>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Barb, 20 FCR
+ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC CLSK5>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Druid, 20 FCR
+ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC CLSK6>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Assassin, 20 FCR
+
+ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK0>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Bow and Crossbow, 20 FCR
+ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK1>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Passive and Magic, 20 FCR
+ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK2>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Javelin and Spear, 20 FCR
+ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK8>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Fire, 20 FCR
+ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK9>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Lightning, 20 FCR
+ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK10>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Cold, 20 FCR
+ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK16>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Curses, 20 FCR
+ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK17>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Poison and Bone, 20 FCR
+ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK18>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Summoning, 20 FCR
+ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK24>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Combat, 20 FCR
+ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK25>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Offensive, 20 FCR
+ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK26>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Defensive, 20 FCR
+ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK32>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Combat, 20 FCR
+ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK33>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Masteries, 20 FCR
+ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK34>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Warcries, 20 FCR
+ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK40>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Summoning, 20 FCR
+ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK41>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Shape, 20 FCR
+ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK42>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Elemental, 20 FCR
+ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK48>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Traps, 20 FCR
+ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK49>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Shadow, 20 FCR
+ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK50>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Martial Arts, 20 FCR
+
+//- ARMORS ----------------------------
+ItemDisplay[(CRAFT OR RARE OR MAG) ID CHEST (SOCK>3 AND LIFE>89)]: %NAME%%PURPLE% +%CONTINUE%// 4 sockets, 90+ health armors
+
+//- GLOVES ----------------------------
+ItemDisplay[(CRAFT OR RARE OR MAG) ID GLOVES TABSK0>1 IAS>19]: %GREEN%%NAME%// +2 Bow, 20 IAS
+ItemDisplay[(CRAFT OR RARE OR MAG) ID GLOVES TABSK1>1 IAS>19]: %GREEN%%NAME%// +2 Passive, 20 IAS
+ItemDisplay[(CRAFT OR RARE OR MAG) ID GLOVES TABSK2>1 IAS>19]: %GREEN%%NAME%// +2 Javelin, 20 IAS
+ItemDisplay[(CRAFT OR RARE OR MAG) ID GLOVES TABSK50>1 IAS>19]: %GREEN%%NAME%// +2 Martial Arts, 20 IAS
+
+//- BELTS -----------------------------
+ItemDisplay[(CRAFT OR RARE) ID BELT MANA>25]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID BELT FRES>24]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID BELT CRES>24]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID BELT LRES>24]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID BELT PRES>24]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID BELT STR>19]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID BELT LIFE>39]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID BELT FHR>16]: %NAME%%PURPLE% +%CONTINUE%
+
+//- BOOTS -----------------------------
+ItemDisplay[(CRAFT OR RARE) ID BOOTS MANA>35]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID BOOTS FRES>30]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID BOOTS CRES>30]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID BOOTS LRES>30]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID BOOTS PRES>35]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID BOOTS DEX>7]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID BOOTS FHR>9]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID BOOTS GFIND>69]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID BOOTS MFIND>19]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID BOOTS FRW>19]: %NAME%%PURPLE% +%CONTINUE%
+
+//- SHIELDS ---------------------------
+ItemDisplay[(CRAFT OR RARE OR MAG) ID uit (SOCK>3 AND FBR>29)]: %NAME%%PURPLE% +%CONTINUE%// JMoD Monarchs
+
+//- WEAPONS - GENERAL -----------------
+ItemDisplay[(CRAFT OR RARE) ID WEAPON TABSK34>2]: %GREEN%%NAME%// +3 Battle Order weapons
+
+ItemDisplay[(CRAFT OR RARE) ID WEAPON ED>299]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID WEAPON IAS>29]: %NAME%%PURPLE% +%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID WEAPON FOOLS]: %NAME%%PURPLE% +%CONTINUE%
+
+//- SCEPTERS --------------------------
+ItemDisplay[(NMAG OR RARE OR MAG) ID SCEPTER (CLSK3>1 AND SK101>2)]: %GREEN%%NAME%// +2 Paladin, +3 Holy Bolt
+ItemDisplay[(NMAG OR RARE OR MAG) ID SCEPTER (CLSK3>1 AND SK112>2)]: %GREEN%%NAME%// +2 Paladin, +3 Blessed Hammer
+ItemDisplay[(NMAG OR RARE OR MAG) ID SCEPTER (CLSK3>1 AND SK117>2)]: %GREEN%%NAME%// +2 Paladin, +3 Holy Shield
+ItemDisplay[(NMAG OR RARE OR MAG) ID SCEPTER (CLSK3>1 AND SK121>2)]: %GREEN%%NAME%// +2 Paladin, +3 Fist of the Heavens
+
+ItemDisplay[(NMAG OR RARE OR MAG) ID SCEPTER (TABSK24>1 AND SK101>2)]: %GREEN%%NAME%// +2 Combat, +3 Holy Bolt
+ItemDisplay[(NMAG OR RARE OR MAG) ID SCEPTER (TABSK24>1 AND SK112>2)]: %GREEN%%NAME%// +2 Combat, +3 Blessed Hammer
+ItemDisplay[(NMAG OR RARE OR MAG) ID SCEPTER (TABSK24>1 AND SK117>2)]: %GREEN%%NAME%// +2 Combat, +3 Holy Shield
+ItemDisplay[(NMAG OR RARE OR MAG) ID SCEPTER (TABSK24>1 AND SK121>2)]: %GREEN%%NAME%// +2 Combat, +3 Fist of the Heavens
+
+//- WANDS -----------------------------
+ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (CLSK2>1 AND SK70>2)]: %GREEN%%NAME%// +2 Necro, +3 Raise Skeleton Warrior
+ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (CLSK2>1 AND SK75>2)]: %GREEN%%NAME%// +2 Necro, +3 Clay Golem
+ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (CLSK2>1 AND SK80>2)]: %GREEN%%NAME%// +2 Necro, +3 Raise Skeleton Mage
+ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (CLSK2>1 AND SK85>2)]: %GREEN%%NAME%// +2 Necro, +3 Blood Golem
+ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (CLSK2>1 AND SK94>2)]: %GREEN%%NAME%// +2 Necro, +3 Fire Golem
+ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (CLSK2>1 AND SK95>2)]: %GREEN%%NAME%// +2 Necro, +3 Revive
+
+ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (CLSK2>1 AND SK67>2)]: %GREEN%%NAME%// +2 Necro, +3 Teeth
+ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (CLSK2>1 AND SK73>2)]: %GREEN%%NAME%// +2 Necro, +3 Poison Dagger
+ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (CLSK2>1 AND SK74>2)]: %GREEN%%NAME%// +2 Necro, +3 Corpse Explosion
+ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (CLSK2>1 AND SK83>2)]: %GREEN%%NAME%// +2 Necro, +3 Desecrate
+ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (CLSK2>1 AND SK84>2)]: %GREEN%%NAME%// +2 Necro, +3 Bone Spear
+ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (CLSK2>1 AND SK92>2)]: %GREEN%%NAME%// +2 Necro, +3 Poison Nova
+ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (CLSK2>1 AND SK93>2)]: %GREEN%%NAME%// +2 Necro, +3 Bone Spirit
+
+ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (TABSK18>1 AND SK70>2)]: %GREEN%%NAME%// +2 Summon, +3 Raise Skeleton Warrior
+ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (TABSK18>1 AND SK75>2)]: %GREEN%%NAME%// +2 Summon, +3 Clay Golem
+ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (TABSK18>1 AND SK80>2)]: %GREEN%%NAME%// +2 Summon, +3 Raise Skeleton Mage
+ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (TABSK18>1 AND SK85>2)]: %GREEN%%NAME%// +2 Summon, +3 Blood Golem
+ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (TABSK18>1 AND SK94>2)]: %GREEN%%NAME%// +2 Summon, +3 Fire Golem
+ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (TABSK18>1 AND SK95>2)]: %GREEN%%NAME%// +2 Summon, +3 Revive
+
+ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (TABSK17>1 AND SK67>2)]: %GREEN%%NAME%// +2 Poison and Bone, +3 Teeth
+ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (TABSK17>1 AND SK73>2)]: %GREEN%%NAME%// +2 Poison and Bone, +3 Poison Dagger
+ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (TABSK17>1 AND SK74>2)]: %GREEN%%NAME%// +2 Poison and Bone, +3 Corpse Explosion
+ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (TABSK17>1 AND SK83>2)]: %GREEN%%NAME%// +2 Poison and Bone, +3 Desecrate
+ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (TABSK17>1 AND SK84>2)]: %GREEN%%NAME%// +2 Poison and Bone, +3 Bone Spear
+ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (TABSK17>1 AND SK92>2)]: %GREEN%%NAME%// +2 Poison and Bone, +3 Poison Nova
+ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (TABSK17>1 AND SK93>2)]: %GREEN%%NAME%// +2 Poison and Bone, +3 Bone Spirit
+
+//############################################################################################
 //- ITEM BASICS ---------- GROUP ONE ------------ ITEM BASICS ---------- GROUP ONE -----------
 //############################################################################################
 
@@ -399,7 +809,7 @@ ItemDisplay[!RW !INF SOCK>0]: %NAME% (%SOCKETS%)%CONTINUE%// Add number of socke
 ItemDisplay[!RW (UNI OR SET OR CRAFT OR RARE OR MAG)]: %NAME% (i%ILVL%)%CONTINUE%// Add item level after unique/set/craft/rare/magic item names. Use this or the item level display in settings
 ItemDisplay[!RW !INF CLVL<40]: %NAME% %DARK_GREEN%(%PRICE%g)%CONTINUE%// Add vendor value after craft/rare/magic/nonmagic items in normal and nightmare
 
-// Adds upgrade recipes to item descriptions. Comment the next 3 blocks if you don't want descriptions
+// Adds upgrade recipes to item descriptions. Comment the next 8 lines if you don't want descriptions
 ItemDisplay[(UNI OR SET) ID ARMOR NORM]: %NAME%{%TAN%Tal + Shael + P Diamond = Exc Armor}%CONTINUE%// Upgrade recipe in item descriptions
 ItemDisplay[(UNI OR SET) ID ARMOR EXC]: %NAME%{%TAN%Ko + Lem + P Diamond = Elite Armor}%CONTINUE%// Upgrade recipe in item descriptions
 ItemDisplay[(UNI OR SET) ID WEAPON NORM]: %NAME%{%TAN%Ral + Sol + P Emerald = Exc Weapon}%CONTINUE%// Upgrade recipe in item descriptions
@@ -1274,11 +1684,11 @@ ItemDisplay[MAG rin ILVL=99]: %NAME% %TAN%(Craft at 74+){%GREEN%Amn, Emerald %PU
 //ItemDisplay[MAG ID WEAPON]: %NAME%{%GREEN%Sol, Emerald %PURPLE%Tir, Amethyst %RED%Ort, Ruby %BLUE%Tir, Sapphire%WHITE%%NL%Speed: %WPNSPD%}%CONTINUE%
 
 //- AMAZON ----------------------------
-//ItemDisplay[MAG !ID (am1 OR am6 OR amb)]: %NAME% %TAN%(Craft)// Stag Bow (0), Ashwood Bow (0), Matriarchal Bow (-10)
-//ItemDisplay[MAG !ID (am2 OR am7 OR amc)]: %NAME% %TAN%(Craft)// Reflex Bow (10), Ceremonial Bow (10), Grand Matron Bow (10)
-//ItemDisplay[MAG !ID (am3 OR am8 OR amd)]: %NAME% %TAN%(Craft)// Maiden Spear (0), Ceremonial Spear (0), Matriarchal Spear (0)
-//ItemDisplay[MAG !ID (am4 OR am9 OR ame)]: %NAME% %TAN%(Craft)// Maiden Pike (10), Ceremonial Pike (20), Matriarchal Pike (20)
-//ItemDisplay[MAG !ID (am5 OR ama OR amf)]: %NAME% %TAN%(Craft)// Maiden Javelin (-10), Ceremonial Javelin (-10), Matriarchal Javelin (-10)
+//ItemDisplay[MAG !ID (am1 OR am6 OR amb)]: %NAME% %ORANGE%(Craft)// Stag Bow (0), Ashwood Bow (0), Matriarchal Bow (-10)
+//ItemDisplay[MAG !ID (am2 OR am7 OR amc)]: %NAME% %ORANGE%(Craft)// Reflex Bow (10), Ceremonial Bow (10), Grand Matron Bow (10)
+//ItemDisplay[MAG !ID (am3 OR am8 OR amd)]: %NAME% %ORANGE%(Craft)// Maiden Spear (0), Ceremonial Spear (0), Matriarchal Spear (0)
+//ItemDisplay[MAG !ID (am4 OR am9 OR ame)]: %NAME% %ORANGE%(Craft)// Maiden Pike (10), Ceremonial Pike (20), Matriarchal Pike (20)
+//ItemDisplay[MAG !ID (am5 OR ama OR amf)]: %NAME% %ORANGE%(Craft)// Maiden Javelin (-10), Ceremonial Javelin (-10), Matriarchal Javelin (-10)
 
 //- ASSASSIN --------------------------
 // Exceptional							Elite
@@ -1287,123 +1697,123 @@ ItemDisplay[MAG rin ILVL=99]: %NAME% %TAN%(Craft at 74+){%GREEN%Amn, Emerald %PU
 // 	9qr - Scissors Quhab	0			7qr - Scissors Suwayyah		0
 //										7wb - Wrist Sword			-10
 //										7ar - Suwayyah				0
-//ItemDisplay[MAG !ID (9tw OR 7tw)]: %NAME% %TAN%(Craft)// Greater Talons, Runic Talons
-//ItemDisplay[MAG !ID (9lw OR 7lw)]: %NAME% %TAN%(Craft)// Greater Claws, Feral Claws
-//ItemDisplay[MAG !ID (9qr OR 7qr OR 7ar)]: %NAME% %TAN%(Craft)// Scissors Quhab, Scissors Suwayyah, Suwayyah
-//ItemDisplay[MAG !ID 7wb]: %NAME% %TAN%(Craft)// Wrist Sword
+//ItemDisplay[MAG !ID (9tw OR 7tw)]: %NAME% %ORANGE%(Craft)// Greater Talons, Runic Talons
+//ItemDisplay[MAG !ID (9lw OR 7lw)]: %NAME% %ORANGE%(Craft)// Greater Claws, Feral Claws
+//ItemDisplay[MAG !ID (9qr OR 7qr OR 7ar)]: %NAME% %ORANGE%(Craft)// Scissors Quhab, Scissors Suwayyah, Suwayyah
+//ItemDisplay[MAG !ID 7wb]: %NAME% %ORANGE%(Craft)// Wrist Sword
 
 //- BARBARIAN -------------------------
-//ItemDisplay[MAG !ETH !ID (ba4 OR ba5 OR ba9 OR baa OR bae OR baf)]: %NAME% %TAN%(Craft)
+//ItemDisplay[MAG !ETH !ID (ba4 OR ba5 OR ba9 OR baa OR bae OR baf)]: %NAME% %ORANGE%(Craft)
 
 //- BARBARIAN - MERC ------------------
-//ItemDisplay[MAG ETH !ID NORM CL2]: %NAME% %TAN%(Craft - Merc)
-//ItemDisplay[MAG ETH !ID EXC CL2]: %NAME% %TAN%(Craft - Merc)
-//ItemDisplay[MAG ETH !ID ELT CL2]: %NAME% %TAN%(Craft - Merc)
+//ItemDisplay[MAG ETH !ID NORM CL2]: %NAME% %ORANGE%(Craft - Merc)
+//ItemDisplay[MAG ETH !ID EXC CL2]: %NAME% %ORANGE%(Craft - Merc)
+//ItemDisplay[MAG ETH !ID ELT CL2]: %NAME% %ORANGE%(Craft - Merc)
 
 //- DRUID -----------------------------
-//ItemDisplay[MAG !ETH !ID (dr1 OR dr5 OR dr6 OR dra OR drb OR drf)]: %NAME% %TAN%(Craft)
+//ItemDisplay[MAG !ETH !ID (dr1 OR dr5 OR dr6 OR dra OR drb OR drf)]: %NAME% %ORANGE%(Craft)
 
 //- NECROMANCER -----------------------
-//ItemDisplay[MAG !ETH !ID CL4]: %NAME% %TAN%(Craft)
+//ItemDisplay[MAG !ETH !ID CL4]: %NAME% %ORANGE%(Craft)
 
 //- PALADIN ---------------------------
-//ItemDisplay[MAG !ID CL3]: %NAME% %TAN%(Craft)
+//ItemDisplay[MAG !ID CL3]: %NAME% %ORANGE%(Craft)
 
 //- SORCERESS -------------------------
-//ItemDisplay[MAG !ID (ob5 OR oba OR obf)]: %NAME% %TAN%(Craft)
+//ItemDisplay[MAG !ID (ob5 OR oba OR obf)]: %NAME% %ORANGE%(Craft)
 
 //- HELMS -----------------------------
-//ItemDisplay[MAG !ETH !ID (ghm OR crn OR bhm OR xap OR xh9 OR uap)]: %NAME% %TAN%(Craft)
+//ItemDisplay[MAG !ETH !ID (ghm OR crn OR bhm OR xap OR xh9 OR uap)]: %NAME% %ORANGE%(Craft)
 
 //- HELMS - MERC ----------------------
-//ItemDisplay[MAG ETH !ID NORM HELM !CL2 !CL1]: %NAME% %TAN%(Craft - Merc)
-//ItemDisplay[MAG ETH !ID EXC HELM !CL2 !CL1]: %NAME% %TAN%(Craft - Merc)
-//ItemDisplay[MAG ETH !ID ELT HELM !CL2 !CL1]: %NAME% %TAN%(Craft - Merc)
+//ItemDisplay[MAG ETH !ID NORM HELM !CL2 !CL1]: %NAME% %ORANGE%(Craft - Merc)
+//ItemDisplay[MAG ETH !ID EXC HELM !CL2 !CL1]: %NAME% %ORANGE%(Craft - Merc)
+//ItemDisplay[MAG ETH !ID ELT HELM !CL2 !CL1]: %NAME% %ORANGE%(Craft - Merc)
 
 //- CHEST -----------------------------
-//ItemDisplay[MAG !ETH !ID (ltp OR xui OR xea OR xtp OR uui OR uea)]: %NAME% %TAN%(Craft)
+//ItemDisplay[MAG !ETH !ID (ltp OR xui OR xea OR xtp OR uui OR uea)]: %NAME% %ORANGE%(Craft)
 
 //- CHEST - MERC ----------------------
-//ItemDisplay[MAG ETH !ID NORM CHEST]: %NAME% %TAN%(Craft - Merc)
-//ItemDisplay[MAG ETH !ID EXC CHEST]: %NAME% %TAN%(Craft - Merc)
-//ItemDisplay[MAG ETH !ID ELT CHEST]: %NAME% %TAN%(Craft - Merc)
+//ItemDisplay[MAG ETH !ID NORM CHEST]: %NAME% %ORANGE%(Craft - Merc)
+//ItemDisplay[MAG ETH !ID EXC CHEST]: %NAME% %ORANGE%(Craft - Merc)
+//ItemDisplay[MAG ETH !ID ELT CHEST]: %NAME% %ORANGE%(Craft - Merc)
 
 //- GLOVES ----------------------------
-//ItemDisplay[MAG !ETH !ID (lgl OR vgl OR mgl OR tgl OR hgl OR xlg OR xvg OR xmg OR ulg OR uvg)]: %NAME% %TAN%(Craft - Low str)
+//ItemDisplay[MAG !ETH !ID (lgl OR vgl OR mgl OR tgl OR hgl OR xlg OR xvg OR xmg OR ulg OR uvg)]: %NAME% %ORANGE%(Craft - Low str)
 
 //- GLOVES - MERC ---------------------
-//ItemDisplay[MAG ETH !ID NORM GLOVES]: %NAME% %TAN%(Craft - Merc)
-//ItemDisplay[MAG ETH !ID EXC GLOVES]: %NAME% %TAN%(Craft - Merc)
-//ItemDisplay[MAG ETH !ID ELT GLOVES]: %NAME% %TAN%(Craft - Merc)
+//ItemDisplay[MAG ETH !ID NORM GLOVES]: %NAME% %ORANGE%(Craft - Merc)
+//ItemDisplay[MAG ETH !ID EXC GLOVES]: %NAME% %ORANGE%(Craft - Merc)
+//ItemDisplay[MAG ETH !ID ELT GLOVES]: %NAME% %ORANGE%(Craft - Merc)
 
 //- BELT ------------------------------
-//ItemDisplay[MAG !ETH !ID (hbl OR zlb OR zmb OR zvb OR ulc OR uvc)]: %NAME% %TAN%(Craft - Low str)
+//ItemDisplay[MAG !ETH !ID (hbl OR zlb OR zmb OR zvb OR ulc OR uvc)]: %NAME% %ORANGE%(Craft - Low str)
 
 //- BELT - MERC -----------------------
-//ItemDisplay[MAG ETH !ID NORM BELT]: %NAME% %TAN%(Craft - Merc)
-//ItemDisplay[MAG ETH !ID EXC BELT]: %NAME% %TAN%(Craft - Merc)
-//ItemDisplay[MAG ETH !ID ELT BELT]: %NAME% %TAN%(Craft - Merc)
+//ItemDisplay[MAG ETH !ID NORM BELT]: %NAME% %ORANGE%(Craft - Merc)
+//ItemDisplay[MAG ETH !ID EXC BELT]: %NAME% %ORANGE%(Craft - Merc)
+//ItemDisplay[MAG ETH !ID ELT BELT]: %NAME% %ORANGE%(Craft - Merc)
 
 //- BOOTS -----------------------------
-//ItemDisplay[MAG !ETH !ID (lbt OR vbt OR mbt OR tbt OR hbt OR xlb OR xvb OR xmb OR ulb)]: %NAME% %TAN%(Craft - Low str)
+//ItemDisplay[MAG !ETH !ID (lbt OR vbt OR mbt OR tbt OR hbt OR xlb OR xvb OR xmb OR ulb)]: %NAME% %ORANGE%(Craft - Low str)
 
 //- BOOTS - MERC ----------------------
-//ItemDisplay[MAG ETH !ID NORM BOOTS]: %NAME% %TAN%(Craft - Merc)
-//ItemDisplay[MAG ETH !ID EXC BOOTS]: %NAME% %TAN%(Craft - Merc)
-//ItemDisplay[MAG ETH !ID ELT BOOTS]: %NAME% %TAN%(Craft - Merc)
+//ItemDisplay[MAG ETH !ID NORM BOOTS]: %NAME% %ORANGE%(Craft - Merc)
+//ItemDisplay[MAG ETH !ID EXC BOOTS]: %NAME% %ORANGE%(Craft - Merc)
+//ItemDisplay[MAG ETH !ID ELT BOOTS]: %NAME% %ORANGE%(Craft - Merc)
 
 //- SHIELD ----------------------------
-//ItemDisplay[MAG !ETH !ID (lrg OR kit OR bsh OR xsh OR ush OR uit)]: %NAME% %TAN%(Craft)
+//ItemDisplay[MAG !ETH !ID (lrg OR kit OR bsh OR xsh OR ush OR uit)]: %NAME% %ORANGE%(Craft)
 
 //- SHIELD - MERC ---------------------
-//ItemDisplay[MAG ETH !ID NORM SHIELD !CL4 !CL3]: %NAME% %TAN%(Craft - Merc)
-//ItemDisplay[MAG ETH !ID EXC SHIELD !CL4 !CL3]: %NAME% %TAN%(Craft - Merc)
-//ItemDisplay[MAG ETH !ID ELT SHIELD !CL4 !CL3]: %NAME% %TAN%(Craft - Merc)
+//ItemDisplay[MAG ETH !ID NORM SHIELD !CL4 !CL3]: %NAME% %ORANGE%(Craft - Merc)
+//ItemDisplay[MAG ETH !ID EXC SHIELD !CL4 !CL3]: %NAME% %ORANGE%(Craft - Merc)
+//ItemDisplay[MAG ETH !ID ELT SHIELD !CL4 !CL3]: %NAME% %ORANGE%(Craft - Merc)
 
 //- AXES ------------------------------
-//ItemDisplay[MAG ETH !ID (wax OR 9wa OR 7wa)]: %NAME% %TAN%(Craft)// War Axe, Naga, Berserker Axe
-//ItemDisplay[MAG ETH !ID (btx OR 9bt OR 7bt)]: %NAME% %TAN%(Craft)// Battle Axe, Tabar, Decapitator
-//ItemDisplay[MAG ETH !ID (gix OR 9gi OR 7gi)]: %NAME% %TAN%(Craft)// Giant Axe, Ancient Axe, Glorious Axe
+//ItemDisplay[MAG ETH !ID (wax OR 9wa OR 7wa)]: %NAME% %ORANGE%(Craft)// War Axe, Naga, Berserker Axe
+//ItemDisplay[MAG ETH !ID (btx OR 9bt OR 7bt)]: %NAME% %ORANGE%(Craft)// Battle Axe, Tabar, Decapitator
+//ItemDisplay[MAG ETH !ID (gix OR 9gi OR 7gi)]: %NAME% %ORANGE%(Craft)// Giant Axe, Ancient Axe, Glorious Axe
 
 //- BOWS ------------------------------
-//ItemDisplay[MAG !ID (lwb OR 8lw OR 6lw)]: %NAME% %TAN%(Craft)// Long War Bow, Gothic Bow, Hydra Bow
+//ItemDisplay[MAG !ID (lwb OR 8lw OR 6lw)]: %NAME% %ORANGE%(Craft)// Long War Bow, Gothic Bow, Hydra Bow
 
 //- CROSSBOWS -------------------------
-//ItemDisplay[MAG !ID (hxb OR 8hx OR 6hx)]: %NAME% %TAN%(Craft)// Heavy Crossbow, Ballista, Colossus Crossbow
+//ItemDisplay[MAG !ID (hxb OR 8hx OR 6hx)]: %NAME% %ORANGE%(Craft)// Heavy Crossbow, Ballista, Colossus Crossbow
 
 //- DAGGERS ---------------------------
-//ItemDisplay[MAG ETH !ID (kri OR 9kr OR 7kr)]: %NAME% %TAN%(Craft)// Kris, Cinquedeas, Fanged Knife
+//ItemDisplay[MAG ETH !ID (kri OR 9kr OR 7kr)]: %NAME% %ORANGE%(Craft)// Kris, Cinquedeas, Fanged Knife
 
 //- MACES -----------------------------
-//ItemDisplay[MAG ETH !ID (gma OR 9gm OR 7gm)]: %NAME% %TAN%(Craft)// Great Maul, Martel de Fer, Thunder Maul
+//ItemDisplay[MAG ETH !ID (gma OR 9gm OR 7gm)]: %NAME% %ORANGE%(Craft)// Great Maul, Martel de Fer, Thunder Maul
 
 //- POLEARMS --------------------------
-//ItemDisplay[MAG ETH !ID ELT (scy OR 9s8 OR 7s8)]: %NAME% %TAN%(Craft)// Scythe, Battle Scythe, Thresher
-//ItemDisplay[MAG ETH !ID ELT (wsc OR 9wc OR 7wc)]: %NAME% %TAN%(Craft)// War Scythe, Grim Scythe, Giant Thresher
+//ItemDisplay[MAG ETH !ID ELT (scy OR 9s8 OR 7s8)]: %NAME% %ORANGE%(Craft)// Scythe, Battle Scythe, Thresher
+//ItemDisplay[MAG ETH !ID ELT (wsc OR 9wc OR 7wc)]: %NAME% %ORANGE%(Craft)// War Scythe, Grim Scythe, Giant Thresher
 
 //- SCEPTERS --------------------------
-//ItemDisplay[MAG !ID (wsp OR 9ws OR 7ws)]: %NAME% %TAN%(Craft)// War Scepter, Divine Scepter, Caduceus
+//ItemDisplay[MAG !ID (wsp OR 9ws OR 7ws)]: %NAME% %ORANGE%(Craft)// War Scepter, Divine Scepter, Caduceus
 
 //- SPEARS ----------------------------
-//ItemDisplay[MAG ETH !ID (brn OR 9br OR 7br)]: %NAME% %TAN%(Craft)// Brandistock, War Fork, Mancatcher
-//ItemDisplay[MAG ETH !ID (pik OR 9p9 OR 7p7)]: %NAME% %TAN%(Craft)// Pike, Lance, War Pike
+//ItemDisplay[MAG ETH !ID (brn OR 9br OR 7br)]: %NAME% %ORANGE%(Craft)// Brandistock, War Fork, Mancatcher
+//ItemDisplay[MAG ETH !ID (pik OR 9p9 OR 7p7)]: %NAME% %ORANGE%(Craft)// Pike, Lance, War Pike
 
 //- SWORDS ----------------------------
-//ItemDisplay[MAG ETH !ID (crs OR 9cr)]: %NAME% %TAN%(Craft)// Crystal Sword, Dimensional Blade
-//ItemDisplay[MAG ETH !ID (gis OR 9gs OR 7gs)]: %NAME% %TAN%(Craft)// Giant Sword, Tusk Sword, Balrog Blade
-//ItemDisplay[MAG ETH !ID (gsd OR 9gd OR 7gd)]: %NAME% %TAN%(Craft)// Great Sword, Executioner Sword, Colossus Blade
-//ItemDisplay[MAG ETH !ID (flb OR 9fb OR 7fb)]: %NAME% %TAN%(Craft)// Flamberge, Zweihander, Colossus Sword
+//ItemDisplay[MAG ETH !ID (crs OR 9cr)]: %NAME% %ORANGE%(Craft)// Crystal Sword, Dimensional Blade
+//ItemDisplay[MAG ETH !ID (gis OR 9gs OR 7gs)]: %NAME% %ORANGE%(Craft)// Giant Sword, Tusk Sword, Balrog Blade
+//ItemDisplay[MAG ETH !ID (gsd OR 9gd OR 7gd)]: %NAME% %ORANGE%(Craft)// Great Sword, Executioner Sword, Colossus Blade
+//ItemDisplay[MAG ETH !ID (flb OR 9fb OR 7fb)]: %NAME% %ORANGE%(Craft)// Flamberge, Zweihander, Colossus Sword
 
 //- THROWING --------------------------
-//ItemDisplay[MAG ETH !ID (tkf OR 9tk OR 7tk)]: %NAME% %TAN%(Craft)// Throwing Knife, Battle Dart, Flying Knife
-//ItemDisplay[MAG ETH !ID (bkf OR 9bk OR 7bk)]: %NAME% %TAN%(Craft)// Balanced Knife, War Dart, Winged Knife
-//ItemDisplay[MAG ETH !ID (bal OR 9b8 OR 7b8)]: %NAME% %TAN%(Craft)// Balanced Axe, Hurlbat, Winged Axe
+//ItemDisplay[MAG ETH !ID (tkf OR 9tk OR 7tk)]: %NAME% %ORANGE%(Craft)// Throwing Knife, Battle Dart, Flying Knife
+//ItemDisplay[MAG ETH !ID (bkf OR 9bk OR 7bk)]: %NAME% %ORANGE%(Craft)// Balanced Knife, War Dart, Winged Knife
+//ItemDisplay[MAG ETH !ID (bal OR 9b8 OR 7b8)]: %NAME% %ORANGE%(Craft)// Balanced Axe, Hurlbat, Winged Axe
 
 //- WANDS -----------------------------
-//ItemDisplay[MAG !ID WAND !wnd !9wn !ywn]: %NAME% %TAN%(Craft)
+//ItemDisplay[MAG !ID WAND !wnd !9wn !ywn]: %NAME% %ORANGE%(Craft)
 
 //- JAVELINS --------------------------
-//ItemDisplay[MAG ETH !ID (tsp OR 9ts OR 7ts)]: %NAME% %TAN%(Craft)// Throwing Spear, Harpoon, Winged Harpoon
+//ItemDisplay[MAG ETH !ID (tsp OR 9ts OR 7ts)]: %NAME% %ORANGE%(Craft)// Throwing Spear, Harpoon, Winged Harpoon
 
 //############################################################################################
 //- MAGICS ---------------- MAGICS ---------------- MAGICS ---------------- MAGICS -----------
@@ -1527,110 +1937,112 @@ ItemDisplay[NMAG !INF DIN ED>64]: %NAME% %ORANGE%(65 Damage)%CONTINUE%
 //- RESIST NAME TAG -------------------
 // Adds orange notes to non-magic paladin shields to display their resists without picking up the item
 // These tags only show up on non-magic paladin shields which are not hidden in the UNIVERSAL SHOW/HIDE section near the bottom of this document
-ItemDisplay[NMAG !INF DIN (RES>9 AND RES<15)]: %NAME% %ORANGE%(10+ Resists)%CONTINUE%
-ItemDisplay[NMAG !INF DIN (RES>14 AND RES<20)]: %NAME% %ORANGE%(15+ Resists)%CONTINUE%
-ItemDisplay[NMAG !INF DIN (RES>19 AND RES<25)]: %NAME% %ORANGE%(20+ Resists)%CONTINUE%
-ItemDisplay[NMAG !INF DIN (RES>24 AND RES<30)]: %NAME% %ORANGE%(25+ Resists)%CONTINUE%
-ItemDisplay[NMAG !INF DIN (RES>29 AND RES<35)]: %NAME% %ORANGE%(30+ Resists)%CONTINUE%
-ItemDisplay[NMAG !INF DIN (RES>34 AND RES<40)]: %NAME% %ORANGE%(35+ Resists)%CONTINUE%
-ItemDisplay[NMAG !INF DIN (RES>39 AND RES<45)]: %NAME% %ORANGE%(40+ Resists)%CONTINUE%
-ItemDisplay[NMAG !INF DIN RES>44]: %NAME% %ORANGE%(45 Resists)%CONTINUE%
+ItemDisplay[NMAG !INF DIN (RES>9 AND RES<15)]: %NAME% %ORANGE%(10+ Res)%CONTINUE%
+ItemDisplay[NMAG !INF DIN (RES>14 AND RES<20)]: %NAME% %ORANGE%(15+ Res)%CONTINUE%
+ItemDisplay[NMAG !INF DIN (RES>19 AND RES<25)]: %NAME% %ORANGE%(20+ Res)%CONTINUE%
+ItemDisplay[NMAG !INF DIN (RES>24 AND RES<30)]: %NAME% %ORANGE%(25+ Res)%CONTINUE%
+ItemDisplay[NMAG !INF DIN (RES>29 AND RES<35)]: %NAME% %ORANGE%(30+ Res)%CONTINUE%
+ItemDisplay[NMAG !INF DIN (RES>34 AND RES<40)]: %NAME% %ORANGE%(35+ Res)%CONTINUE%
+ItemDisplay[NMAG !INF DIN (RES>39 AND RES<45)]: %NAME% %ORANGE%(40+ Res)%CONTINUE%
+ItemDisplay[NMAG !INF DIN RES>44]: %NAME% %ORANGE%(45 Res)%CONTINUE%
 
 //- Skill tags on bases
 // This section will item tags for +3 to any skill. Any item not specified below this section will still be hidden
 // Not all of these skills are available on items. They're only included just incase staffmods change in the future
-ItemDisplay[NMAG TABSK0>2]: %NAME% %ORANGE%+3 Bow Skills%CONTINUE%
-ItemDisplay[NMAG TABSK2>2]: %NAME% %ORANGE%+3 Javelin Skills%CONTINUE%
+// Names have to be shortened to prevent a crash
 
-ItemDisplay[NMAG SK36>2]: %NAME% %ORANGE%+3 Fire Bolt%CONTINUE%
+ItemDisplay[NMAG TABSK0>2]: %NAME% %ORANGE%+3 Bow%CONTINUE%
+ItemDisplay[NMAG TABSK2>2]: %NAME% %ORANGE%+3 Javelin%CONTINUE%
+
+// +3 skill
+ItemDisplay[NMAG SK36>2]: %NAME% %ORANGE%+3 F Bolt%CONTINUE%
 ItemDisplay[NMAG SK37>2]: %NAME% %ORANGE%+3 Warmth%CONTINUE%
-ItemDisplay[NMAG SK38>2]: %NAME% %ORANGE%+3 Charged Bolt%CONTINUE%
+ItemDisplay[NMAG SK38>2]: %NAME% %ORANGE%+3 Ch Bolt%CONTINUE%
 ItemDisplay[NMAG SK39>2]: %NAME% %ORANGE%+3 Ice Bolt%CONTINUE%
-ItemDisplay[NMAG SK40>2]: %NAME% %ORANGE%+3 Cold Enchant%CONTINUE%
+ItemDisplay[NMAG SK40>2]: %NAME% %ORANGE%+3 C Enchant%CONTINUE%
 ItemDisplay[NMAG SK41>2]: %NAME% %ORANGE%+3 Inferno%CONTINUE%
-ItemDisplay[NMAG SK42>2]: %NAME% %ORANGE%+3 Static Field%CONTINUE%
+ItemDisplay[NMAG SK42>2]: %NAME% %ORANGE%+3 Static%CONTINUE%
 ItemDisplay[NMAG SK43>2]: %NAME% %ORANGE%+3 Telekinesis%CONTINUE%
-ItemDisplay[NMAG SK44>2]: %NAME% %ORANGE%+3 Frost Nova%CONTINUE%
+ItemDisplay[NMAG SK44>2]: %NAME% %ORANGE%+3 F Nova%CONTINUE%
 ItemDisplay[NMAG SK45>2]: %NAME% %ORANGE%+3 Ice Blast%CONTINUE%
 ItemDisplay[NMAG SK46>2]: %NAME% %ORANGE%+3 Blaze%CONTINUE%
-ItemDisplay[NMAG SK47>2]: %NAME% %ORANGE%+3 Fire Ball%CONTINUE%
+ItemDisplay[NMAG SK47>2]: %NAME% %ORANGE%+3 F Ball%CONTINUE%
 ItemDisplay[NMAG SK48>2]: %NAME% %ORANGE%+3 Nova%CONTINUE%
 ItemDisplay[NMAG SK49>2]: %NAME% %ORANGE%+3 Lightning%CONTINUE%
-ItemDisplay[NMAG SK50>2]: %NAME% %ORANGE%+3 Shiver Armor%CONTINUE%
-ItemDisplay[NMAG SK51>2]: %NAME% %ORANGE%+3 Fire Wall%CONTINUE%
-ItemDisplay[NMAG SK52>2]: %NAME% %ORANGE%+3 Fire Enchant%CONTINUE%
-ItemDisplay[NMAG SK53>2]: %NAME% %ORANGE%+3 Chain Lightning%CONTINUE%
-ItemDisplay[NMAG SK54>2]: %NAME% %ORANGE%+3 Teleport%CONTINUE%
-ItemDisplay[NMAG SK55>2]: %NAME% %ORANGE%+3 Glacial Spike%CONTINUE%
+ItemDisplay[NMAG SK50>2]: %NAME% %ORANGE%+3 Shiver%CONTINUE%
+ItemDisplay[NMAG SK51>2]: %NAME% %ORANGE%+3 F Wall%CONTINUE%
+ItemDisplay[NMAG SK52>2]: %NAME% %ORANGE%+3 F Enchant%CONTINUE%
+ItemDisplay[NMAG SK53>2]: %NAME% %ORANGE%+3 Ch Light%CONTINUE%
+ItemDisplay[NMAG SK54>2]: %NAME% %ORANGE%+3 Tele%CONTINUE%
+ItemDisplay[NMAG SK55>2]: %NAME% %ORANGE%+3 Glacial%CONTINUE%
 ItemDisplay[NMAG SK56>2]: %NAME% %ORANGE%+3 Meteor%CONTINUE%
-ItemDisplay[NMAG SK57>2]: %NAME% %ORANGE%+3 Thunder Storm%CONTINUE%
-ItemDisplay[NMAG SK58>2]: %NAME% %ORANGE%+3 Energy Shield%CONTINUE%
-ItemDisplay[NMAG SK59>2]: %NAME% %ORANGE%+3 Blizzard%CONTINUE%
-ItemDisplay[NMAG SK60>2]: %NAME% %ORANGE%+3 Chilling Armor%CONTINUE%
-ItemDisplay[NMAG SK61>2]: %NAME% %ORANGE%+3 Fire Mastery%CONTINUE%
+ItemDisplay[NMAG SK57>2]: %NAME% %ORANGE%+3 T Storm%CONTINUE%
+ItemDisplay[NMAG SK58>2]: %NAME% %ORANGE%+3 ES%CONTINUE%
+ItemDisplay[NMAG SK59>2]: %NAME% %ORANGE%+3 Blizz%CONTINUE%
+ItemDisplay[NMAG SK60>2]: %NAME% %ORANGE%+3 Chilling%CONTINUE%
+ItemDisplay[NMAG SK61>2]: %NAME% %ORANGE%+3 F Mastery%CONTINUE%
 ItemDisplay[NMAG SK62>2]: %NAME% %ORANGE%+3 Hydra%CONTINUE%
-ItemDisplay[NMAG SK63>2]: %NAME% %ORANGE%+3 Light Mastery%CONTINUE%
-ItemDisplay[NMAG SK64>2]: %NAME% %ORANGE%+3 Frozen Orb%CONTINUE%
-ItemDisplay[NMAG SK65>2]: %NAME% %ORANGE%+3 Cold Mastery%CONTINUE%
+ItemDisplay[NMAG SK63>2]: %NAME% %ORANGE%+3 L Mastery%CONTINUE%
+ItemDisplay[NMAG SK64>2]: %NAME% %ORANGE%+3 F Orb%CONTINUE%
+ItemDisplay[NMAG SK65>2]: %NAME% %ORANGE%+3 C Mastery%CONTINUE%
 ItemDisplay[NMAG SK369>2]: %NAME% %ORANGE%+3 Ice Barrage%CONTINUE%
-ItemDisplay[NMAG SK383>2]: %NAME% %ORANGE%+3 Lesser Hydra%CONTINUE%
+ItemDisplay[NMAG SK383>2]: %NAME% %ORANGE%+3 L Hydra%CONTINUE%
 
 ItemDisplay[NMAG SK66>2]: %NAME% %ORANGE%+3 Amp Damage%CONTINUE%
 ItemDisplay[NMAG SK67>2]: %NAME% %ORANGE%+3 Teeth%CONTINUE%
-ItemDisplay[NMAG SK68>2]: %NAME% %ORANGE%+3 Bone Armor%CONTINUE%
-ItemDisplay[NMAG SK69>2]: %NAME% %ORANGE%+3 Skele Mastery%CONTINUE%
-ItemDisplay[NMAG SK70>2]: %NAME% %ORANGE%+3 Skele Warrior%CONTINUE%
+ItemDisplay[NMAG SK68>2]: %NAME% %ORANGE%+3 B Armor%CONTINUE%
+ItemDisplay[NMAG SK69>2]: %NAME% %ORANGE%+3 Sk Mastery%CONTINUE%
+ItemDisplay[NMAG SK70>2]: %NAME% %ORANGE%+3 Sk Warrior%CONTINUE%
 ItemDisplay[NMAG SK71>2]: %NAME% %ORANGE%+3 Dim Vision%CONTINUE%
 ItemDisplay[NMAG SK72>2]: %NAME% %ORANGE%+3 Weaken%CONTINUE%
-ItemDisplay[NMAG SK73>2]: %NAME% %ORANGE%+3 Poison Dagger%CONTINUE%
+ItemDisplay[NMAG SK73>2]: %NAME% %ORANGE%+3 P Dagger%CONTINUE%
 ItemDisplay[NMAG SK74>2]: %NAME% %ORANGE%+3 CE%CONTINUE%
-ItemDisplay[NMAG SK75>2]: %NAME% %ORANGE%+3 Clay Golem%CONTINUE%
-ItemDisplay[NMAG SK76>2]: %NAME% %ORANGE%+3 Iron Maiden%CONTINUE%
+ItemDisplay[NMAG SK75>2]: %NAME% %ORANGE%+3 C Golem%CONTINUE%
+ItemDisplay[NMAG SK76>2]: %NAME% %ORANGE%+3 I Maiden%CONTINUE%
 ItemDisplay[NMAG SK77>2]: %NAME% %ORANGE%+3 Terror%CONTINUE%
-ItemDisplay[NMAG SK78>2]: %NAME% %ORANGE%+3 Bone Wall%CONTINUE%
-ItemDisplay[NMAG SK79>2]: %NAME% %ORANGE%+3 Golem Mastery%CONTINUE%
-ItemDisplay[NMAG SK80>2]: %NAME% %ORANGE%+3 Skele Mage%CONTINUE%
+ItemDisplay[NMAG SK78>2]: %NAME% %ORANGE%+3 B Wall%CONTINUE%
+ItemDisplay[NMAG SK79>2]: %NAME% %ORANGE%+3 G Mastery%CONTINUE%
+ItemDisplay[NMAG SK80>2]: %NAME% %ORANGE%+3 Sk Mage%CONTINUE%
 ItemDisplay[NMAG SK81>2]: %NAME% %ORANGE%+3 Confuse%CONTINUE%
 ItemDisplay[NMAG SK82>2]: %NAME% %ORANGE%+3 Life Tap%CONTINUE%
 ItemDisplay[NMAG SK83>2]: %NAME% %ORANGE%+3 Desecrate%CONTINUE%
-ItemDisplay[NMAG SK84>2]: %NAME% %ORANGE%+3 Bone Spear%CONTINUE%
-ItemDisplay[NMAG SK85>2]: %NAME% %ORANGE%+3 Blood Golem%CONTINUE%
+ItemDisplay[NMAG SK84>2]: %NAME% %ORANGE%+3 B Spear%CONTINUE%
+ItemDisplay[NMAG SK85>2]: %NAME% %ORANGE%+3 B Golem%CONTINUE%
 ItemDisplay[NMAG SK86>2]: %NAME% %ORANGE%+3 Attract%CONTINUE%
 ItemDisplay[NMAG SK87>2]: %NAME% %ORANGE%+3 Decrepify%CONTINUE%
-ItemDisplay[NMAG SK88>2]: %NAME% %ORANGE%+3 Bone Prison%CONTINUE%
-ItemDisplay[NMAG SK89>2]: %NAME% %ORANGE%+3 Summon Resist%CONTINUE%
-ItemDisplay[NMAG SK90>2]: %NAME% %ORANGE%+3 Iron Golem%CONTINUE%
-ItemDisplay[NMAG SK91>2]: %NAME% %ORANGE%+3 Lower Resist%CONTINUE%
-ItemDisplay[NMAG SK92>2]: %NAME% %ORANGE%+3 Poison Nova%CONTINUE%
-ItemDisplay[NMAG SK93>2]: %NAME% %ORANGE%+3 Bone Spirit%CONTINUE%
-ItemDisplay[NMAG SK94>2]: %NAME% %ORANGE%+3 Fire Golem%CONTINUE%
+ItemDisplay[NMAG SK88>2]: %NAME% %ORANGE%+3 B Prison%CONTINUE%
+ItemDisplay[NMAG SK90>2]: %NAME% %ORANGE%+3 I Golem%CONTINUE%
+ItemDisplay[NMAG SK91>2]: %NAME% %ORANGE%+3 L Resist%CONTINUE%
+ItemDisplay[NMAG SK92>2]: %NAME% %ORANGE%+3 P Nova%CONTINUE%
+ItemDisplay[NMAG SK93>2]: %NAME% %ORANGE%+3 B Spirit%CONTINUE%
+ItemDisplay[NMAG SK94>2]: %NAME% %ORANGE%+3 F Golem%CONTINUE%
 ItemDisplay[NMAG SK95>2]: %NAME% %ORANGE%+3 Revive%CONTINUE%
-ItemDisplay[NMAG SK367>2]: %NAME% %ORANGE%+3 Blood Warp%CONTINUE%
-ItemDisplay[NMAG SK381>2]: %NAME% %ORANGE%+3 Dark Pact%CONTINUE%
+ItemDisplay[NMAG SK367>2]: %NAME% %ORANGE%+3 B Warp%CONTINUE%
+ItemDisplay[NMAG SK381>2]: %NAME% %ORANGE%+3 D Pact%CONTINUE%
 
 ItemDisplay[NMAG SK96>2]: %NAME% %ORANGE%+3 Sacrifice%CONTINUE%
 ItemDisplay[NMAG SK97>2]: %NAME% %ORANGE%+3 Smite%CONTINUE%
 ItemDisplay[NMAG SK98>2]: %NAME% %ORANGE%+3 Might%CONTINUE%
 ItemDisplay[NMAG SK99>2]: %NAME% %ORANGE%+3 Prayer%CONTINUE%
-ItemDisplay[NMAG SK100>2]: %NAME% %ORANGE%+3 Resist Fire%CONTINUE%
-ItemDisplay[NMAG SK101>2]: %NAME% %ORANGE%+3 Holy Bolt%CONTINUE%
-ItemDisplay[NMAG SK102>2]: %NAME% %ORANGE%+3 Holy Fire%CONTINUE%
+ItemDisplay[NMAG SK100>2]: %NAME% %ORANGE%+3 R Fire%CONTINUE%
+ItemDisplay[NMAG SK101>2]: %NAME% %ORANGE%+3 H Bolt%CONTINUE%
+ItemDisplay[NMAG SK102>2]: %NAME% %ORANGE%+3 H Fire%CONTINUE%
 ItemDisplay[NMAG SK103>2]: %NAME% %ORANGE%+3 Thorns%CONTINUE%
 ItemDisplay[NMAG SK104>2]: %NAME% %ORANGE%+3 Defiance%CONTINUE%
-ItemDisplay[NMAG SK105>2]: %NAME% %ORANGE%+3 Resist Cold%CONTINUE%
+ItemDisplay[NMAG SK105>2]: %NAME% %ORANGE%+3 R Cold%CONTINUE%
 ItemDisplay[NMAG SK106>2]: %NAME% %ORANGE%+3 Zeal%CONTINUE%
 ItemDisplay[NMAG SK107>2]: %NAME% %ORANGE%+3 Charge%CONTINUE%
-ItemDisplay[NMAG SK108>2]: %NAME% %ORANGE%+3 Blessed Aim%CONTINUE%
+ItemDisplay[NMAG SK108>2]: %NAME% %ORANGE%+3 B Aim%CONTINUE%
 ItemDisplay[NMAG SK109>2]: %NAME% %ORANGE%+3 Cleansing%CONTINUE%
-ItemDisplay[NMAG SK110>2]: %NAME% %ORANGE%+3 Resist Lightning%CONTINUE%
+ItemDisplay[NMAG SK110>2]: %NAME% %ORANGE%+3 R Lightning%CONTINUE%
 ItemDisplay[NMAG SK111>2]: %NAME% %ORANGE%+3 Vengeance%CONTINUE%
-ItemDisplay[NMAG SK112>2]: %NAME% %ORANGE%+3 Blessed Hammer%CONTINUE%
+ItemDisplay[NMAG SK112>2]: %NAME% %ORANGE%+3 B Hammer%CONTINUE%
 ItemDisplay[NMAG SK113>2]: %NAME% %ORANGE%+3 Concentration%CONTINUE%
-ItemDisplay[NMAG SK114>2]: %NAME% %ORANGE%+3 Holy Freeze%CONTINUE%
+ItemDisplay[NMAG SK114>2]: %NAME% %ORANGE%+3 H Freeze%CONTINUE%
 ItemDisplay[NMAG SK115>2]: %NAME% %ORANGE%+3 Vigor%CONTINUE%
 ItemDisplay[NMAG SK116>2]: %NAME% %ORANGE%+3 Conversion%CONTINUE%
-ItemDisplay[NMAG SK117>2]: %NAME% %ORANGE%+3 Holy Shield%CONTINUE%
-ItemDisplay[NMAG SK118>2]: %NAME% %ORANGE%+3 Holy Shock%CONTINUE%
+ItemDisplay[NMAG SK117>2]: %NAME% %ORANGE%+3 H Shield%CONTINUE%
+ItemDisplay[NMAG SK118>2]: %NAME% %ORANGE%+3 H Shock%CONTINUE%
 ItemDisplay[NMAG SK119>2]: %NAME% %ORANGE%+3 Sanctuary%CONTINUE%
 ItemDisplay[NMAG SK120>2]: %NAME% %ORANGE%+3 Meditation%CONTINUE%
 ItemDisplay[NMAG SK121>2]: %NAME% %ORANGE%+3 FoH%CONTINUE%
@@ -1638,98 +2050,98 @@ ItemDisplay[NMAG SK122>2]: %NAME% %ORANGE%+3 Fanaticism%CONTINUE%
 ItemDisplay[NMAG SK123>2]: %NAME% %ORANGE%+3 Conviction%CONTINUE%
 ItemDisplay[NMAG SK124>2]: %NAME% %ORANGE%+3 Redemption%CONTINUE%
 ItemDisplay[NMAG SK125>2]: %NAME% %ORANGE%+3 Salvation%CONTINUE%
-ItemDisplay[NMAG SK371>2]: %NAME% %ORANGE%+3 Holy Light%CONTINUE%
-ItemDisplay[NMAG SK364>2]: %NAME% %ORANGE%+3 Holy Nova%CONTINUE%
+ItemDisplay[NMAG SK371>2]: %NAME% %ORANGE%+3 H Light%CONTINUE%
+ItemDisplay[NMAG SK364>2]: %NAME% %ORANGE%+3 H Nova%CONTINUE%
 
 ItemDisplay[NMAG SK126>2]: %NAME% %ORANGE%+3 Bash%CONTINUE%
-ItemDisplay[NMAG SK128>2]: %NAME% %ORANGE%+3 General Mastery%CONTINUE%
+ItemDisplay[NMAG SK128>2]: %NAME% %ORANGE%+3 Gen Mast%CONTINUE%
 ItemDisplay[NMAG SK130>2]: %NAME% %ORANGE%+3 Howl%CONTINUE%
-ItemDisplay[NMAG SK131>2]: %NAME% %ORANGE%+3 Find Potion%CONTINUE%
+ItemDisplay[NMAG SK131>2]: %NAME% %ORANGE%+3 Find Pot%CONTINUE%
 ItemDisplay[NMAG SK132>2]: %NAME% %ORANGE%+3 Leap%CONTINUE%
-ItemDisplay[NMAG SK133>2]: %NAME% %ORANGE%+3 Double Swing%CONTINUE%
-ItemDisplay[NMAG SK135>2]: %NAME% %ORANGE%+3 Throwing Mastery%CONTINUE%
-ItemDisplay[NMAG SK136>2]: %NAME% %ORANGE%+3 Pole/Spear Mastery%CONTINUE%
+ItemDisplay[NMAG SK133>2]: %NAME% %ORANGE%+3 D Swing%CONTINUE%
+ItemDisplay[NMAG SK135>2]: %NAME% %ORANGE%+3 Throw Mast%CONTINUE%
+ItemDisplay[NMAG SK136>2]: %NAME% %ORANGE%+3 Pole/Spear Mast%CONTINUE%
 ItemDisplay[NMAG SK137>2]: %NAME% %ORANGE%+3 Taunt%CONTINUE%
 ItemDisplay[NMAG SK138>2]: %NAME% %ORANGE%+3 Shout%CONTINUE%
 ItemDisplay[NMAG SK139>2]: %NAME% %ORANGE%+3 Stun%CONTINUE%
-ItemDisplay[NMAG SK140>2]: %NAME% %ORANGE%+3 Double Throw%CONTINUE%
-ItemDisplay[NMAG SK141>2]: %NAME% %ORANGE%+3 Combat Reflexes%CONTINUE%
+ItemDisplay[NMAG SK140>2]: %NAME% %ORANGE%+3 D Throw%CONTINUE%
+ItemDisplay[NMAG SK141>2]: %NAME% %ORANGE%+3 C Reflexes%CONTINUE%
 ItemDisplay[NMAG SK142>2]: %NAME% %ORANGE%+3 Find Item%CONTINUE%
-ItemDisplay[NMAG SK143>2]: %NAME% %ORANGE%+3 Leap Attack%CONTINUE%
+ItemDisplay[NMAG SK143>2]: %NAME% %ORANGE%+3 L Attack%CONTINUE%
 ItemDisplay[NMAG SK144>2]: %NAME% %ORANGE%+3 Concentrate%CONTINUE%
-ItemDisplay[NMAG SK145>2]: %NAME% %ORANGE%+3 Iron Skin%CONTINUE%
-ItemDisplay[NMAG SK146>2]: %NAME% %ORANGE%+3 Battle Cry%CONTINUE%
+ItemDisplay[NMAG SK145>2]: %NAME% %ORANGE%+3 I Skin%CONTINUE%
+ItemDisplay[NMAG SK146>2]: %NAME% %ORANGE%+3 B Cry%CONTINUE%
 ItemDisplay[NMAG SK147>2]: %NAME% %ORANGE%+3 Frenzy%CONTINUE%
-ItemDisplay[NMAG SK148>2]: %NAME% %ORANGE%+3 Increased Speed%CONTINUE%
-ItemDisplay[NMAG SK149>2]: %NAME% %ORANGE%+3 Battle Orders%CONTINUE%
+ItemDisplay[NMAG SK148>2]: %NAME% %ORANGE%+3 Inc Speed%CONTINUE%
+ItemDisplay[NMAG SK149>2]: %NAME% %ORANGE%+3 B Orders%CONTINUE%
 ItemDisplay[NMAG SK150>2]: %NAME% %ORANGE%+3 Grim Ward%CONTINUE%
 ItemDisplay[NMAG SK151>2]: %NAME% %ORANGE%+3 Whirlwind%CONTINUE%
 ItemDisplay[NMAG SK152>2]: %NAME% %ORANGE%+3 Berserk%CONTINUE%
-ItemDisplay[NMAG SK153>2]: %NAME% %ORANGE%+3 Natural Resistance%CONTINUE%
-ItemDisplay[NMAG SK154>2]: %NAME% %ORANGE%+3 War Cry%CONTINUE%
-ItemDisplay[NMAG SK155>2]: %NAME% %ORANGE%+3 Battle Command%CONTINUE%
+ItemDisplay[NMAG SK153>2]: %NAME% %ORANGE%+3 Natural Res%CONTINUE%
+ItemDisplay[NMAG SK154>2]: %NAME% %ORANGE%+3 W Cry%CONTINUE%
+ItemDisplay[NMAG SK155>2]: %NAME% %ORANGE%+3 B Command%CONTINUE%
 
 ItemDisplay[NMAG SK221>2]: %NAME% %ORANGE%+3 Raven%CONTINUE%
-ItemDisplay[NMAG SK222>2]: %NAME% %ORANGE%+3 Poison Creeper%CONTINUE%
+ItemDisplay[NMAG SK222>2]: %NAME% %ORANGE%+3 P Creeper%CONTINUE%
 ItemDisplay[NMAG SK223>2]: %NAME% %ORANGE%+3 Werewolf%CONTINUE%
-ItemDisplay[NMAG SK224>2]: %NAME% %ORANGE%+3 Lycanthropy%CONTINUE%
+ItemDisplay[NMAG SK224>2]: %NAME% %ORANGE%+3 Lycan%CONTINUE%
 ItemDisplay[NMAG SK225>2]: %NAME% %ORANGE%+3 Firestorm%CONTINUE%
 ItemDisplay[NMAG SK226>2]: %NAME% %ORANGE%+3 Oak Sage%CONTINUE%
 ItemDisplay[NMAG SK227>2]: %NAME% %ORANGE%+3 Spirit Wolf%CONTINUE%
 ItemDisplay[NMAG SK228>2]: %NAME% %ORANGE%+3 Werebear%CONTINUE%
-ItemDisplay[NMAG SK229>2]: %NAME% %ORANGE%+3 Molten Boulder%CONTINUE%
-ItemDisplay[NMAG SK230>2]: %NAME% %ORANGE%+3 Arctic Blast%CONTINUE%
-ItemDisplay[NMAG SK231>2]: %NAME% %ORANGE%+3 Carrion Vine%CONTINUE%
+ItemDisplay[NMAG SK229>2]: %NAME% %ORANGE%+3 M Boulder%CONTINUE%
+ItemDisplay[NMAG SK230>2]: %NAME% %ORANGE%+3 A Blast%CONTINUE%
+ItemDisplay[NMAG SK231>2]: %NAME% %ORANGE%+3 Carrion%CONTINUE%
 ItemDisplay[NMAG SK232>2]: %NAME% %ORANGE%+3 Feral Rage%CONTINUE%
 ItemDisplay[NMAG SK233>2]: %NAME% %ORANGE%+3 Maul%CONTINUE%
 ItemDisplay[NMAG SK234>2]: %NAME% %ORANGE%+3 Fissure%CONTINUE%
-ItemDisplay[NMAG SK235>2]: %NAME% %ORANGE%+3 Cyclone Armor%CONTINUE%
-ItemDisplay[NMAG SK236>2]: %NAME% %ORANGE%+3 Heart of Wolverine%CONTINUE%
+ItemDisplay[NMAG SK235>2]: %NAME% %ORANGE%+3 Cyc Armor%CONTINUE%
+ItemDisplay[NMAG SK236>2]: %NAME% %ORANGE%+3 H of Wolverine%CONTINUE%
 ItemDisplay[NMAG SK237>2]: %NAME% %ORANGE%+3 Dire Wolf%CONTINUE%
 ItemDisplay[NMAG SK238>2]: %NAME% %ORANGE%+3 Rabies%CONTINUE%
-ItemDisplay[NMAG SK239>2]: %NAME% %ORANGE%+3 Fire Claws%CONTINUE%
+ItemDisplay[NMAG SK239>2]: %NAME% %ORANGE%+3 F Claws%CONTINUE%
 ItemDisplay[NMAG SK240>2]: %NAME% %ORANGE%+3 Twister%CONTINUE%
-ItemDisplay[NMAG SK241>2]: %NAME% %ORANGE%+3 Solar Creeper%CONTINUE%
+ItemDisplay[NMAG SK241>2]: %NAME% %ORANGE%+3 S Creeper%CONTINUE%
 ItemDisplay[NMAG SK242>2]: %NAME% %ORANGE%+3 Hunger%CONTINUE%
-ItemDisplay[NMAG SK243>2]: %NAME% %ORANGE%+3 Shock Wave%CONTINUE%
+ItemDisplay[NMAG SK243>2]: %NAME% %ORANGE%+3 S Wave%CONTINUE%
 ItemDisplay[NMAG SK244>2]: %NAME% %ORANGE%+3 Volcano%CONTINUE%
 ItemDisplay[NMAG SK245>2]: %NAME% %ORANGE%+3 Tornado%CONTINUE%
-ItemDisplay[NMAG SK246>2]: %NAME% %ORANGE%+3 Spirit of Barbs%CONTINUE%
+ItemDisplay[NMAG SK246>2]: %NAME% %ORANGE%+3 S of Barbs%CONTINUE%
 ItemDisplay[NMAG SK247>2]: %NAME% %ORANGE%+3 Grizzly%CONTINUE%
 ItemDisplay[NMAG SK248>2]: %NAME% %ORANGE%+3 Fury%CONTINUE%
 ItemDisplay[NMAG SK249>2]: %NAME% %ORANGE%+3 Armageddon%CONTINUE%
 ItemDisplay[NMAG SK250>2]: %NAME% %ORANGE%+3 Hurricane%CONTINUE%
 
-ItemDisplay[NMAG SK251>2]: %NAME% %ORANGE%+3 Fire Blast%CONTINUE%
-ItemDisplay[NMAG SK252>2]: %NAME% %ORANGE%+3 Claw Mastery%CONTINUE%
-ItemDisplay[NMAG SK253>2]: %NAME% %ORANGE%+3 Psychic Hammer%CONTINUE%
-ItemDisplay[NMAG SK254>2]: %NAME% %ORANGE%+3 Tiger Strike%CONTINUE%
-ItemDisplay[NMAG SK255>2]: %NAME% %ORANGE%+3 Dragon Talon%CONTINUE%
-ItemDisplay[NMAG SK256>2]: %NAME% %ORANGE%+3 Shock Web%CONTINUE%
-ItemDisplay[NMAG SK257>2]: %NAME% %ORANGE%+3 Blade Sentinel%CONTINUE%
-ItemDisplay[NMAG SK258>2]: %NAME% %ORANGE%+3 Burst of Speed%CONTINUE%
+ItemDisplay[NMAG SK251>2]: %NAME% %ORANGE%+3 F Blast%CONTINUE%
+ItemDisplay[NMAG SK252>2]: %NAME% %ORANGE%+3 C Mastery%CONTINUE%
+ItemDisplay[NMAG SK253>2]: %NAME% %ORANGE%+3 P Hammer%CONTINUE%
+ItemDisplay[NMAG SK254>2]: %NAME% %ORANGE%+3 T Strike%CONTINUE%
+ItemDisplay[NMAG SK255>2]: %NAME% %ORANGE%+3 D Talon%CONTINUE%
+ItemDisplay[NMAG SK256>2]: %NAME% %ORANGE%+3 S Web%CONTINUE%
+ItemDisplay[NMAG SK257>2]: %NAME% %ORANGE%+3 B Sentinel%CONTINUE%
+ItemDisplay[NMAG SK258>2]: %NAME% %ORANGE%+3 BoS%CONTINUE%
 ItemDisplay[NMAG SK259>2]: %NAME% %ORANGE%+3 Fists of Fire%CONTINUE%
-ItemDisplay[NMAG SK260>2]: %NAME% %ORANGE%+3 Dragon Claw%CONTINUE%
-ItemDisplay[NMAG SK261>2]: %NAME% %ORANGE%+3 Charged Bolt Sentry%CONTINUE%
+ItemDisplay[NMAG SK260>2]: %NAME% %ORANGE%+3 D Claw%CONTINUE%
+ItemDisplay[NMAG SK261>2]: %NAME% %ORANGE%+3 Ch Bolt Sentry%CONTINUE%
 ItemDisplay[NMAG SK262>2]: %NAME% %ORANGE%+3 Wake of Fire%CONTINUE%
-ItemDisplay[NMAG SK263>2]: %NAME% %ORANGE%+3 Weapon Block%CONTINUE%
-ItemDisplay[NMAG SK264>2]: %NAME% %ORANGE%+3 Cloak of Shadows%CONTINUE%
-ItemDisplay[NMAG SK265>2]: %NAME% %ORANGE%+3 Cobra Strike%CONTINUE%
-ItemDisplay[NMAG SK266>2]: %NAME% %ORANGE%+3 Blade Fury%CONTINUE%
+ItemDisplay[NMAG SK263>2]: %NAME% %ORANGE%+3 W Block%CONTINUE%
+ItemDisplay[NMAG SK264>2]: %NAME% %ORANGE%+3 CoS%CONTINUE%
+ItemDisplay[NMAG SK265>2]: %NAME% %ORANGE%+3 C Strike%CONTINUE%
+ItemDisplay[NMAG SK266>2]: %NAME% %ORANGE%+3 B Fury%CONTINUE%
 ItemDisplay[NMAG SK267>2]: %NAME% %ORANGE%+3 Fade%CONTINUE%
-ItemDisplay[NMAG SK268>2]: %NAME% %ORANGE%+3 Shadow Warrior%CONTINUE%
-ItemDisplay[NMAG SK269>2]: %NAME% %ORANGE%+3 Claws of Thunder%CONTINUE%
-ItemDisplay[NMAG SK270>2]: %NAME% %ORANGE%+3 Dragon Tail%CONTINUE%
-ItemDisplay[NMAG SK271>2]: %NAME% %ORANGE%+3 Chain Lightning Sentry%CONTINUE%
+ItemDisplay[NMAG SK268>2]: %NAME% %ORANGE%+3 S War%CONTINUE%
+ItemDisplay[NMAG SK269>2]: %NAME% %ORANGE%+3 C of Thunder%CONTINUE%
+ItemDisplay[NMAG SK270>2]: %NAME% %ORANGE%+3 D Tail%CONTINUE%
+ItemDisplay[NMAG SK271>2]: %NAME% %ORANGE%+3 Chain Light Sentry%CONTINUE%
 ItemDisplay[NMAG SK272>2]: %NAME% %ORANGE%+3 Wake of Inferno%CONTINUE%
-ItemDisplay[NMAG SK273>2]: %NAME% %ORANGE%+3 Mind Blast%CONTINUE%
-ItemDisplay[NMAG SK274>2]: %NAME% %ORANGE%+3 Blades of Ice%CONTINUE%
-ItemDisplay[NMAG SK275>2]: %NAME% %ORANGE%+3 Dragon Flight%CONTINUE%
-ItemDisplay[NMAG SK276>2]: %NAME% %ORANGE%+3 Death Sentry%CONTINUE%
-ItemDisplay[NMAG SK277>2]: %NAME% %ORANGE%+3 Blade Shield%CONTINUE%
+ItemDisplay[NMAG SK273>2]: %NAME% %ORANGE%+3 M Blast%CONTINUE%
+ItemDisplay[NMAG SK274>2]: %NAME% %ORANGE%+3 B of Ice%CONTINUE%
+ItemDisplay[NMAG SK275>2]: %NAME% %ORANGE%+3 D Flight%CONTINUE%
+ItemDisplay[NMAG SK276>2]: %NAME% %ORANGE%+3 D Sentry%CONTINUE%
+ItemDisplay[NMAG SK277>2]: %NAME% %ORANGE%+3 B Shield%CONTINUE%
 ItemDisplay[NMAG SK278>2]: %NAME% %ORANGE%+3 Venom%CONTINUE%
-ItemDisplay[NMAG SK279>2]: %NAME% %ORANGE%+3 Shadow Master%CONTINUE%
-ItemDisplay[NMAG SK280>2]: %NAME% %ORANGE%+3 Phoenix Strike%CONTINUE%
+ItemDisplay[NMAG SK279>2]: %NAME% %ORANGE%+3 S Master%CONTINUE%
+ItemDisplay[NMAG SK280>2]: %NAME% %ORANGE%+3 P Strike%CONTINUE%
 
 //############################################################################################
 //- NON-MAGICS ----------- NON-MAGICS ----------- NON-MAGICS ----------- NON-MAGICS ----------
@@ -1823,28 +2235,28 @@ ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr)
 ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK270>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Dragon Tail, 0s
 ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK275>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Dragon Flight, 0s
 
-ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK258>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Burst of Speed, 0s
-ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK267>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Multi-claw, +3 Fade, 0s
-ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK278>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Multi-claw, +3 Venom, 0s
-ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK252>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Claw Mastery, 0s
-ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK263>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Weapon Block, 0s
-ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK268>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Shadow Warrior, 0s
-ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK279>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Shadow Master, 0s
-ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK253>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Multi-claw, +3 Psychic Hammer, 0s
-ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK264>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Cloak of Shadows, 0s
-ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK273>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Multi-claw, +3 Mind Blast, 0s
+ItemDisplay[NMAG !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK258>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Burst of Speed, 0s
+ItemDisplay[NMAG !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK267>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Multi-claw, +3 Fade, 0s
+ItemDisplay[NMAG !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK278>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Multi-claw, +3 Venom, 0s
+ItemDisplay[NMAG !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK252>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Claw Mastery, 0s
+ItemDisplay[NMAG !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK263>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Weapon Block, 0s
+ItemDisplay[NMAG !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK268>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Shadow Warrior, 0s
+ItemDisplay[NMAG !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK279>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Shadow Master, 0s
+ItemDisplay[NMAG !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK253>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Multi-claw, +3 Psychic Hammer, 0s
+ItemDisplay[NMAG !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK264>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Cloak of Shadows, 0s
+ItemDisplay[NMAG !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK273>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Multi-claw, +3 Mind Blast, 0s
 
-ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK256>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Multi-claw, +3 Shock Web, 0s
-ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK261>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Charged Bolt Sentry, 0s
-ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK366>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Multi-claw, +3 Lightning Sentry, 0s
-ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK271>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Multi-claw, +3 Chain Lightning Sentry, 0s
-ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK251>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Multi-claw, +3 Fire Blast, 0s
-ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK262>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Multi-claw, +3 Wake of Fire, 0s
-ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK272>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Multi-claw, +3 Wake of Inferno, 0s
-ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK276>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Multi-claw, +3 Death Sentry, 0s
-ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK257>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Blade Sentinel, 0s
-ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK266>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Multi-claw, +3 Blade Fury, 0s
-ItemDisplay[NMAG !INF !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK277>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Blade Shield, 0s
+ItemDisplay[NMAG !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK256>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Multi-claw, +3 Shock Web, 0s
+ItemDisplay[NMAG !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK261>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Charged Bolt Sentry, 0s
+ItemDisplay[NMAG !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK366>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Multi-claw, +3 Lightning Sentry, 0s
+ItemDisplay[NMAG !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK271>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Multi-claw, +3 Chain Lightning Sentry, 0s
+ItemDisplay[NMAG !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK251>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Multi-claw, +3 Fire Blast, 0s
+ItemDisplay[NMAG !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK262>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Multi-claw, +3 Wake of Fire, 0s
+ItemDisplay[NMAG !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK272>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Multi-claw, +3 Wake of Inferno, 0s
+ItemDisplay[NMAG !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK276>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Multi-claw, +3 Death Sentry, 0s
+ItemDisplay[NMAG !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK257>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Blade Sentinel, 0s
+ItemDisplay[NMAG !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK266>2]: %NAME%{%TAN%Chaos/Fury/Plague}%MAP-20%%PX-00%// Multi-claw, +3 Blade Fury, 0s
+ItemDisplay[NMAG !RW SOCK=0 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK277>2]: %NAME%{%TAN%Chaos/Fury/Plague}//%MAP-20%%PX-00%// Multi-claw, +3 Blade Shield, 0s
 
 // Three sockets
 ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK259>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Fists of Fire, 3s
@@ -1858,28 +2270,28 @@ ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr)
 ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK270>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Dragon Tail, 3s
 ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK275>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Dragon Flight, 3s
 
-ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK258>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Burst of Speed, 3s
-ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK267>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Multi-claw, +3 Fade, 3s
-ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK278>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Multi-claw, +3 Venom, 3s
-ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK252>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Claw Mastery, 3s
-ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK263>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Weapon Block, 3s
-ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK268>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Shadow Warrior, 3s
-ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK279>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Shadow Master, 3s
-ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK253>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Multi-claw, +3 Psychic Hammer, 3s
-ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK264>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Cloak of Shadows, 3s
-ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK273>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Multi-claw, +3 Mind Blast, 3s
+ItemDisplay[NMAG !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK258>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Burst of Speed, 3s
+ItemDisplay[NMAG !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK267>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Multi-claw, +3 Fade, 3s
+ItemDisplay[NMAG !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK278>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Multi-claw, +3 Venom, 3s
+ItemDisplay[NMAG !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK252>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Claw Mastery, 3s
+ItemDisplay[NMAG !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK263>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Weapon Block, 3s
+ItemDisplay[NMAG !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK268>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Shadow Warrior, 3s
+ItemDisplay[NMAG !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK279>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Shadow Master, 3s
+ItemDisplay[NMAG !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK253>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Multi-claw, +3 Psychic Hammer, 3s
+ItemDisplay[NMAG !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK264>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Cloak of Shadows, 3s
+ItemDisplay[NMAG !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK273>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Multi-claw, +3 Mind Blast, 3s
 
-ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK256>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Multi-claw, +3 Shock Web, 3s
-ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK261>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Charged Bolt Sentry, 3s
-ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK366>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Multi-claw, +3 Lightning Sentry, 3s
-ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK271>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Multi-claw, +3 Chain Lightning Sentry, 3s
-ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK251>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Multi-claw, +3 Fire Blast, 3s
-ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK262>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Multi-claw, +3 Wake of Fire, 3s
-ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK272>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Multi-claw, +3 Wake of Inferno, 3s
-ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK276>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Multi-claw, +3 Death Sentry, 3s
-ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK257>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Blade Sentinel, 3s
-ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK266>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Multi-claw, +3 Blade Fury, 3s
-ItemDisplay[NMAG !INF !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK277>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Blade Shield, 3s
+ItemDisplay[NMAG !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK256>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Multi-claw, +3 Shock Web, 3s
+ItemDisplay[NMAG !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK261>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Charged Bolt Sentry, 3s
+ItemDisplay[NMAG !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK366>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Multi-claw, +3 Lightning Sentry, 3s
+ItemDisplay[NMAG !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK271>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Multi-claw, +3 Chain Lightning Sentry, 3s
+ItemDisplay[NMAG !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK251>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Multi-claw, +3 Fire Blast, 3s
+ItemDisplay[NMAG !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK262>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Multi-claw, +3 Wake of Fire, 3s
+ItemDisplay[NMAG !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK272>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Multi-claw, +3 Wake of Inferno, 3s
+ItemDisplay[NMAG !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK276>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Multi-claw, +3 Death Sentry, 3s
+ItemDisplay[NMAG !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK257>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Blade Sentinel, 3s
+ItemDisplay[NMAG !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK266>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}%MAP-1E%%PX-00%// Multi-claw, +3 Blade Fury, 3s
+ItemDisplay[NMAG !RW SOCK=3 (9lw OR 9tw OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK277>2]: %GRAY%%NAME%{%TAN%Chaos/Fury/Plague}//%MAP-1E%%PX-00%// Multi-claw, +3 Blade Shield, 3s
 
 //- BARBARIAN -------------------------
 // No sockets
@@ -1931,55 +2343,55 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=3 DRU SK221>2]: %GRAY%%NAME%{%TAN%Radiance/D
 //- NECROMANCER -----------------------
 //- Summoning
 // No sockets
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 NEC SK94>2]: %NAME%{%TAN%Rhyme/Splendor}//%MAP-20%%PX-00%// All necromancer heads, non-magic, +3 Fire Golem
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 NEC SK75>2]: %NAME%{%TAN%Rhyme/Splendor}//%MAP-20%%PX-00%// All necromancer heads, non-magic, +3 Clay Golem
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 NEC SK70>2]: %NAME%{%TAN%Rhyme/Splendor}//%MAP-20%%PX-00%// All necromancer heads, non-magic, +3 Raise Skeleton Warrior
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 NEC SK69>2]: %NAME%{%TAN%Rhyme/Splendor}//%MAP-20%%PX-00%// All necromancer heads, non-magic, +3 Skeleton Mastery
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 NEC SK80>2]: %NAME%{%TAN%Rhyme/Splendor}//%MAP-20%%PX-00%// All necromancer heads, non-magic, +3 Raise Skeletal Mage
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 NEC SK367>2]: %NAME%{%TAN%Rhyme/Splendor}//%MAP-20%%PX-00%// All necromancer heads, non-magic, +3 Blood Warp
+ItemDisplay[NMAG !RW !ETH SOCK=0 NEC SK94>2]: %NAME%{%TAN%Rhyme/Splendor}//%MAP-20%%PX-00%// All necromancer heads, non-magic, +3 Fire Golem
+ItemDisplay[NMAG !RW !ETH SOCK=0 NEC SK75>2]: %NAME%{%TAN%Rhyme/Splendor}//%MAP-20%%PX-00%// All necromancer heads, non-magic, +3 Clay Golem
+ItemDisplay[NMAG !RW !ETH SOCK=0 NEC SK70>2]: %NAME%{%TAN%Rhyme/Splendor}//%MAP-20%%PX-00%// All necromancer heads, non-magic, +3 Raise Skeleton Warrior
+ItemDisplay[NMAG !RW !ETH SOCK=0 NEC SK69>2]: %NAME%{%TAN%Rhyme/Splendor}//%MAP-20%%PX-00%// All necromancer heads, non-magic, +3 Skeleton Mastery
+ItemDisplay[NMAG !RW !ETH SOCK=0 NEC SK80>2]: %NAME%{%TAN%Rhyme/Splendor}//%MAP-20%%PX-00%// All necromancer heads, non-magic, +3 Raise Skeletal Mage
+ItemDisplay[NMAG !RW !ETH SOCK=0 NEC SK367>2]: %NAME%{%TAN%Rhyme/Splendor}//%MAP-20%%PX-00%// All necromancer heads, non-magic, +3 Blood Warp
 
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 NEC SK67>2]: %NAME% {%TAN%Rhyme/Splendor}//%MAP-20%%PX-00%// All necromancer heads, non-magic, +3 Teeth
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 NEC SK84>2]: %NAME% {%TAN%Rhyme/Splendor}//%MAP-20%%PX-00%// All necromancer heads, non-magic, +3 Bone Spear
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 NEC SK93>2]: %NAME%{%TAN%Rhyme/Splendor}//%MAP-20%%PX-00%// All necromancer heads, non-magic, +3 Bone Spirit
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 NEC SK74>2]: %NAME%{%TAN%Rhyme/Splendor}//%MAP-20%%PX-00%// All necromancer heads, non-magic, +3 CE
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 NEC SK92>2]: %NAME%{%TAN%Rhyme/Splendor}//%MAP-20%%PX-00%// All necromancer heads, non-magic, +3 Poison Nova
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 NEC SK73>2]: %NAME%{%TAN%Rhyme/Splendor}//%MAP-20%%PX-00%// All necromancer heads, non-magic, +3 Poison Dagger
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 NEC SK83>2]: %NAME%{%TAN%Rhyme/Splendor}//%MAP-20%%PX-00%// All necromancer heads, non-magic, +3 Desecrate
+ItemDisplay[NMAG !RW !ETH SOCK=0 NEC SK67>2]: %NAME% {%TAN%Rhyme/Splendor}//%MAP-20%%PX-00%// All necromancer heads, non-magic, +3 Teeth
+ItemDisplay[NMAG !RW !ETH SOCK=0 NEC SK84>2]: %NAME% {%TAN%Rhyme/Splendor}//%MAP-20%%PX-00%// All necromancer heads, non-magic, +3 Bone Spear
+ItemDisplay[NMAG !RW !ETH SOCK=0 NEC SK93>2]: %NAME%{%TAN%Rhyme/Splendor}//%MAP-20%%PX-00%// All necromancer heads, non-magic, +3 Bone Spirit
+ItemDisplay[NMAG !RW !ETH SOCK=0 NEC SK74>2]: %NAME%{%TAN%Rhyme/Splendor}//%MAP-20%%PX-00%// All necromancer heads, non-magic, +3 CE
+ItemDisplay[NMAG !RW !ETH SOCK=0 NEC SK92>2]: %NAME%{%TAN%Rhyme/Splendor}//%MAP-20%%PX-00%// All necromancer heads, non-magic, +3 Poison Nova
+ItemDisplay[NMAG !RW !ETH SOCK=0 NEC SK73>2]: %NAME%{%TAN%Rhyme/Splendor}//%MAP-20%%PX-00%// All necromancer heads, non-magic, +3 Poison Dagger
+ItemDisplay[NMAG !RW !ETH SOCK=0 NEC SK83>2]: %NAME%{%TAN%Rhyme/Splendor}//%MAP-20%%PX-00%// All necromancer heads, non-magic, +3 Desecrate
 
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 NEC SK381>2]: %NAME%{%TAN%Rhyme/Splendor}//%MAP-20%%PX-00%// All necromancer heads, non-magic, +3 Dark Pact
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 NEC SK66>2]: %NAME%{%TAN%Rhyme/Splendor}//%MAP-20%%PX-00%// All necromancer heads, non-magic, +3 Amplify
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 NEC SK91>2]: %NAME%{%TAN%Rhyme/Splendor}//%MAP-20%%PX-00%// All necromancer heads, non-magic, +3 Lower Resist
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 NEC SK87>2]: %NAME%{%TAN%Rhyme/Splendor}//%MAP-20%%PX-00%// All necromancer heads, non-magic, +3 Decrepify
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 NEC SK86>2]: %NAME%{%TAN%Rhyme/Splendor}//%MAP-20%%PX-00%// All necromancer heads, non-magic, +3 Attract
+ItemDisplay[NMAG !RW !ETH SOCK=0 NEC SK381>2]: %NAME%{%TAN%Rhyme/Splendor}//%MAP-20%%PX-00%// All necromancer heads, non-magic, +3 Dark Pact
+ItemDisplay[NMAG !RW !ETH SOCK=0 NEC SK66>2]: %NAME%{%TAN%Rhyme/Splendor}//%MAP-20%%PX-00%// All necromancer heads, non-magic, +3 Amplify
+ItemDisplay[NMAG !RW !ETH SOCK=0 NEC SK91>2]: %NAME%{%TAN%Rhyme/Splendor}//%MAP-20%%PX-00%// All necromancer heads, non-magic, +3 Lower Resist
+ItemDisplay[NMAG !RW !ETH SOCK=0 NEC SK87>2]: %NAME%{%TAN%Rhyme/Splendor}//%MAP-20%%PX-00%// All necromancer heads, non-magic, +3 Decrepify
+ItemDisplay[NMAG !RW !ETH SOCK=0 NEC SK86>2]: %NAME%{%TAN%Rhyme/Splendor}//%MAP-20%%PX-00%// All necromancer heads, non-magic, +3 Attract
 
 
 // Two sockets
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 NEC SK94>2]: %GRAY%%NAME%{%TAN%Rhyme/Splendor}%MAP-1E%%PX-00%// All necromancer heads, non-magic, +3 Fire Golem
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 NEC SK75>2]: %GRAY%%NAME%{%TAN%Rhyme/Splendor}%MAP-1E%%PX-00%// All necromancer heads, non-magic, +3 Clay Golem
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 NEC SK70>2]: %GRAY%%NAME%{%TAN%Rhyme/Splendor}%MAP-1E%%PX-00%// All necromancer heads, non-magic, +3 Raise Skeleton Warrior
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 NEC SK69>2]: %GRAY%%NAME%{%TAN%Rhyme/Splendor}%MAP-1E%%PX-00%// All necromancer heads, non-magic, +3 Skeleton Mastery
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 NEC SK80>2]: %GRAY%%NAME%{%TAN%Rhyme/Splendor}//%MAP-1E%%PX-00%// All necromancer heads, non-magic, +3 Raise Skeletal Mage
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 NEC SK367>2]: %GRAY%%NAME%{%TAN%Rhyme/Splendor}%MAP-1E%%PX-00%// All necromancer heads, non-magic, +3 Blood Warp
+ItemDisplay[NMAG !RW !ETH SOCK=2 NEC SK94>2]: %GRAY%%NAME%{%TAN%Rhyme/Splendor}%MAP-1E%%PX-00%// All necromancer heads, non-magic, +3 Fire Golem
+ItemDisplay[NMAG !RW !ETH SOCK=2 NEC SK75>2]: %GRAY%%NAME%{%TAN%Rhyme/Splendor}%MAP-1E%%PX-00%// All necromancer heads, non-magic, +3 Clay Golem
+ItemDisplay[NMAG !RW !ETH SOCK=2 NEC SK70>2]: %GRAY%%NAME%{%TAN%Rhyme/Splendor}%MAP-1E%%PX-00%// All necromancer heads, non-magic, +3 Raise Skeleton Warrior
+ItemDisplay[NMAG !RW !ETH SOCK=2 NEC SK69>2]: %GRAY%%NAME%{%TAN%Rhyme/Splendor}%MAP-1E%%PX-00%// All necromancer heads, non-magic, +3 Skeleton Mastery
+ItemDisplay[NMAG !RW !ETH SOCK=2 NEC SK80>2]: %GRAY%%NAME%{%TAN%Rhyme/Splendor}//%MAP-1E%%PX-00%// All necromancer heads, non-magic, +3 Raise Skeletal Mage
+ItemDisplay[NMAG !RW !ETH SOCK=2 NEC SK367>2]: %GRAY%%NAME%{%TAN%Rhyme/Splendor}%MAP-1E%%PX-00%// All necromancer heads, non-magic, +3 Blood Warp
 
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 NEC SK67>2]: %GRAY%%NAME%{%TAN%Rhyme/Splendor}%MAP-1E%%PX-00%// All necromancer heads, non-magic, +3 Teeth
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 NEC SK84>2]: %GRAY%%NAME%{%TAN%Rhyme/Splendor}%MAP-1E%%PX-00%// All necromancer heads, non-magic, +3 Bone Spear
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 NEC SK93>2]: %GRAY%%NAME%{%TAN%Rhyme/Splendor}%MAP-1E%%PX-00%// All necromancer heads, non-magic, +3 Bone Spirit
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 NEC SK74>2]: %GRAY%%NAME%{%TAN%Rhyme/Splendor}%MAP-1E%%PX-00%// All necromancer heads, non-magic, +3 CE
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 NEC SK92>2]: %GRAY%%NAME%{%TAN%Rhyme/Splendor}%MAP-1E%%PX-00%// All necromancer heads, non-magic, +3 Poison Nova
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 NEC SK73>2]: %GRAY%%NAME%{%TAN%Rhyme/Splendor}//%MAP-1E%%PX-00%// All necromancer heads, non-magic, +3 Poison Dagger
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 NEC SK83>2]: %GRAY%%NAME%{%TAN%Rhyme/Splendor}%MAP-1E%%PX-00%// All necromancer heads, non-magic, +3 Desecrate
+ItemDisplay[NMAG !RW !ETH SOCK=2 NEC SK67>2]: %GRAY%%NAME%{%TAN%Rhyme/Splendor}%MAP-1E%%PX-00%// All necromancer heads, non-magic, +3 Teeth
+ItemDisplay[NMAG !RW !ETH SOCK=2 NEC SK84>2]: %GRAY%%NAME%{%TAN%Rhyme/Splendor}%MAP-1E%%PX-00%// All necromancer heads, non-magic, +3 Bone Spear
+ItemDisplay[NMAG !RW !ETH SOCK=2 NEC SK93>2]: %GRAY%%NAME%{%TAN%Rhyme/Splendor}%MAP-1E%%PX-00%// All necromancer heads, non-magic, +3 Bone Spirit
+ItemDisplay[NMAG !RW !ETH SOCK=2 NEC SK74>2]: %GRAY%%NAME%{%TAN%Rhyme/Splendor}%MAP-1E%%PX-00%// All necromancer heads, non-magic, +3 CE
+ItemDisplay[NMAG !RW !ETH SOCK=2 NEC SK92>2]: %GRAY%%NAME%{%TAN%Rhyme/Splendor}%MAP-1E%%PX-00%// All necromancer heads, non-magic, +3 Poison Nova
+ItemDisplay[NMAG !RW !ETH SOCK=2 NEC SK73>2]: %GRAY%%NAME%{%TAN%Rhyme/Splendor}//%MAP-1E%%PX-00%// All necromancer heads, non-magic, +3 Poison Dagger
+ItemDisplay[NMAG !RW !ETH SOCK=2 NEC SK83>2]: %GRAY%%NAME%{%TAN%Rhyme/Splendor}%MAP-1E%%PX-00%// All necromancer heads, non-magic, +3 Desecrate
 
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 NEC SK381>2]: %GRAY%%NAME%{%TAN%Rhyme/Splendor}//%MAP-1E%%PX-00%// All necromancer heads, non-magic, +3 Dark Pact
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 NEC SK66>2]: %GRAY%%NAME%{%TAN%Rhyme/Splendor}//%MAP-1E%%PX-00%// All necromancer heads, non-magic, +3 Amplify
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 NEC SK91>2]: %GRAY%%NAME%{%TAN%Rhyme/Splendor}//%MAP-1E%%PX-00%// All necromancer heads, non-magic, +3 Lower Resist
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 NEC SK87>2]: %GRAY%%NAME%{%TAN%Rhyme/Splendor}//%MAP-1E%%PX-00%// All necromancer heads, non-magic, +3 Decrepify
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 NEC SK86>2]: %GRAY%%NAME%{%TAN%Rhyme/Splendor}//%MAP-1E%%PX-00%// All necromancer heads, non-magic, +3 Attract
+ItemDisplay[NMAG !RW !ETH SOCK=2 NEC SK381>2]: %GRAY%%NAME%{%TAN%Rhyme/Splendor}//%MAP-1E%%PX-00%// All necromancer heads, non-magic, +3 Dark Pact
+ItemDisplay[NMAG !RW !ETH SOCK=2 NEC SK66>2]: %GRAY%%NAME%{%TAN%Rhyme/Splendor}//%MAP-1E%%PX-00%// All necromancer heads, non-magic, +3 Amplify
+ItemDisplay[NMAG !RW !ETH SOCK=2 NEC SK91>2]: %GRAY%%NAME%{%TAN%Rhyme/Splendor}//%MAP-1E%%PX-00%// All necromancer heads, non-magic, +3 Lower Resist
+ItemDisplay[NMAG !RW !ETH SOCK=2 NEC SK87>2]: %GRAY%%NAME%{%TAN%Rhyme/Splendor}//%MAP-1E%%PX-00%// All necromancer heads, non-magic, +3 Decrepify
+ItemDisplay[NMAG !RW !ETH SOCK=2 NEC SK86>2]: %GRAY%%NAME%{%TAN%Rhyme/Splendor}//%MAP-1E%%PX-00%// All necromancer heads, non-magic, +3 Attract
 
 //- PALADIN ---------------------------
 //- Resists
 //- General
 ItemDisplay[NMAG !INF !RW DIN (RES>9 AND RES<35)]: %NAME%// Continue showing paladin shields between 10 and 34 resistances, but don't notify
-ItemDisplay[NMAG !INF !RW DIN RES>34]: %NAME%
+ItemDisplay[NMAG INF !RW DIN RES>34]: %NAME%
 
 //- Sacred Targe
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 pab RES>34]: %NAME%%MAP-20%%PX-00%// Sacred Targe, resists, 0s
@@ -2105,74 +2517,74 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=4 paf ED>20]: %GRAY%%NAME%{%TAN%Exile}%MAP-1E
 //- SORCERESS ORBS --------------------
 //- Cold
 // No sockets
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK59>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Blizzard, 0s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK64>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Frozen Orb, 0s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK369>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Ice Barrage, 0s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK44>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Frost Nova, 0s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK40>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Cold Enchant, 0s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK60>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Chilling Armor, 0s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK40>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Frozen Armor, 0s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK55>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Glacial Spike, 0s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK45>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Ice Blast, 0s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK39>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Ice Bolt, 0s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK50>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Shiver Armor, 0s
+ItemDisplay[NMAG !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK59>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Blizzard, 0s
+ItemDisplay[NMAG !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK64>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Frozen Orb, 0s
+ItemDisplay[NMAG !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK369>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Ice Barrage, 0s
+ItemDisplay[NMAG !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK44>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Frost Nova, 0s
+ItemDisplay[NMAG !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK40>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Cold Enchant, 0s
+//ItemDisplay[NMAG !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK60>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Chilling Armor, 0s
+//ItemDisplay[NMAG !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK40>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Frozen Armor, 0s
+//ItemDisplay[NMAG !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK55>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Glacial Spike, 0s
+//ItemDisplay[NMAG !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK45>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Ice Blast, 0s
+//ItemDisplay[NMAG !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK39>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Ice Bolt, 0s
+//ItemDisplay[NMAG !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK50>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Shiver Armor, 0s
 
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK49>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Lightning, 0s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK48>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Nova, 0s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK58>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Energy Shield, 0s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK53>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Chain Lightning, 0s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK38>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Charged Bolt, 0s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK42>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Static Field, 0s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK43>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Telekinesis, 0s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK54>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Teleport, 0s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK57>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Thunder Storm, 0s
+ItemDisplay[NMAG !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK49>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Lightning, 0s
+ItemDisplay[NMAG !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK48>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Nova, 0s
+ItemDisplay[NMAG !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK58>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Energy Shield, 0s
+//ItemDisplay[NMAG !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK53>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Chain Lightning, 0s
+//ItemDisplay[NMAG !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK38>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Charged Bolt, 0s
+//ItemDisplay[NMAG !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK42>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Static Field, 0s
+//ItemDisplay[NMAG !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK43>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Telekinesis, 0s
+//ItemDisplay[NMAG !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK54>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Teleport, 0s
+//ItemDisplay[NMAG !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK57>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Thunder Storm, 0s
 
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK47>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Fire Ball, 0s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK56>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Meteor, 0s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK62>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Hydra, 0s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK51>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Fire Wall, 0s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK52>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Fire Enchant, 0s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK46>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Blaze, 0s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK1=1]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Combustion, 0s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK36>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Fire Bolt, 0s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK41>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Inferno, 0s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK383>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Lesser Hydra, 0s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK37>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Warmth, 0s
+ItemDisplay[NMAG !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK47>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Fire Ball, 0s
+ItemDisplay[NMAG !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK56>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Meteor, 0s
+ItemDisplay[NMAG !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK62>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Hydra, 0s
+ItemDisplay[NMAG !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK51>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Fire Wall, 0s
+ItemDisplay[NMAG !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK52>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Fire Enchant, 0s
+//ItemDisplay[NMAG !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK46>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Blaze, 0s
+//ItemDisplay[NMAG !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK1=1]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Combustion, 0s
+//ItemDisplay[NMAG !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK36>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Fire Bolt, 0s
+//ItemDisplay[NMAG !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK41>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Inferno, 0s
+//ItemDisplay[NMAG !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK383>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Lesser Hydra, 0s
+//ItemDisplay[NMAG !RW !ETH SOCK=0 (ob5 OR oba OR obf) SK37>2]: %NAME%{%TAN%Plague}%MAP-20%%PX-00%// Plague orb, +3 Warmth, 0s
 
 // Three sockets
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SOR SK59>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Blizzard, 3s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SOR SK64>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Frozen Orb, 3s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SOR SK369>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Ice Barrage, 3s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SOR SK44>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Frost Nova, 3s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SOR SK40>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Cold Enchant, 3s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SOR SK60>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Chilling Armor, 3s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SOR SK40>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Frozen Armor, 3s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SOR SK55>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Glacial Spike, 3s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SOR SK45>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Ice Blast, 3s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SOR SK39>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Ice Bolt, 3s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SOR SK50>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Shiver Armor, 3s
+ItemDisplay[NMAG !RW !ETH SOCK=3 SOR SK59>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Blizzard, 3s
+ItemDisplay[NMAG !RW !ETH SOCK=3 SOR SK64>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Frozen Orb, 3s
+ItemDisplay[NMAG !RW !ETH SOCK=3 SOR SK369>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Ice Barrage, 3s
+ItemDisplay[NMAG !RW !ETH SOCK=3 SOR SK44>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Frost Nova, 3s
+ItemDisplay[NMAG !RW !ETH SOCK=3 SOR SK40>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Cold Enchant, 3s
+//ItemDisplay[NMAG !RW !ETH SOCK=3 SOR SK60>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Chilling Armor, 3s
+//ItemDisplay[NMAG !RW !ETH SOCK=3 SOR SK40>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Frozen Armor, 3s
+//ItemDisplay[NMAG !RW !ETH SOCK=3 SOR SK55>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Glacial Spike, 3s
+//ItemDisplay[NMAG !RW !ETH SOCK=3 SOR SK45>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Ice Blast, 3s
+//ItemDisplay[NMAG !RW !ETH SOCK=3 SOR SK39>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Ice Bolt, 3s
+//ItemDisplay[NMAG !RW !ETH SOCK=3 SOR SK50>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Shiver Armor, 3s
 
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SOR SK49>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Lightning, 3s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SOR SK48>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Nova, 3s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SOR SK58>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Energy Shield, 3s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SOR SK53>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Chain Lightning, 3s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SOR SK38>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Charged Bolt, 3s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SOR SK42>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Static Field, 3s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SOR SK43>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Telekinesis, 3s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SOR SK54>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Teleport, 3s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SOR SK57>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Thunder Storm, 3s
+ItemDisplay[NMAG !RW !ETH SOCK=3 SOR SK49>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Lightning, 3s
+ItemDisplay[NMAG !RW !ETH SOCK=3 SOR SK48>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Nova, 3s
+ItemDisplay[NMAG !RW !ETH SOCK=3 SOR SK58>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Energy Shield, 3s
+//ItemDisplay[NMAG !RW !ETH SOCK=3 SOR SK53>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Chain Lightning, 3s
+//ItemDisplay[NMAG !RW !ETH SOCK=3 SOR SK38>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Charged Bolt, 3s
+//ItemDisplay[NMAG !RW !ETH SOCK=3 SOR SK42>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Static Field, 3s
+//ItemDisplay[NMAG !RW !ETH SOCK=3 SOR SK43>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Telekinesis, 3s
+//ItemDisplay[NMAG !RW !ETH SOCK=3 SOR SK54>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Teleport, 3s
+//ItemDisplay[NMAG !RW !ETH SOCK=3 SOR SK57>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Thunder Storm, 3s
 
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SOR SK47>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Fire Ball, 3s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SOR SK56>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Meteor, 3s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SOR SK62>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Hydra, 3s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SOR SK51>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Fire Wall, 3s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SOR SK52>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Fire Enchant, 3s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SOR SK46>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Blaze, 3s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SOR SK1=1]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Combustion, 3s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SOR SK36>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Fire Bolt, 3s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SOR SK41>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Inferno, 3s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SOR SK383>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Lesser Hydra, 3s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SOR SK37>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Warmth, 3s
+ItemDisplay[NMAG !RW !ETH SOCK=3 SOR SK47>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Fire Ball, 3s
+ItemDisplay[NMAG !RW !ETH SOCK=3 SOR SK56>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Meteor, 3s
+ItemDisplay[NMAG !RW !ETH SOCK=3 SOR SK62>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Hydra, 3s
+ItemDisplay[NMAG !RW !ETH SOCK=3 SOR SK51>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Fire Wall, 3s
+ItemDisplay[NMAG !RW !ETH SOCK=3 SOR SK52>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Fire Enchant, 3s
+//ItemDisplay[NMAG !RW !ETH SOCK=3 SOR SK46>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Blaze, 3s
+//ItemDisplay[NMAG !RW !ETH SOCK=3 SOR SK1=1]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Combustion, 3s
+//ItemDisplay[NMAG !RW !ETH SOCK=3 SOR SK36>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Fire Bolt, 3s
+//ItemDisplay[NMAG !RW !ETH SOCK=3 SOR SK41>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Inferno, 3s
+//ItemDisplay[NMAG !RW !ETH SOCK=3 SOR SK383>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Lesser Hydra, 3s
+//ItemDisplay[NMAG !RW !ETH SOCK=3 SOR SK37>2]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Plague orb, +3 Warmth, 3s
 
 //- HELMS -----------------------------
 //- Shako
@@ -2668,7 +3080,6 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=4 uar DEF>0]: %GRAY%%NAME%%MAP-1E%%PX-00%// S
 ItemDisplay[NMAG SUP !RW ETH SOCK=4 uar ED>0]: %GRAY%%NAME%%MAP-1E%%PX-00%// Sacred Armor, superior, eth, 4s
 
 //- SHIELDS ---------------------------
-
 //- Grim Shield
 ItemDisplay[NMAG !INF !RW !ETH SOCK=2 xsh]: %GRAY%%NAME% %ORANGE%(Rhyme/Splendor)%MAP-1E%%PX-00%// Grim Shield, non-magic, 2s
 
@@ -3023,43 +3434,43 @@ ItemDisplay[NMAG SUP !RW ETH SOCK=4 7vo ED>0]: %GRAY%%NAME% %ORANGE%(Infinity/In
 //- SCEPTERS --------------------------
 //- War Scepter
 // No sockets
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 SK364>2 SCEPTER]: %NAME%//%MAP-20%%PX-00%// Scepter, non-magic, 0s, +3 Holy Nova
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 SK371>2 SCEPTER]: %NAME%//%MAP-20%%PX-00%// Scepter, non-magic, 0s, +3 Holy Light
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 SK101>2 SCEPTER]: %NAME%//%MAP-20%%PX-00%// Scepter, non-magic, 0s, +3 Holy Bolt
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 SK112>2 SCEPTER]: %NAME%//%MAP-20%%PX-00%// Scepter, non-magic, 0s, +3 Blessed Hammer
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 SK121>2 SCEPTER]: %NAME%//%MAP-20%%PX-00%// Scepter, non-magic, 0s, +3 Fist of the Heavens
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 SK117>2 SCEPTER]: %NAME%//%MAP-20%%PX-00%// Scepter, non-magic, 0s, +3 Holy Shield
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 SK123>2 SCEPTER]: %NAME%//%MAP-20%%PX-00%// Scepter, non-magic, 0s, +3 Conviction
+ItemDisplay[NMAG !RW !ETH SOCK=0 SK364>2 SCEPTER]: %NAME%//%MAP-20%%PX-00%// Scepter, non-magic, 0s, +3 Holy Nova
+ItemDisplay[NMAG !RW !ETH SOCK=0 SK371>2 SCEPTER]: %NAME%//%MAP-20%%PX-00%// Scepter, non-magic, 0s, +3 Holy Light
+ItemDisplay[NMAG !RW !ETH SOCK=0 SK101>2 SCEPTER]: %NAME%//%MAP-20%%PX-00%// Scepter, non-magic, 0s, +3 Holy Bolt
+ItemDisplay[NMAG !RW !ETH SOCK=0 SK112>2 SCEPTER]: %NAME%//%MAP-20%%PX-00%// Scepter, non-magic, 0s, +3 Blessed Hammer
+ItemDisplay[NMAG !RW !ETH SOCK=0 SK121>2 SCEPTER]: %NAME%//%MAP-20%%PX-00%// Scepter, non-magic, 0s, +3 Fist of the Heavens
+ItemDisplay[NMAG !RW !ETH SOCK=0 SK117>2 SCEPTER]: %NAME%//%MAP-20%%PX-00%// Scepter, non-magic, 0s, +3 Holy Shield
+ItemDisplay[NMAG !RW !ETH SOCK=0 SK123>2 SCEPTER]: %NAME%//%MAP-20%%PX-00%// Scepter, non-magic, 0s, +3 Conviction
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 SK119>2 SCEPTER]: %NAME%//%MAP-20%%PX-00%// Scepter, non-magic, 0s, +3 Sanctuary
 
 // Three sockets
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SK364>2 SCEPTER]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Scepter, non-magic, 3s, +3 Holy Nova
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SK371>2 SCEPTER]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Scepter, non-magic, 3s, +3 Holy Light
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SK101>2 SCEPTER]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Scepter, non-magic, 3s, +3 Holy Bolt
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SK112>2 SCEPTER]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Scepter, non-magic, 3s, +3 Blessed Hammer
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SK121>2 SCEPTER]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Scepter, non-magic, 3s, +3 Fist of the Heavens
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SK117>2 SCEPTER]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Scepter, non-magic, 3s, +3 Holy Shield
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SK123>2 SCEPTER]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Scepter, non-magic, 3s, +3 Conviction
+ItemDisplay[NMAG !RW !ETH SOCK=3 SK364>2 SCEPTER]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Scepter, non-magic, 3s, +3 Holy Nova
+ItemDisplay[NMAG !RW !ETH SOCK=3 SK371>2 SCEPTER]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Scepter, non-magic, 3s, +3 Holy Light
+ItemDisplay[NMAG !RW !ETH SOCK=3 SK101>2 SCEPTER]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Scepter, non-magic, 3s, +3 Holy Bolt
+ItemDisplay[NMAG !RW !ETH SOCK=3 SK112>2 SCEPTER]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Scepter, non-magic, 3s, +3 Blessed Hammer
+ItemDisplay[NMAG !RW !ETH SOCK=3 SK121>2 SCEPTER]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Scepter, non-magic, 3s, +3 Fist of the Heavens
+ItemDisplay[NMAG !RW !ETH SOCK=3 SK117>2 SCEPTER]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Scepter, non-magic, 3s, +3 Holy Shield
+ItemDisplay[NMAG !RW !ETH SOCK=3 SK123>2 SCEPTER]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Scepter, non-magic, 3s, +3 Conviction
 ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SK119>2 SCEPTER]: %GRAY%%NAME%{%TAN%Plague}%MAP-1E%%PX-00%// Scepter, non-magic, 3s, +3 Sanctuary
 
 // Four sockets
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 SK364>2 SCEPTER]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Scepter, non-magic, 4s, +3 Holy Nova
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 SK371>2 SCEPTER]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Scepter, non-magic, 4s, +3 Holy Light
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 SK101>2 SCEPTER]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Scepter, non-magic, 4s, +3 Holy Bolt
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 SK112>2 SCEPTER]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Scepter, non-magic, 4s, +3 Blessed Hammer
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 SK121>2 SCEPTER]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Scepter, non-magic, 4s, +3 Fist of the Heavens
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 SK117>2 SCEPTER]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Scepter, non-magic, 4s, +3 Holy Shield
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 SK123>2 SCEPTER]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Scepter, non-magic, 4s, +3 Conviction
+ItemDisplay[NMAG !RW !ETH SOCK=4 SK364>2 SCEPTER]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Scepter, non-magic, 4s, +3 Holy Nova
+ItemDisplay[NMAG !RW !ETH SOCK=4 SK371>2 SCEPTER]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Scepter, non-magic, 4s, +3 Holy Light
+ItemDisplay[NMAG !RW !ETH SOCK=4 SK101>2 SCEPTER]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Scepter, non-magic, 4s, +3 Holy Bolt
+ItemDisplay[NMAG !RW !ETH SOCK=4 SK112>2 SCEPTER]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Scepter, non-magic, 4s, +3 Blessed Hammer
+ItemDisplay[NMAG !RW !ETH SOCK=4 SK121>2 SCEPTER]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Scepter, non-magic, 4s, +3 Fist of the Heavens
+ItemDisplay[NMAG !RW !ETH SOCK=4 SK117>2 SCEPTER]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Scepter, non-magic, 4s, +3 Holy Shield
+ItemDisplay[NMAG !RW !ETH SOCK=4 SK123>2 SCEPTER]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Scepter, non-magic, 4s, +3 Conviction
 ItemDisplay[NMAG !INF !RW !ETH SOCK=4 SK119>2 SCEPTER]: %GRAY%%NAME%//%MAP-1E%%PX-00%// Scepter, non-magic, 4s, +3 Sanctuary
 
 // Five sockets
-ItemDisplay[NMAG !INF !RW !ETH SOCK=5 SK364>2 SCEPTER]: %GRAY%%NAME%{%TAN%Call to Arms}%MAP-1E%%PX-00%// Scepter, non-magic, 5s, +3 Holy Nova
-ItemDisplay[NMAG !INF !RW !ETH SOCK=5 SK371>2 SCEPTER]: %GRAY%%NAME%{%TAN%Call to Arms}%MAP-1E%%PX-00%// Scepter, non-magic, 5s, +3 Holy Light
-ItemDisplay[NMAG !INF !RW !ETH SOCK=5 SK101>2 SCEPTER]: %GRAY%%NAME%{%TAN%Call to Arms}%MAP-1E%%PX-00%// Scepter, non-magic, 5s, +3 Holy Bolt
-ItemDisplay[NMAG !INF !RW !ETH SOCK=5 SK112>2 SCEPTER]: %GRAY%%NAME%{%TAN%Call to Arms}%MAP-1E%%PX-00%// Scepter, non-magic, 5s, +3 Blessed Hammer
-ItemDisplay[NMAG !INF !RW !ETH SOCK=5 SK121>2 SCEPTER]: %GRAY%%NAME%{%TAN%Call to Arms}%MAP-1E%%PX-00%// Scepter, non-magic, 5s, +3 Fist of the Heavens
-ItemDisplay[NMAG !INF !RW !ETH SOCK=5 SK117>2 SCEPTER]: %GRAY%%NAME%{%TAN%Call to Arms}%MAP-1E%%PX-00%// Scepter, non-magic, 5s, +3 Holy Shield
-ItemDisplay[NMAG !INF !RW !ETH SOCK=5 SK123>2 SCEPTER]: %GRAY%%NAME%{%TAN%Call to Arms}%MAP-1E%%PX-00%// Scepter, non-magic, 5s, +3 Conviction
+ItemDisplay[NMAG !RW !ETH SOCK=5 SK364>2 SCEPTER]: %GRAY%%NAME%{%TAN%Call to Arms}%MAP-1E%%PX-00%// Scepter, non-magic, 5s, +3 Holy Nova
+ItemDisplay[NMAG !RW !ETH SOCK=5 SK371>2 SCEPTER]: %GRAY%%NAME%{%TAN%Call to Arms}%MAP-1E%%PX-00%// Scepter, non-magic, 5s, +3 Holy Light
+ItemDisplay[NMAG !RW !ETH SOCK=5 SK101>2 SCEPTER]: %GRAY%%NAME%{%TAN%Call to Arms}%MAP-1E%%PX-00%// Scepter, non-magic, 5s, +3 Holy Bolt
+ItemDisplay[NMAG !RW !ETH SOCK=5 SK112>2 SCEPTER]: %GRAY%%NAME%{%TAN%Call to Arms}%MAP-1E%%PX-00%// Scepter, non-magic, 5s, +3 Blessed Hammer
+ItemDisplay[NMAG !RW !ETH SOCK=5 SK121>2 SCEPTER]: %GRAY%%NAME%{%TAN%Call to Arms}%MAP-1E%%PX-00%// Scepter, non-magic, 5s, +3 Fist of the Heavens
+ItemDisplay[NMAG !RW !ETH SOCK=5 SK117>2 SCEPTER]: %GRAY%%NAME%{%TAN%Call to Arms}%MAP-1E%%PX-00%// Scepter, non-magic, 5s, +3 Holy Shield
+ItemDisplay[NMAG !RW !ETH SOCK=5 SK123>2 SCEPTER]: %GRAY%%NAME%{%TAN%Call to Arms}%MAP-1E%%PX-00%// Scepter, non-magic, 5s, +3 Conviction
 ItemDisplay[NMAG !INF !RW !ETH SOCK=5 SK119>2 SCEPTER]: %GRAY%%NAME%{%TAN%Call to Arms}%MAP-1E%%PX-00%// Scepter, non-magic, 5s, +3 Sanctuary
 
 //- SPEARS ----------------------------
@@ -3118,41 +3529,42 @@ ItemDisplay[NMAG SUP !RW ETH SOCK=6 7p7 ED>0]: %GRAY%%NAME% %ORANGE%(Breath of t
 
 //- STAVES ----------------------------
 // Four sockets
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 STAFF SK59>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Blizzard, 4s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 STAFF SK64>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Frozen Orb, 4s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 STAFF SK369>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Ice Barrage, 4s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 STAFF SK44>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Frost Nova, 4s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 STAFF SK40>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Cold Enchant, 4s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 STAFF SK60>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Chilling Armor, 4s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 STAFF SK40>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Frozen Armor, 4s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 STAFF SK55>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Glacial Spike, 4s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 STAFF SK45>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Ice Blast, 4s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 STAFF SK39>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Ice Bolt, 4s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 STAFF SK50>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Shiver Armor, 4s
+ItemDisplay[NMAG !RW !ETH SOCK=4 STAFF SK59>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Blizzard, 4s
+ItemDisplay[NMAG !RW !ETH SOCK=4 STAFF SK64>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Frozen Orb, 4s
+ItemDisplay[NMAG !RW !ETH SOCK=4 STAFF SK369>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Ice Barrage, 4s
+ItemDisplay[NMAG !RW !ETH SOCK=4 STAFF SK44>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Frost Nova, 4s
+ItemDisplay[NMAG !RW !ETH SOCK=4 STAFF SK40>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Cold Enchant, 4s
+//ItemDisplay[NMAG !RW !ETH SOCK=4 STAFF SK60>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Chilling Armor, 4s
+//ItemDisplay[NMAG !RW !ETH SOCK=4 STAFF SK40>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Frozen Armor, 4s
+//ItemDisplay[NMAG !RW !ETH SOCK=4 STAFF SK55>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Glacial Spike, 4s
+//ItemDisplay[NMAG !RW !ETH SOCK=4 STAFF SK45>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Ice Blast, 4s
+//ItemDisplay[NMAG !RW !ETH SOCK=4 STAFF SK39>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Ice Bolt, 4s
+//ItemDisplay[NMAG !RW !ETH SOCK=4 STAFF SK50>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Shiver Armor, 4s
 
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 STAFF SK49>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Lightning, 4s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 STAFF SK48>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Nova, 4s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 STAFF SK58>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Energy Shield, 4s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 STAFF SK53>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Chain Lightning, 4s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 STAFF SK38>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Charged Bolt, 4s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 STAFF SK42>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Static Field, 4s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 STAFF SK43>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Telekinesis, 4s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 STAFF SK54>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Teleport, 4s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 STAFF SK57>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Thunder Storm, 4s
+ItemDisplay[NMAG !RW !ETH SOCK=4 STAFF SK49>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Lightning, 4s
+ItemDisplay[NMAG !RW !ETH SOCK=4 STAFF SK48>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Nova, 4s
+ItemDisplay[NMAG !RW !ETH SOCK=4 STAFF SK58>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Energy Shield, 4s
+//ItemDisplay[NMAG !RW !ETH SOCK=4 STAFF SK53>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Chain Lightning, 4s
+//ItemDisplay[NMAG !RW !ETH SOCK=4 STAFF SK38>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Charged Bolt, 4s
+//ItemDisplay[NMAG !RW !ETH SOCK=4 STAFF SK42>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Static Field, 4s
+//ItemDisplay[NMAG !RW !ETH SOCK=4 STAFF SK43>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Telekinesis, 4s
+//ItemDisplay[NMAG !RW !ETH SOCK=4 STAFF SK54>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Teleport, 4s
+//ItemDisplay[NMAG !RW !ETH SOCK=4 STAFF SK57>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Thunder Storm, 4s
 
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 STAFF SK47>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Fire Ball, 4s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 STAFF SK56>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Meteor, 4s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 STAFF SK62>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Hydra, 4s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 STAFF SK51>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Fire Wall, 4s
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 STAFF SK52>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Fire Enchant, 4s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 STAFF SK46>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Blaze, 4s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 STAFF SK1=1]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Combustion, 4s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 STAFF SK36>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Fire Bolt, 4s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 STAFF SK41>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Inferno, 4s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 STAFF SK383>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Lesser Hydra, 4s
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 STAFF SK37>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Warmth, 4s
+ItemDisplay[NMAG !RW !ETH SOCK=4 STAFF SK47>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Fire Ball, 4s
+ItemDisplay[NMAG !RW !ETH SOCK=4 STAFF SK56>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Meteor, 4s
+ItemDisplay[NMAG !RW !ETH SOCK=4 STAFF SK62>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Hydra, 4s
+ItemDisplay[NMAG !RW !ETH SOCK=4 STAFF SK51>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Fire Wall, 4s
+ItemDisplay[NMAG !RW !ETH SOCK=4 STAFF SK52>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Fire Enchant, 4s
+//ItemDisplay[NMAG !RW !ETH SOCK=4 STAFF SK46>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Blaze, 4s
+//ItemDisplay[NMAG !RW !ETH SOCK=4 STAFF SK1=1]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Combustion, 4s
+//ItemDisplay[NMAG !RW !ETH SOCK=4 STAFF SK36>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Fire Bolt, 4s
+//ItemDisplay[NMAG !RW !ETH SOCK=4 STAFF SK41>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Inferno, 4s
+//ItemDisplay[NMAG !RW !ETH SOCK=4 STAFF SK383>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Lesser Hydra, 4s
+//ItemDisplay[NMAG !RW !ETH SOCK=4 STAFF SK37>2]: %GRAY%%NAME%{%TAN%Insight/Memory}%MAP-1E%%PX-00%// Insight/Memory staff +3 Warmth, 4s
 
-ItemDisplay[NMAG !INF !RW !ETH SOCK=5 STAFF SK60>2]: %GRAY%%NAME%{%TAN%Call to Arms}%MAP-1E%%PX-00%// Call to Arms staff +3 Chilling Armor, 4s
+ItemDisplay[NMAG !RW !ETH SOCK=5 STAFF SK58>2]: %GRAY%%NAME%{%TAN%Call to Arms}%MAP-1E%%PX-00%// Call to Arms staff +3 Energy Shield, 5s
+ItemDisplay[NMAG !RW !ETH SOCK=5 STAFF SK60>2]: %GRAY%%NAME%{%TAN%Call to Arms}%MAP-1E%%PX-00%// Call to Arms staff +3 Chilling Armor, 5s
 
 //- SWORDS ----------------------------
 //- Crystal Sword
@@ -3236,48 +3648,48 @@ ItemDisplay[NMAG SUP !RW ETH SOCK=6 7gd ED>0]: %GRAY%%NAME% %ORANGE%(Breath of t
 
 //- WANDS -----------------------------
 // No sockets
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 WAND !wnd !9wn !ywn SK94>2]: %NAME%{%TAN%White}//%MAP-20%%PX-00%// All wands, non-magic, +3 Fire Golem
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 WAND !wnd !9wn !ywn SK75>2]: %NAME%{%TAN%White}//%MAP-20%%PX-00%// All wands, non-magic, +3 Clay Golem
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 WAND !wnd !9wn !ywn SK70>2]: %NAME%{%TAN%White}//%MAP-20%%PX-00%// All wands, non-magic, +3 Raise Skeleton Warrior
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 WAND !wnd !9wn !ywn SK69>2]: %NAME%{%TAN%White}//%MAP-20%%PX-00%// All wands, non-magic, +3 Skeleton Mastery
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 WAND !wnd !9wn !ywn SK80>2]: %NAME%{%TAN%White}//%MAP-20%%PX-00%// All wands, non-magic, +3 Raise Skeletal Mage
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 WAND !wnd !9wn !ywn SK367>2]: %NAME%{%TAN%White}//%MAP-20%%PX-00%// All wands, non-magic, +3 Blood Warp
+ItemDisplay[NMAG !RW !ETH SOCK=0 WAND !wnd !9wn !ywn SK94>2]: %NAME%{%TAN%White}//%MAP-20%%PX-00%// All wands, non-magic, +3 Fire Golem
+ItemDisplay[NMAG !RW !ETH SOCK=0 WAND !wnd !9wn !ywn SK75>2]: %NAME%{%TAN%White}//%MAP-20%%PX-00%// All wands, non-magic, +3 Clay Golem
+ItemDisplay[NMAG !RW !ETH SOCK=0 WAND !wnd !9wn !ywn SK70>2]: %NAME%{%TAN%White}//%MAP-20%%PX-00%// All wands, non-magic, +3 Raise Skeleton Warrior
+ItemDisplay[NMAG !RW !ETH SOCK=0 WAND !wnd !9wn !ywn SK69>2]: %NAME%{%TAN%White}//%MAP-20%%PX-00%// All wands, non-magic, +3 Skeleton Mastery
+ItemDisplay[NMAG !RW !ETH SOCK=0 WAND !wnd !9wn !ywn SK80>2]: %NAME%{%TAN%White}//%MAP-20%%PX-00%// All wands, non-magic, +3 Raise Skeletal Mage
+ItemDisplay[NMAG !RW !ETH SOCK=0 WAND !wnd !9wn !ywn SK367>2]: %NAME%{%TAN%White}//%MAP-20%%PX-00%// All wands, non-magic, +3 Blood Warp
 
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 WAND !wnd !9wn !ywn SK67>2]: %NAME%{%TAN%White}//%MAP-20%%PX-00%// All wands, non-magic, +3 Teeth
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 WAND !wnd !9wn !ywn SK84>2]: %NAME%{%TAN%White}//%MAP-20%%PX-00%// All wands, non-magic, +3 Bone Spear
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 WAND !wnd !9wn !ywn SK93>2]: %NAME%{%TAN%White}//%MAP-20%%PX-00%// All wands, non-magic, +3 Bone Spirit
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 WAND !wnd !9wn !ywn SK74>2]: %NAME%{%TAN%White}//%MAP-20%%PX-00%// All wands, non-magic, +3 CE
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 WAND !wnd !9wn !ywn SK92>2]: %NAME%{%TAN%White}//%MAP-20%%PX-00%// All wands, non-magic, +3 Poison Nova
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 WAND !wnd !9wn !ywn SK73>2]: %NAME%{%TAN%White}//%MAP-20%%PX-00%// All wands, non-magic, +3 Poison Dagger
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 WAND !wnd !9wn !ywn SK83>2]: %NAME%{%TAN%White}//%MAP-20%%PX-00%// All wands, non-magic, +3 Desecrate
+ItemDisplay[NMAG !RW !ETH SOCK=0 WAND !wnd !9wn !ywn SK67>2]: %NAME%{%TAN%White}//%MAP-20%%PX-00%// All wands, non-magic, +3 Teeth
+ItemDisplay[NMAG !RW !ETH SOCK=0 WAND !wnd !9wn !ywn SK84>2]: %NAME%{%TAN%White}//%MAP-20%%PX-00%// All wands, non-magic, +3 Bone Spear
+ItemDisplay[NMAG !RW !ETH SOCK=0 WAND !wnd !9wn !ywn SK93>2]: %NAME%{%TAN%White}//%MAP-20%%PX-00%// All wands, non-magic, +3 Bone Spirit
+ItemDisplay[NMAG !RW !ETH SOCK=0 WAND !wnd !9wn !ywn SK74>2]: %NAME%{%TAN%White}//%MAP-20%%PX-00%// All wands, non-magic, +3 CE
+ItemDisplay[NMAG !RW !ETH SOCK=0 WAND !wnd !9wn !ywn SK92>2]: %NAME%{%TAN%White}//%MAP-20%%PX-00%// All wands, non-magic, +3 Poison Nova
+ItemDisplay[NMAG !RW !ETH SOCK=0 WAND !wnd !9wn !ywn SK73>2]: %NAME%{%TAN%White}//%MAP-20%%PX-00%// All wands, non-magic, +3 Poison Dagger
+ItemDisplay[NMAG !RW !ETH SOCK=0 WAND !wnd !9wn !ywn SK83>2]: %NAME%{%TAN%White}//%MAP-20%%PX-00%// All wands, non-magic, +3 Desecrate
 
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 WAND !wnd !9wn !ywn SK381>2]: %NAME%{%TAN%White}//%MAP-20%%PX-00%// All wands, non-magic, +3 Dark Pact
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 WAND !wnd !9wn !ywn SK66>2]: %NAME%{%TAN%White}//%MAP-20%%PX-00%// All wands, non-magic, +3 Amplify
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 WAND !wnd !9wn !ywn SK91>2]: %NAME%{%TAN%White}//%MAP-20%%PX-00%// All wands, non-magic, +3 Lower Resist
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 WAND !wnd !9wn !ywn SK87>2]: %NAME%{%TAN%White}//%MAP-20%%PX-00%// All wands, non-magic, +3 Decrepify
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 WAND !wnd !9wn !ywn SK86>2]: %NAME%{%TAN%White}//%MAP-20%%PX-00%// All wands, non-magic, +3 Attract
+ItemDisplay[NMAG !RW !ETH SOCK=0 WAND !wnd !9wn !ywn SK381>2]: %NAME%{%TAN%White}//%MAP-20%%PX-00%// All wands, non-magic, +3 Dark Pact
+ItemDisplay[NMAG !RW !ETH SOCK=0 WAND !wnd !9wn !ywn SK66>2]: %NAME%{%TAN%White}//%MAP-20%%PX-00%// All wands, non-magic, +3 Amplify
+ItemDisplay[NMAG !RW !ETH SOCK=0 WAND !wnd !9wn !ywn SK91>2]: %NAME%{%TAN%White}//%MAP-20%%PX-00%// All wands, non-magic, +3 Lower Resist
+ItemDisplay[NMAG !RW !ETH SOCK=0 WAND !wnd !9wn !ywn SK87>2]: %NAME%{%TAN%White}//%MAP-20%%PX-00%// All wands, non-magic, +3 Decrepify
+ItemDisplay[NMAG !RW !ETH SOCK=0 WAND !wnd !9wn !ywn SK86>2]: %NAME%{%TAN%White}//%MAP-20%%PX-00%// All wands, non-magic, +3 Attract
 
 // Two sockets
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK94>2]: %GRAY%%NAME%{%TAN%White}//%MAP-1E%%PX-00%// All wands, non-magic, +3 Fire Golem
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK75>2]: %GRAY%%NAME%{%TAN%White}//%MAP-1E%%PX-00%// All wands, non-magic, +3 Clay Golem
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK70>2]: %GRAY%%NAME%{%TAN%White}//%MAP-1E%%PX-00%// All wands, non-magic, +3 Raise Skeleton Warrior
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK69>2]: %GRAY%%NAME%{%TAN%White}//%MAP-1E%%PX-00%// All wands, non-magic, +3 Skeleton Mastery
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK80>2]: %GRAY%%NAME%{%TAN%White}//%MAP-1E%%PX-00%// All wands, non-magic, +3 Raise Skeletal Mage
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK367>2]: %GRAY%%NAME%{%TAN%White}//%MAP-1E%%PX-00%// All wands, non-magic, +3 Blood Warp
+ItemDisplay[NMAG !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK94>2]: %GRAY%%NAME%{%TAN%White}//%MAP-1E%%PX-00%// All wands, non-magic, +3 Fire Golem
+ItemDisplay[NMAG !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK75>2]: %GRAY%%NAME%{%TAN%White}//%MAP-1E%%PX-00%// All wands, non-magic, +3 Clay Golem
+ItemDisplay[NMAG !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK70>2]: %GRAY%%NAME%{%TAN%White}//%MAP-1E%%PX-00%// All wands, non-magic, +3 Raise Skeleton Warrior
+ItemDisplay[NMAG !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK69>2]: %GRAY%%NAME%{%TAN%White}//%MAP-1E%%PX-00%// All wands, non-magic, +3 Skeleton Mastery
+ItemDisplay[NMAG !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK80>2]: %GRAY%%NAME%{%TAN%White}//%MAP-1E%%PX-00%// All wands, non-magic, +3 Raise Skeletal Mage
+ItemDisplay[NMAG !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK367>2]: %GRAY%%NAME%{%TAN%White}//%MAP-1E%%PX-00%// All wands, non-magic, +3 Blood Warp
 
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK67>2]: %GRAY%%NAME%{%TAN%White}//%MAP-1E%%PX-00%// All wands, non-magic, +3 Teeth
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK84>2]: %GRAY%%NAME%{%TAN%White}//%MAP-1E%%PX-00%// All wands, non-magic, +3 Bone Spear
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK93>2]: %GRAY%%NAME%{%TAN%White}//%MAP-1E%%PX-00%// All wands, non-magic, +3 Bone Spirit
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK74>2]: %GRAY%%NAME%{%TAN%White}//%MAP-1E%%PX-00%// All wands, non-magic, +3 CE
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK92>2]: %GRAY%%NAME%{%TAN%White}//%MAP-1E%%PX-00%// All wands, non-magic, +3 Poison Nova
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK73>2]: %GRAY%%NAME%{%TAN%White}//%MAP-1E%%PX-00%// All wands, non-magic, +3 Poison Dagger
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK83>2]: %GRAY%%NAME%{%TAN%White}//%MAP-1E%%PX-00%// All wands, non-magic, +3 Desecrate
+ItemDisplay[NMAG !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK67>2]: %GRAY%%NAME%{%TAN%White}//%MAP-1E%%PX-00%// All wands, non-magic, +3 Teeth
+ItemDisplay[NMAG !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK84>2]: %GRAY%%NAME%{%TAN%White}//%MAP-1E%%PX-00%// All wands, non-magic, +3 Bone Spear
+ItemDisplay[NMAG !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK93>2]: %GRAY%%NAME%{%TAN%White}//%MAP-1E%%PX-00%// All wands, non-magic, +3 Bone Spirit
+ItemDisplay[NMAG !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK74>2]: %GRAY%%NAME%{%TAN%White}//%MAP-1E%%PX-00%// All wands, non-magic, +3 CE
+ItemDisplay[NMAG !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK92>2]: %GRAY%%NAME%{%TAN%White}//%MAP-1E%%PX-00%// All wands, non-magic, +3 Poison Nova
+ItemDisplay[NMAG !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK73>2]: %GRAY%%NAME%{%TAN%White}//%MAP-1E%%PX-00%// All wands, non-magic, +3 Poison Dagger
+ItemDisplay[NMAG !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK83>2]: %GRAY%%NAME%{%TAN%White}//%MAP-1E%%PX-00%// All wands, non-magic, +3 Desecrate
 
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK381>2]: %GRAY%%NAME%{%TAN%White}//%MAP-1E%%PX-00%// All wands, non-magic, +3 Dark Pact
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK66>2]: %GRAY%%NAME%{%TAN%White}//%MAP-1E%%PX-00%// All wands, non-magic, +3 Amplify
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK91>2]: %GRAY%%NAME%{%TAN%White}//%MAP-1E%%PX-00%// All wands, non-magic, +3 Lower Resist
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK87>2]: %GRAY%%NAME%{%TAN%White}//%MAP-1E%%PX-00%// All wands, non-magic, +3 Decrepify
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK86>2]: %GRAY%%NAME%{%TAN%White}//%MAP-1E%%PX-00%// All wands, non-magic, +3 Attract
+ItemDisplay[NMAG !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK381>2]: %GRAY%%NAME%{%TAN%White}//%MAP-1E%%PX-00%// All wands, non-magic, +3 Dark Pact
+ItemDisplay[NMAG !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK66>2]: %GRAY%%NAME%{%TAN%White}//%MAP-1E%%PX-00%// All wands, non-magic, +3 Amplify
+ItemDisplay[NMAG !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK91>2]: %GRAY%%NAME%{%TAN%White}//%MAP-1E%%PX-00%// All wands, non-magic, +3 Lower Resist
+ItemDisplay[NMAG !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK87>2]: %GRAY%%NAME%{%TAN%White}//%MAP-1E%%PX-00%// All wands, non-magic, +3 Decrepify
+ItemDisplay[NMAG !RW !ETH SOCK=2 WAND !wnd !9wn !ywn SK86>2]: %GRAY%%NAME%{%TAN%White}//%MAP-1E%%PX-00%// All wands, non-magic, +3 Attract
 
 //############################################################################################
 //- EARLY GEAR ----------- EARLY GEAR ----------- EARLY GEAR ----------- EARLY GEAR ----------
@@ -3335,414 +3747,6 @@ ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<80 SHIELD]: %GRAY%%NAME%
 ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<80 WEAPON]: %GRAY%%NAME%
 
 //############################################################################################
-//- ID'D ITEMS AND SHOPPING ----- ID'D ITEMS AND SHOPPING ----- ID'D ITEMS AND SHOPPING ------
-//############################################################################################
-
-//- AMULETS ---------------------------
-ItemDisplay[(CRAFT OR RARE) ID amu CLSK0>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Amazon, 10+ FCR
-ItemDisplay[(CRAFT OR RARE) ID amu CLSK1>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Sorceress, 10+ FCR
-ItemDisplay[(CRAFT OR RARE) ID amu CLSK2>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Necro, 10+ FCR
-ItemDisplay[(CRAFT OR RARE) ID amu CLSK3>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Paladin, 10+ FCR
-ItemDisplay[(CRAFT OR RARE) ID amu CLSK4>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Barb, 10+ FCR
-ItemDisplay[(CRAFT OR RARE) ID amu CLSK5>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Druid, 10+ FCR
-ItemDisplay[(CRAFT OR RARE) ID amu CLSK6>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Assassin, 10+ FCR
-
-ItemDisplay[(CRAFT OR RARE) ID amu TABSK0>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Bow and Crossbow, 10+ FCR
-ItemDisplay[(CRAFT OR RARE) ID amu TABSK1>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Passive and Magic, 10+ FCR
-ItemDisplay[(CRAFT OR RARE) ID amu TABSK2>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Javelin and Spear, 10+ FCR
-ItemDisplay[(CRAFT OR RARE) ID amu TABSK8>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Fire, 10+ FCR
-ItemDisplay[(CRAFT OR RARE) ID amu TABSK9>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Lightning, 10+ FCR
-ItemDisplay[(CRAFT OR RARE) ID amu TABSK10>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Cold, 10+ FCR
-ItemDisplay[(CRAFT OR RARE) ID amu TABSK16>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Curses, 10+ FCR
-ItemDisplay[(CRAFT OR RARE) ID amu TABSK17>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Poison and Bone, 10+ FCR
-ItemDisplay[(CRAFT OR RARE) ID amu TABSK18>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Summoning, 10+ FCR
-ItemDisplay[(CRAFT OR RARE) ID amu TABSK24>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Combat, 10+ FCR
-ItemDisplay[(CRAFT OR RARE) ID amu TABSK25>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Offensive, 10+ FCR
-ItemDisplay[(CRAFT OR RARE) ID amu TABSK26>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Defensive, 10+ FCR
-ItemDisplay[(CRAFT OR RARE) ID amu TABSK32>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Combat, 10+ FCR
-ItemDisplay[(CRAFT OR RARE) ID amu TABSK33>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Masteries, 10+ FCR
-ItemDisplay[(CRAFT OR RARE) ID amu TABSK34>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Warcries, 10+ FCR
-ItemDisplay[(CRAFT OR RARE) ID amu TABSK40>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Summoning, 10+ FCR
-ItemDisplay[(CRAFT OR RARE) ID amu TABSK41>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Shape, 10+ FCR
-ItemDisplay[(CRAFT OR RARE) ID amu TABSK42>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Elemental, 10+ FCR
-ItemDisplay[(CRAFT OR RARE) ID amu TABSK48>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Traps, 10+ FCR
-ItemDisplay[(CRAFT OR RARE) ID amu TABSK49>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Shadow, 10+ FCR
-ItemDisplay[(CRAFT OR RARE) ID amu TABSK50>1 FCR>9]: %NAME%%PURPLE% +%CONTINUE%// +2 Martial Arts, 10+ FCR
-
-//- RINGS -----------------------------
-ItemDisplay[(CRAFT OR RARE) ID rin FCR>1]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(CRAFT OR RARE) ID rin STR>14]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(CRAFT OR RARE) ID rin DEX>9]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(CRAFT OR RARE) ID rin LIFE>29]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(CRAFT OR RARE) ID rin MANA>69]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(CRAFT OR RARE) ID rin MFIND>19]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(CRAFT OR RARE) ID rin RES>9]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(CRAFT OR RARE) ID rin FRES>19]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(CRAFT OR RARE) ID rin CRES>19]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(CRAFT OR RARE) ID rin LRES>19]: %NAME%%PURPLE% +%CONTINUE%
-
-//- CHARMS ----------------------------
-ItemDisplay[MAG ID cm1 GFIND>9]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm1 RES>2]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm1 FRES>9]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm1 CRES>9]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm1 LRES>9]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm1 PRES>9]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm1 FHR>4]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm1 MAXDMG>2]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm1 LIFE>17]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm1 MANA>16]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm1 GFIND>9]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm1 MFIND>5]: %NAME%%PURPLE% +%CONTINUE%
-
-ItemDisplay[MAG ID cm2 MAXDMG>5]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm2 AR>69]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm2 MANA>33]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm2 RES>5]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm2 FRES>14]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm2 CRES>14]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm2 LRES>14]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm2 PRES>14]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm2 DEX>4]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm2 FHR>7]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm2 GFIND>21]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm2 LIFE>34]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm2 STR>4]: %NAME%%PURPLE% +%CONTINUE%
-
-ItemDisplay[MAG ID cm3 MAXDMG>8]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm3 AR>99]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm3 MANA>49]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm3 RES>8]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm3 FRES>28]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm3 CRES>28]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm3 LRES>28]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm3 PRES>28]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm3 FRW>6]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm3 FHR>11]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm3 GFIND>35]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm3 LIFE>35]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm3 TABSK0>0]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm3 TABSK1>0]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm3 TABSK2>0]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm3 TABSK8>0]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm3 TABSK9>0]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm3 TABSK10>0]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm3 TABSK16>0]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm3 TABSK17>0]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm3 TABSK18>0]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm3 TABSK24>0]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm3 TABSK25>0]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm3 TABSK26>0]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm3 TABSK32>0]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm3 TABSK33>0]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm3 TABSK34>0]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm3 TABSK40>0]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm3 TABSK41>0]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm3 TABSK42>0]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm3 TABSK48>0]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm3 TABSK49>0]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID cm3 TABSK50>0]: %NAME%%PURPLE% +%CONTINUE%
-
-//- JEWELS ----------------------------
-ItemDisplay[(RARE OR MAG) ID jew MINDMG>10]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(RARE OR MAG) ID jew MAXDMG>15]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[MAG ID jew ED>34]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[RARE ID jew ED>29]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(RARE OR MAG) ID jew RES>11]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(RARE OR MAG) ID jew FRES>29]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(RARE OR MAG) ID jew CRES>29]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(RARE OR MAG) ID jew LRES>29]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(RARE OR MAG) ID jew PRES>29]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(RARE OR MAG) ID jew MAEK>2]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(RARE OR MAG) ID jew IAS>14]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(RARE OR MAG) ID jew FHR>6]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(RARE OR MAG) ID jew DEX>8]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(RARE OR MAG) ID jew STR>8]: %NAME%%PURPLE% +%CONTINUE%
-
-//- AMAZON ----------------------------
-ItemDisplay[(CRAFT OR RARE OR MAG) ID ZON (CLSK0>1 AND TABSK2>2)]: %NAME%%PURPLE% +// +2 Amazon, +3 Javelin skills javelins
-ItemDisplay[(CRAFT OR RARE OR MAG) ID ZON TABSK2>4]: %NAME%%PURPLE% +// +5 Javelin skills javelins
-
-//- ASSASSIN --------------------------
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN TABSK50>2]: %GREEN%%NAME%// +3 Martial Arts
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN TABSK49>2]: %GREEN%%NAME%// +3 Shadow Disciplines
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN TABSK48>2]: %GREEN%%NAME%// +3 Trap claw
-
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK254>2)]: %GREEN%%NAME%// +2 Assassin, +3 Tiger Strike
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK255>2)]: %GREEN%%NAME%// +2 Assassin, +3 Dragon Talon
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK259>2)]: %GREEN%%NAME%// +2 Assassin, +3 Fists of Fire
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK260>2)]: %GREEN%%NAME%// +2 Assassin, +3 Dragon Claw
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK265>2)]: %GREEN%%NAME%// +2 Assassin, +3 Cobra Strike
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK269>2)]: %GREEN%%NAME%// +2 Assassin, +3 Claws of Thunder
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK270>2)]: %GREEN%%NAME%// +2 Assassin, +3 Dragon Tail
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK274>2)]: %GREEN%%NAME%// +2 Assassin, +3 Blades of Ice
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK275>2)]: %GREEN%%NAME%// +2 Assassin, +3 Dragon Flight
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK280>2)]: %GREEN%%NAME%// +2 Assassin, +3 Phoenix Strike
-
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK258>2)]: %GREEN%%NAME%// +2 Assassin, +3 Burst of Speed
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK267>2)]: %GREEN%%NAME%// +2 Assassin, +3 Fade
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK268>2)]: %GREEN%%NAME%// +2 Assassin, +3 Shadow Warrior
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK273>2)]: %GREEN%%NAME%// +2 Assassin, +3 Mind Blast
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK278>2)]: %GREEN%%NAME%// +2 Assassin, +3 Venom
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK279>2)]: %GREEN%%NAME%// +2 Assassin, +3 Shadow Master
-
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK251>2)]: %GREEN%%NAME%// +2 Assassin, +3 Fire Blast
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK256>2)]: %GREEN%%NAME%// +2 Assassin, +3 Shock Web
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK257>2)]: %GREEN%%NAME%// +2 Assassin, +3 Blade Sentinel
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK261>2)]: %GREEN%%NAME%// +2 Assassin, +3 Charged Bolt Sentry
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK262>2)]: %GREEN%%NAME%// +2 Assassin, +3 Wake of Fire
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK266>2)]: %GREEN%%NAME%// +2 Assassin, +3 Blade Fury
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK271>2)]: %GREEN%%NAME%// +2 Assassin, +3 Chain Lightnin Sentry
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK272>2)]: %GREEN%%NAME%// +2 Assassin, +3 Wake of Inferno
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK276>2)]: %GREEN%%NAME%// +2 Assassin, +3 Death Sentry
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK277>2)]: %GREEN%%NAME%// +2 Assassin, +3 Blade Shield
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (CLSK6>1 AND SK366>2)]: %GREEN%%NAME%// +2 Assassin, +3 Lightning Sentry
-
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK50>1 AND SK254>2)]: %GREEN%%NAME%// +2 Martial Arts, +3 Tiger Strike
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK50>1 AND SK255>2)]: %GREEN%%NAME%// +2 Martial Arts, +3 Dragon Talon
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK50>1 AND SK259>2)]: %GREEN%%NAME%// +2 Martial Arts, +3 Fists of Fire
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK50>1 AND SK260>2)]: %GREEN%%NAME%// +2 Martial Arts, +3 Dragon Claw
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK50>1 AND SK265>2)]: %GREEN%%NAME%// +2 Martial Arts, +3 Cobra Strike
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK50>1 AND SK269>2)]: %GREEN%%NAME%// +2 Martial Arts, +3 Claws of Thunder
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK50>1 AND SK270>2)]: %GREEN%%NAME%// +2 Martial Arts, +3 Dragon Tail
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK50>1 AND SK274>2)]: %GREEN%%NAME%// +2 Martial Arts, +3 Blades of Ice
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK50>1 AND SK275>2)]: %GREEN%%NAME%// +2 Martial Arts, +3 Dragon Flight
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK50>1 AND SK280>2)]: %GREEN%%NAME%// +2 Martial Arts, +3 Phoenix Strike
-
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK49>1 AND SK258>2)]: %GREEN%%NAME%// +2 Shadow Disciplines, +3 Burst of Speed
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK49>1 AND SK267>2)]: %GREEN%%NAME%// +2 Shadow Disciplines, +3 Fade
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK49>1 AND SK268>2)]: %GREEN%%NAME%// +2 Shadow Disciplines, +3 Shadow Warrior
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK49>1 AND SK273>2)]: %GREEN%%NAME%// +2 Shadow Disciplines, +3 Mind Blast
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK49>1 AND SK278>2)]: %GREEN%%NAME%// +2 Shadow Disciplines, +3 Venom
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK49>1 AND SK279>2)]: %GREEN%%NAME%// +2 Shadow Disciplines, +3 Shadow Master
-
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK48>1 AND SK251>2)]: %GREEN%%NAME%// +2 Traps, +3 Fire Blast
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK48>1 AND SK256>2)]: %GREEN%%NAME%// +2 Traps, +3 Shock Web
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK48>1 AND SK257>2)]: %GREEN%%NAME%// +2 Traps, +3 Blade Sentinel
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK48>1 AND SK261>2)]: %GREEN%%NAME%// +2 Traps, +3 Charged Bolt Sentry
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK48>1 AND SK262>2)]: %GREEN%%NAME%// +2 Traps, +3 Wake of Fire
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK48>1 AND SK266>2)]: %GREEN%%NAME%// +2 Traps, +3 Blade Fury
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK48>1 AND SK271>2)]: %GREEN%%NAME%// +2 Traps, +3 Chain Lightnin Sentry
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK48>1 AND SK272>2)]: %GREEN%%NAME%// +2 Traps, +3 Wake of Inferno
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK48>1 AND SK276>2)]: %GREEN%%NAME%// +2 Traps, +3 Death Sentry
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK48>1 AND SK277>2)]: %GREEN%%NAME%// +2 Traps, +3 Blade Shield
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SIN (TABSK48>1 AND SK366>2)]: %GREEN%%NAME%// +2 Traps, +3 Lightning Sentry
-
-//- BARBARIAN -------------------------
-ItemDisplay[(CRAFT OR RARE OR MAG) ID BAR (CLSK4>1 AND SK149>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Barbarian, +3 Battle Orders
-ItemDisplay[(CRAFT OR RARE OR MAG) ID BAR (CLSK4>1 AND SK154>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Barbarian, +3 War Cry
-
-ItemDisplay[(CRAFT OR RARE OR MAG) ID BAR (TABSK34>1 AND SK149>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Warcries, +3 Battle Orders
-ItemDisplay[(CRAFT OR RARE OR MAG) ID BAR (TABSK34>1 AND SK154>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Warcries, +3 War Cry
-
-//- DRUID -----------------------------
-ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (CLSK5>1 AND SK225>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Druid, +3 Firestorm
-ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (CLSK5>1 AND SK229>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Druid, +3 Molten Boulder
-ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (CLSK5>1 AND SK234>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Druid, +3 Fissure
-ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (CLSK5>1 AND SK240>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Druid, +3 Twister
-ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (CLSK5>1 AND SK244>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Druid, +3 Volcano
-ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (CLSK5>1 AND SK245>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Druid, +3 Tornado
-ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (CLSK5>1 AND SK249>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Druid, +3 Armageddon
-ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (CLSK5>1 AND SK250>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Druid, +3 Hurricane
-
-ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (CLSK5>1 AND SK238>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Druid, +3 Rabies
-ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (CLSK5>1 AND SK239>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Druid, +3 Fire Claws
-
-ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (CLSK5>1 AND SK221>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Druid, +3 Raven
-ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (CLSK5>1 AND SK237>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Druid, +3 Summon Dire Wolf
-ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (CLSK5>1 AND SK247>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Druid, +3 Summon Grizzly
-
-ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (TABSK42>1 AND SK225>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Elemental, +3 Firestorm
-ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (TABSK42>1 AND SK229>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Elemental, +3 Molten Boulder
-ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (TABSK42>1 AND SK234>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Elemental, +3 Fissure
-ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (TABSK42>1 AND SK240>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Elemental, +3 Twister
-ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (TABSK42>1 AND SK244>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Elemental, +3 Volcano
-ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (TABSK42>1 AND SK245>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Elemental, +3 Tornado
-ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (TABSK42>1 AND SK249>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Elemental, +3 Armageddon
-ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (TABSK42>1 AND SK250>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Elemental, +3 Hurricane
-
-ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (TABSK41>1 AND SK238>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Shapeshift, +3 Rabies
-ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (TABSK41>1 AND SK239>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Shapeshift, +3 Fire Claws
-
-ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (TABSK40>1 AND SK221>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Summon, +3 Raven
-ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (TABSK40>1 AND SK237>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Summon, +3 Summon Dire Wolf
-ItemDisplay[(CRAFT OR RARE OR MAG) ID DRU (TABSK40>1 AND SK247>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Summon, +3 Summon Grizzly
-
-//- NECRO -----------------------------
-ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (CLSK2>1 AND SK70>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Necro, +3 Raise Skeleton Warrior
-ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (CLSK2>1 AND SK75>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Necro, +3 Clay Golem
-ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (CLSK2>1 AND SK80>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Necro, +3 Raise Skeleton Mage
-ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (CLSK2>1 AND SK85>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Necro, +3 Blood Golem
-ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (CLSK2>1 AND SK94>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Necro, +3 Fire Golem
-ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (CLSK2>1 AND SK95>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Necro, +3 Revive
-
-ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (CLSK2>1 AND SK67>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Necro, +3 Teeth
-ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (CLSK2>1 AND SK73>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Necro, +3 Poison Dagger
-ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (CLSK2>1 AND SK74>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Necro, +3 Corpse Explosion
-ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (CLSK2>1 AND SK83>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Necro, +3 Desecrate
-ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (CLSK2>1 AND SK84>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Necro, +3 Bone Spear
-ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (CLSK2>1 AND SK92>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Necro, +3 Poison Nova
-ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (CLSK2>1 AND SK93>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Necro, +3 Bone Spirit
-
-ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (TABSK18>1 AND SK70>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Summon, +3 Raise Skeleton Warrior
-ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (TABSK18>1 AND SK75>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Summon, +3 Clay Golem
-ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (TABSK18>1 AND SK80>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Summon, +3 Raise Skeleton Mage
-ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (TABSK18>1 AND SK85>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Summon, +3 Blood Golem
-ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (TABSK18>1 AND SK94>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Summon, +3 Fire Golem
-ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (TABSK18>1 AND SK95>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Summon, +3 Revive
-
-ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (TABSK17>1 AND SK67>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Poison and Bone, +3 Teeth
-ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (TABSK17>1 AND SK73>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Poison and Bone, +3 Poison Dagger
-ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (TABSK17>1 AND SK74>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Poison and Bone, +3 Corpse Explosion
-ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (TABSK17>1 AND SK83>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Poison and Bone, +3 Desecrate
-ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (TABSK17>1 AND SK84>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Poison and Bone, +3 Bone Spear
-ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (TABSK17>1 AND SK92>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Poison and Bone, +3 Poison Nova
-ItemDisplay[(CRAFT OR RARE OR MAG) ID NEC (TABSK17>1 AND SK93>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Poison and Bone, +3 Bone Spirit
-
-//- SORCERESS -------------------------
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (CLSK1>1 AND SK44>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Sorceress, +3 Frost Nova
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (CLSK1>1 AND SK59>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Sorceress, +3 Blizzard
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (CLSK1>1 AND SK64>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Sorceress, +3 Frozen Orb
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (CLSK1>1 AND SK369>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Sorceress, +3 Ice Barrage
-
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (CLSK1>1 AND SK48>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Sorceress, +3 Nova
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (CLSK1>1 AND SK49>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Sorceress, +3 Lightning
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (CLSK1>1 AND SK58>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Sorceress, +3 Energy Shield
-
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (CLSK1>1 AND SK47>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Sorceress, +3 Fire Ball
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (CLSK1>1 AND SK52>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Sorceress, +3 Enchant Fire
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (CLSK1>1 AND SK56>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Sorceress, +3 Meteor
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (CLSK1>1 AND SK62>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Sorceress, +3 Hydra
-
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (TABSK10>1 AND SK44>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Cold, +3 Frost Nova
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (TABSK10>1 AND SK59>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Cold, +3 Blizzard
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (TABSK10>1 AND SK64>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Cold, +3 Frozen Orb
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (TABSK10>1 AND SK369>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Cold, +3 Ice Barrage
-
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (TABSK9>1 AND SK48>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Lightning, +3 Nova
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (TABSK9>1 AND SK49>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Lightning, +3 Lightning
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (TABSK9>1 AND SK58>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Lightning, +3 Energy Shield
-
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (TABSK8>1 AND SK47>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Fire, +3 Fire Ball
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (TABSK8>1 AND SK52>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Fire, +3 Enchant Fire
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (TABSK8>1 AND SK56>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Fire, +3 Meteor
-ItemDisplay[(CRAFT OR RARE OR MAG) ID SOR (TABSK8>1 AND SK62>2)]: %NAME%%PURPLE% +%CONTINUE%// +2 Fire, +3 Hydra
-
-//- CIRCLETS --------------------------
-ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC CLSK0>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Amazon, 20 FCR
-ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC CLSK1>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Sorceress, 20 FCR
-ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC CLSK2>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Necro, 20 FCR
-ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC CLSK3>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Paladin, 20 FCR
-ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC CLSK4>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Barb, 20 FCR
-ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC CLSK5>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Druid, 20 FCR
-ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC CLSK6>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Assassin, 20 FCR
-
-ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK0>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Bow and Crossbow, 20 FCR
-ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK1>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Passive and Magic, 20 FCR
-ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK2>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Javelin and Spear, 20 FCR
-ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK8>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Fire, 20 FCR
-ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK9>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Lightning, 20 FCR
-ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK10>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Cold, 20 FCR
-ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK16>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Curses, 20 FCR
-ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK17>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Poison and Bone, 20 FCR
-ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK18>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Summoning, 20 FCR
-ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK24>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Combat, 20 FCR
-ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK25>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Offensive, 20 FCR
-ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK26>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Defensive, 20 FCR
-ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK32>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Combat, 20 FCR
-ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK33>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Masteries, 20 FCR
-ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK34>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Warcries, 20 FCR
-ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK40>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Summoning, 20 FCR
-ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK41>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Shape, 20 FCR
-ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK42>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Elemental, 20 FCR
-ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK48>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Traps, 20 FCR
-ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK49>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Shadow, 20 FCR
-ItemDisplay[(CRAFT OR RARE OR MAG) ID CIRC TABSK50>1 FCR>19]: %NAME%%PURPLE% +%CONTINUE%// +2 Martial Arts, 20 FCR
-
-//- ARMORS ----------------------------
-ItemDisplay[(CRAFT OR RARE OR MAG) ID CHEST (SOCK>3 AND LIFE>89)]: %NAME%%PURPLE% +%CONTINUE%// 4 sockets, 90+ health armors
-
-//- GLOVES ----------------------------
-ItemDisplay[(CRAFT OR RARE OR MAG) ID GLOVES TABSK0>1 IAS>19]: %GREEN%%NAME%// +2 Bow, 20 IAS
-ItemDisplay[(CRAFT OR RARE OR MAG) ID GLOVES TABSK1>1 IAS>19]: %GREEN%%NAME%// +2 Passive, 20 IAS
-ItemDisplay[(CRAFT OR RARE OR MAG) ID GLOVES TABSK2>1 IAS>19]: %GREEN%%NAME%// +2 Javelin, 20 IAS
-ItemDisplay[(CRAFT OR RARE OR MAG) ID GLOVES TABSK50>1 IAS>19]: %GREEN%%NAME%// +2 Martial Arts, 20 IAS
-
-//- BELTS -----------------------------
-ItemDisplay[(CRAFT OR RARE) ID BELT MANA>25]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(CRAFT OR RARE) ID BELT FRES>24]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(CRAFT OR RARE) ID BELT CRES>24]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(CRAFT OR RARE) ID BELT LRES>24]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(CRAFT OR RARE) ID BELT PRES>24]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(CRAFT OR RARE) ID BELT STR>19]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(CRAFT OR RARE) ID BELT LIFE>39]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(CRAFT OR RARE) ID BELT FHR>16]: %NAME%%PURPLE% +%CONTINUE%
-
-//- BOOTS -----------------------------
-ItemDisplay[(CRAFT OR RARE) ID BOOTS MANA>35]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(CRAFT OR RARE) ID BOOTS FRES>30]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(CRAFT OR RARE) ID BOOTS CRES>30]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(CRAFT OR RARE) ID BOOTS LRES>30]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(CRAFT OR RARE) ID BOOTS PRES>35]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(CRAFT OR RARE) ID BOOTS DEX>7]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(CRAFT OR RARE) ID BOOTS FHR>9]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(CRAFT OR RARE) ID BOOTS GFIND>69]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(CRAFT OR RARE) ID BOOTS MFIND>19]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(CRAFT OR RARE) ID BOOTS FRW>19]: %NAME%%PURPLE% +%CONTINUE%
-
-//- SHIELDS ---------------------------
-ItemDisplay[(CRAFT OR RARE OR MAG) ID uit (SOCK>3 AND FBR>29)]: %NAME%%PURPLE% +%CONTINUE%// JMoD Monarchs
-
-//- WEAPONS - GENERAL -----------------
-ItemDisplay[(CRAFT OR RARE) ID WEAPON TABSK34>2]: %GREEN%%NAME%// +3 Battle Order weapons
-
-ItemDisplay[(CRAFT OR RARE) ID WEAPON ED>299]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(CRAFT OR RARE) ID WEAPON IAS>29]: %NAME%%PURPLE% +%CONTINUE%
-ItemDisplay[(CRAFT OR RARE) ID WEAPON FOOLS]: %NAME%%PURPLE% +%CONTINUE%
-
-//- SCEPTERS --------------------------
-ItemDisplay[(NMAG OR RARE OR MAG) ID SCEPTER (CLSK3>1 AND SK101>2)]: %GREEN%%NAME%// +2 Paladin, +3 Holy Bolt
-ItemDisplay[(NMAG OR RARE OR MAG) ID SCEPTER (CLSK3>1 AND SK112>2)]: %GREEN%%NAME%// +2 Paladin, +3 Blessed Hammer
-ItemDisplay[(NMAG OR RARE OR MAG) ID SCEPTER (CLSK3>1 AND SK117>2)]: %GREEN%%NAME%// +2 Paladin, +3 Holy Shield
-ItemDisplay[(NMAG OR RARE OR MAG) ID SCEPTER (CLSK3>1 AND SK121>2)]: %GREEN%%NAME%// +2 Paladin, +3 Fist of the Heavens
-
-ItemDisplay[(NMAG OR RARE OR MAG) ID SCEPTER (TABSK24>1 AND SK101>2)]: %GREEN%%NAME%// +2 Combat, +3 Holy Bolt
-ItemDisplay[(NMAG OR RARE OR MAG) ID SCEPTER (TABSK24>1 AND SK112>2)]: %GREEN%%NAME%// +2 Combat, +3 Blessed Hammer
-ItemDisplay[(NMAG OR RARE OR MAG) ID SCEPTER (TABSK24>1 AND SK117>2)]: %GREEN%%NAME%// +2 Combat, +3 Holy Shield
-ItemDisplay[(NMAG OR RARE OR MAG) ID SCEPTER (TABSK24>1 AND SK121>2)]: %GREEN%%NAME%// +2 Combat, +3 Fist of the Heavens
-
-//- WANDS -----------------------------
-ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (CLSK2>1 AND SK70>2)]: %GREEN%%NAME%// +2 Necro, +3 Raise Skeleton Warrior
-ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (CLSK2>1 AND SK75>2)]: %GREEN%%NAME%// +2 Necro, +3 Clay Golem
-ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (CLSK2>1 AND SK80>2)]: %GREEN%%NAME%// +2 Necro, +3 Raise Skeleton Mage
-ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (CLSK2>1 AND SK85>2)]: %GREEN%%NAME%// +2 Necro, +3 Blood Golem
-ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (CLSK2>1 AND SK94>2)]: %GREEN%%NAME%// +2 Necro, +3 Fire Golem
-ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (CLSK2>1 AND SK95>2)]: %GREEN%%NAME%// +2 Necro, +3 Revive
-
-ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (CLSK2>1 AND SK67>2)]: %GREEN%%NAME%// +2 Necro, +3 Teeth
-ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (CLSK2>1 AND SK73>2)]: %GREEN%%NAME%// +2 Necro, +3 Poison Dagger
-ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (CLSK2>1 AND SK74>2)]: %GREEN%%NAME%// +2 Necro, +3 Corpse Explosion
-ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (CLSK2>1 AND SK83>2)]: %GREEN%%NAME%// +2 Necro, +3 Desecrate
-ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (CLSK2>1 AND SK84>2)]: %GREEN%%NAME%// +2 Necro, +3 Bone Spear
-ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (CLSK2>1 AND SK92>2)]: %GREEN%%NAME%// +2 Necro, +3 Poison Nova
-ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (CLSK2>1 AND SK93>2)]: %GREEN%%NAME%// +2 Necro, +3 Bone Spirit
-
-ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (TABSK18>1 AND SK70>2)]: %GREEN%%NAME%// +2 Summon, +3 Raise Skeleton Warrior
-ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (TABSK18>1 AND SK75>2)]: %GREEN%%NAME%// +2 Summon, +3 Clay Golem
-ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (TABSK18>1 AND SK80>2)]: %GREEN%%NAME%// +2 Summon, +3 Raise Skeleton Mage
-ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (TABSK18>1 AND SK85>2)]: %GREEN%%NAME%// +2 Summon, +3 Blood Golem
-ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (TABSK18>1 AND SK94>2)]: %GREEN%%NAME%// +2 Summon, +3 Fire Golem
-ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (TABSK18>1 AND SK95>2)]: %GREEN%%NAME%// +2 Summon, +3 Revive
-
-ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (TABSK17>1 AND SK67>2)]: %GREEN%%NAME%// +2 Poison and Bone, +3 Teeth
-ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (TABSK17>1 AND SK73>2)]: %GREEN%%NAME%// +2 Poison and Bone, +3 Poison Dagger
-ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (TABSK17>1 AND SK74>2)]: %GREEN%%NAME%// +2 Poison and Bone, +3 Corpse Explosion
-ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (TABSK17>1 AND SK83>2)]: %GREEN%%NAME%// +2 Poison and Bone, +3 Desecrate
-ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (TABSK17>1 AND SK84>2)]: %GREEN%%NAME%// +2 Poison and Bone, +3 Bone Spear
-ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (TABSK17>1 AND SK92>2)]: %GREEN%%NAME%// +2 Poison and Bone, +3 Poison Nova
-ItemDisplay[(CRAFT OR RARE OR MAG) ID WAND (TABSK17>1 AND SK93>2)]: %GREEN%%NAME%// +2 Poison and Bone, +3 Bone Spirit
-
-//############################################################################################
 //- VENDOR ITEMS ---------------- VENDOR ITEMS ---------------- VENDOR ITEMS -----------------
 //############################################################################################
 
@@ -3778,7 +3782,7 @@ ItemDisplay[MAG CLVL<10 !ID]: %NAME%%MAP-97%// Notification and map ping for all
 ItemDisplay[MAG CLVL>29 !ID]:// At level 30, hide all magics not listed in MAGICS section above. Add %NAME% to this line if you no longer want them hidden.
 
 //- NON-MAGICS - HIDING ---------------
-ItemDisplay[INF]:// Hide all Low Quality, Cracked, Crude, Damaged items
+ItemDisplay[INF]:// Hide all Low Quality, Cracked, Crude, Damaged items not specified above
 ItemDisplay[NMAG CLVL>5 SOCK=1]:// At level 6, hide all base items which have 1 socket
 ItemDisplay[NMAG CLVL<10 !RW]: %NAME%// Show base items up until level 9
 ItemDisplay[NMAG CLVL>9 !RW]:// Hide all other base items at level 10
