@@ -1663,32 +1663,32 @@ ItemDisplay[MAG rin ILVL=98]: %NAME% %TAN%(Craft at 74+){%GREEN%Amn, Emerald %PU
 ItemDisplay[MAG rin ILVL=99]: %NAME% %TAN%(Craft at 74+){%GREEN%Amn, Emerald %PURPLE%Amn, Amethyst %RED%Sol, Ruby %BLUE%Amn, Sapphire}
 
 // HELM RECIPES -----------------------
-//ItemDisplay[MAG ID HELM]: %NAME%{%GREEN%Ith, Emerald %PURPLE%Nef, Amethyst %RED%Ral, Ruby %BLUE%Ith, Sapphire}%CONTINUE%
+ItemDisplay[MAG ID ILVL>70 HELM]: %NAME%{%GREEN%Ith, Emerald %PURPLE%Nef, Amethyst %RED%Ral, Ruby %BLUE%Ith, Sapphire}%CONTINUE%
 
 // CHEST RECIPES ----------------------
-//ItemDisplay[MAG ID CHEST]: %NAME%{%GREEN%Eth, Emerald %PURPLE%Tal, Amethyst %RED%Thul, Ruby %BLUE%Nef, Sapphire}%CONTINUE%
+ItemDisplay[MAG ID ILVL>70 CHEST]: %NAME%{%GREEN%Eth, Emerald %PURPLE%Tal, Amethyst %RED%Thul, Ruby %BLUE%Nef, Sapphire}%CONTINUE%
 
 // GLOVES RECIPES ---------------------
-//ItemDisplay[MAG ID GLOVES]: %NAME%{%GREEN%Ral, Emerald %PURPLE%Ort, Amethyst %RED%Nef, Ruby %BLUE%Ort, Sapphire}%CONTINUE%
+ItemDisplay[MAG ID ILVL>70 GLOVES]: %NAME%{%GREEN%Ral, Emerald %PURPLE%Ort, Amethyst %RED%Nef, Ruby %BLUE%Ort, Sapphire}%CONTINUE%
 
 // BELT RECIPES -----------------------
-//ItemDisplay[MAG ID BELT]: %NAME%{%GREEN%Tal, Emerald %PURPLE%Ith, Amethyst %RED%Tal, Ruby %BLUE%Tal, Sapphire}%CONTINUE%
+ItemDisplay[MAG ID ILVL>70 BELT]: %NAME%{%GREEN%Tal, Emerald %PURPLE%Ith, Amethyst %RED%Tal, Ruby %BLUE%Tal, Sapphire}%CONTINUE%
 
 // BOOTS RECIPES ----------------------
-//ItemDisplay[MAG ID BOOTS]: %NAME%{%GREEN%Ort, Emerald %PURPLE%Thul, Amethyst %RED%Eth, Ruby %BLUE%Ral, Sapphire}%CONTINUE%
+ItemDisplay[MAG ID ILVL>70 BOOTS]: %NAME%{%GREEN%Ort, Emerald %PURPLE%Thul, Amethyst %RED%Eth, Ruby %BLUE%Ral, Sapphire}%CONTINUE%
 
 // SHIELD RECIPES ---------------------
-//ItemDisplay[MAG ID SHIELD]: %NAME%{%GREEN%Nef, Emerald %PURPLE%Eth, Amethyst %RED%Ith, Ruby %BLUE%Eth, Sapphire}%CONTINUE%
+ItemDisplay[MAG ID ILVL>70 SHIELD]: %NAME%{%GREEN%Nef, Emerald %PURPLE%Eth, Amethyst %RED%Ith, Ruby %BLUE%Eth, Sapphire}%CONTINUE%
 
 // WEAPON RECIPES ---------------------
-//ItemDisplay[MAG ID WEAPON]: %NAME%{%GREEN%Sol, Emerald %PURPLE%Tir, Amethyst %RED%Ort, Ruby %BLUE%Tir, Sapphire%WHITE%%NL%Speed: %WPNSPD%}%CONTINUE%
+ItemDisplay[MAG ID ILVL>70 WEAPON]: %NAME%{%GREEN%Sol, Emerald %PURPLE%Tir, Amethyst %RED%Ort, Ruby %BLUE%Tir, Sapphire%WHITE%%NL%Speed: %WPNSPD%}%CONTINUE%
 
 //- AMAZON ----------------------------
-//ItemDisplay[MAG !ID (am1 OR am6 OR amb)]: %NAME% %ORANGE%(Craft)// Stag Bow (0), Ashwood Bow (0), Matriarchal Bow (-10)
-//ItemDisplay[MAG !ID (am2 OR am7 OR amc)]: %NAME% %ORANGE%(Craft)// Reflex Bow (10), Ceremonial Bow (10), Grand Matron Bow (10)
-//ItemDisplay[MAG !ID (am3 OR am8 OR amd)]: %NAME% %ORANGE%(Craft)// Maiden Spear (0), Ceremonial Spear (0), Matriarchal Spear (0)
-//ItemDisplay[MAG !ID (am4 OR am9 OR ame)]: %NAME% %ORANGE%(Craft)// Maiden Pike (10), Ceremonial Pike (20), Matriarchal Pike (20)
-//ItemDisplay[MAG !ID (am5 OR ama OR amf)]: %NAME% %ORANGE%(Craft)// Maiden Javelin (-10), Ceremonial Javelin (-10), Matriarchal Javelin (-10)
+//ItemDisplay[MAG !ID ILVL>70 (am1 OR am6 OR amb)]: %NAME% %ORANGE%(C)// Stag Bow (0), Ashwood Bow (0), Matriarchal Bow (-10)
+//ItemDisplay[MAG !ID ILVL>70 (am2 OR am7 OR amc)]: %NAME% %ORANGE%(C)// Reflex Bow (10), Ceremonial Bow (10), Grand Matron Bow (10)
+//ItemDisplay[MAG !ID ILVL>70 (am3 OR am8 OR amd)]: %NAME% %ORANGE%(C)// Maiden Spear (0), Ceremonial Spear (0), Matriarchal Spear (0)
+//ItemDisplay[MAG !ID ILVL>70 (am4 OR am9 OR ame)]: %NAME% %ORANGE%(C)// Maiden Pike (10), Ceremonial Pike (20), Matriarchal Pike (20)
+//ItemDisplay[MAG !ID ILVL>70 (am5 OR ama OR amf)]: %NAME% %ORANGE%(C)// Maiden Javelin (-10), Ceremonial Javelin (-10), Matriarchal Javelin (-10)
 
 //- ASSASSIN --------------------------
 // Exceptional							Elite
@@ -1697,123 +1697,133 @@ ItemDisplay[MAG rin ILVL=99]: %NAME% %TAN%(Craft at 74+){%GREEN%Amn, Emerald %PU
 // 	9qr - Scissors Quhab	0			7qr - Scissors Suwayyah		0
 //										7wb - Wrist Sword			-10
 //										7ar - Suwayyah				0
-//ItemDisplay[MAG !ID (9tw OR 7tw)]: %NAME% %ORANGE%(Craft)// Greater Talons, Runic Talons
-//ItemDisplay[MAG !ID (9lw OR 7lw)]: %NAME% %ORANGE%(Craft)// Greater Claws, Feral Claws
-//ItemDisplay[MAG !ID (9qr OR 7qr OR 7ar)]: %NAME% %ORANGE%(Craft)// Scissors Quhab, Scissors Suwayyah, Suwayyah
-//ItemDisplay[MAG !ID 7wb]: %NAME% %ORANGE%(Craft)// Wrist Sword
+//ItemDisplay[MAG !ID ILVL>70 (9tw OR 7tw)]: %NAME% %ORANGE%(C)// Greater Talons, Runic Talons
+//ItemDisplay[MAG !ID ILVL>70 (9lw OR 7lw)]: %NAME% %ORANGE%(C)// Greater Claws, Feral Claws
+//ItemDisplay[MAG !ID ILVL>70 (9qr OR 7qr OR 7ar)]: %NAME% %ORANGE%(C)// Scissors Quhab, Scissors Suwayyah, Suwayyah
+//ItemDisplay[MAG !ID ILVL>70 7wb]: %NAME% %ORANGE%(C)// Wrist Sword
 
 //- BARBARIAN -------------------------
-//ItemDisplay[MAG !ETH !ID (ba4 OR ba5 OR ba9 OR baa OR bae OR baf)]: %NAME% %ORANGE%(Craft)
+//ItemDisplay[MAG !ETH !ID ILVL>70 (ba4 OR ba5 OR ba9 OR baa OR bae OR baf)]: %NAME% %ORANGE%(C)
 
 //- BARBARIAN - MERC ------------------
-//ItemDisplay[MAG ETH !ID NORM CL2]: %NAME% %ORANGE%(Craft - Merc)
-//ItemDisplay[MAG ETH !ID EXC CL2]: %NAME% %ORANGE%(Craft - Merc)
-//ItemDisplay[MAG ETH !ID ELT CL2]: %NAME% %ORANGE%(Craft - Merc)
+//ItemDisplay[MAG ETH !ID ILVL>70 NORM CL2]: %NAME% %ORANGE%(C - Merc)
+//ItemDisplay[MAG ETH !ID ILVL>70 EXC CL2]: %NAME% %ORANGE%(C - Merc)
+//ItemDisplay[MAG ETH !ID ILVL>70 ELT CL2]: %NAME% %ORANGE%(C - Merc)
 
 //- DRUID -----------------------------
-//ItemDisplay[MAG !ETH !ID (dr1 OR dr5 OR dr6 OR dra OR drb OR drf)]: %NAME% %ORANGE%(Craft)
+//ItemDisplay[MAG !ETH !ID ILVL>70 (dr1 OR dr5 OR dr6 OR dra OR drb OR drf)]: %NAME% %ORANGE%(C)
 
 //- NECROMANCER -----------------------
-//ItemDisplay[MAG !ETH !ID CL4]: %NAME% %ORANGE%(Craft)
+//ItemDisplay[MAG !ETH !ID ILVL>70 CL4]: %NAME% %ORANGE%(C)
 
 //- PALADIN ---------------------------
-//ItemDisplay[MAG !ID CL3]: %NAME% %ORANGE%(Craft)
+//ItemDisplay[MAG !ID ILVL>70 CL3]: %NAME% %ORANGE%(C)
 
 //- SORCERESS -------------------------
-//ItemDisplay[MAG !ID (ob5 OR oba OR obf)]: %NAME% %ORANGE%(Craft)
+//ItemDisplay[MAG !ID ILVL>70 (ob5 OR oba OR obf)]: %NAME% %ORANGE%(C)
 
 //- HELMS -----------------------------
-//ItemDisplay[MAG !ETH !ID (ghm OR crn OR bhm OR xap OR xh9 OR uap)]: %NAME% %ORANGE%(Craft)
+//ItemDisplay[MAG !ETH !ID ILVL>70 (ghm OR crn OR bhm OR xap OR xh9 OR uap)]: %NAME% %ORANGE%(C)
 
 //- HELMS - MERC ----------------------
-//ItemDisplay[MAG ETH !ID NORM HELM !CL2 !CL1]: %NAME% %ORANGE%(Craft - Merc)
-//ItemDisplay[MAG ETH !ID EXC HELM !CL2 !CL1]: %NAME% %ORANGE%(Craft - Merc)
-//ItemDisplay[MAG ETH !ID ELT HELM !CL2 !CL1]: %NAME% %ORANGE%(Craft - Merc)
+//ItemDisplay[MAG ETH !ID ILVL>70 NORM HELM !CL2 !CL1]: %NAME% %ORANGE%(C - Merc)
+//ItemDisplay[MAG ETH !ID ILVL>70 EXC HELM !CL2 !CL1]: %NAME% %ORANGE%(C - Merc)
+//ItemDisplay[MAG ETH !ID ILVL>70 ELT HELM !CL2 !CL1]: %NAME% %ORANGE%(C - Merc)
 
 //- CHEST -----------------------------
-//ItemDisplay[MAG !ETH !ID (ltp OR xui OR xea OR xtp OR uui OR uea)]: %NAME% %ORANGE%(Craft)
+//ItemDisplay[MAG !ETH !ID ILVL>70 (ltp OR xui OR xea OR xtp OR uui OR uea)]: %NAME% %ORANGE%(C)
 
 //- CHEST - MERC ----------------------
-//ItemDisplay[MAG ETH !ID NORM CHEST]: %NAME% %ORANGE%(Craft - Merc)
-//ItemDisplay[MAG ETH !ID EXC CHEST]: %NAME% %ORANGE%(Craft - Merc)
-//ItemDisplay[MAG ETH !ID ELT CHEST]: %NAME% %ORANGE%(Craft - Merc)
+//ItemDisplay[MAG ETH !ID ILVL>70 NORM CHEST]: %NAME% %ORANGE%(C - Merc)
+//ItemDisplay[MAG ETH !ID ILVL>70 EXC CHEST]: %NAME% %ORANGE%(C - Merc)
+//ItemDisplay[MAG ETH !ID ILVL>70 ELT CHEST]: %NAME% %ORANGE%(C - Merc)
 
 //- GLOVES ----------------------------
-//ItemDisplay[MAG !ETH !ID (lgl OR vgl OR mgl OR tgl OR hgl OR xlg OR xvg OR xmg OR ulg OR uvg)]: %NAME% %ORANGE%(Craft - Low str)
+//ItemDisplay[MAG !ETH !ID ILVL>70 (lgl OR vgl OR mgl OR tgl OR hgl OR xlg OR xvg OR xmg OR ulg OR uvg)]: %NAME% %ORANGE%(C - Low str)
 
 //- GLOVES - MERC ---------------------
-//ItemDisplay[MAG ETH !ID NORM GLOVES]: %NAME% %ORANGE%(Craft - Merc)
-//ItemDisplay[MAG ETH !ID EXC GLOVES]: %NAME% %ORANGE%(Craft - Merc)
-//ItemDisplay[MAG ETH !ID ELT GLOVES]: %NAME% %ORANGE%(Craft - Merc)
+//ItemDisplay[MAG ETH !ID ILVL>70 NORM GLOVES]: %NAME% %ORANGE%(C - Merc)
+//ItemDisplay[MAG ETH !ID ILVL>70 EXC GLOVES]: %NAME% %ORANGE%(C - Merc)
+//ItemDisplay[MAG ETH !ID ILVL>70 ELT GLOVES]: %NAME% %ORANGE%(C - Merc)
 
 //- BELT ------------------------------
-//ItemDisplay[MAG !ETH !ID (hbl OR zlb OR zmb OR zvb OR ulc OR uvc)]: %NAME% %ORANGE%(Craft - Low str)
+//ItemDisplay[MAG !ETH !ID ILVL>70 (hbl OR zlb OR zmb OR zvb OR ulc OR uvc)]: %NAME% %ORANGE%(C - Low str)
 
 //- BELT - MERC -----------------------
-//ItemDisplay[MAG ETH !ID NORM BELT]: %NAME% %ORANGE%(Craft - Merc)
-//ItemDisplay[MAG ETH !ID EXC BELT]: %NAME% %ORANGE%(Craft - Merc)
-//ItemDisplay[MAG ETH !ID ELT BELT]: %NAME% %ORANGE%(Craft - Merc)
+//ItemDisplay[MAG ETH !ID ILVL>70 NORM BELT]: %NAME% %ORANGE%(C - Merc)
+//ItemDisplay[MAG ETH !ID ILVL>70 EXC BELT]: %NAME% %ORANGE%(C - Merc)
+//ItemDisplay[MAG ETH !ID ILVL>70 ELT BELT]: %NAME% %ORANGE%(C - Merc)
 
 //- BOOTS -----------------------------
-//ItemDisplay[MAG !ETH !ID (lbt OR vbt OR mbt OR tbt OR hbt OR xlb OR xvb OR xmb OR ulb)]: %NAME% %ORANGE%(Craft - Low str)
+//ItemDisplay[MAG !ETH !ID ILVL>70 (lbt OR vbt OR mbt OR tbt OR hbt OR xlb OR xvb OR xmb OR ulb)]: %NAME% %ORANGE%(C - Low str)
 
 //- BOOTS - MERC ----------------------
-//ItemDisplay[MAG ETH !ID NORM BOOTS]: %NAME% %ORANGE%(Craft - Merc)
-//ItemDisplay[MAG ETH !ID EXC BOOTS]: %NAME% %ORANGE%(Craft - Merc)
-//ItemDisplay[MAG ETH !ID ELT BOOTS]: %NAME% %ORANGE%(Craft - Merc)
+//ItemDisplay[MAG ETH !ID ILVL>70 NORM BOOTS]: %NAME% %ORANGE%(C - Merc)
+//ItemDisplay[MAG ETH !ID ILVL>70 EXC BOOTS]: %NAME% %ORANGE%(C - Merc)
+//ItemDisplay[MAG ETH !ID ILVL>70 ELT BOOTS]: %NAME% %ORANGE%(C - Merc)
 
 //- SHIELD ----------------------------
-//ItemDisplay[MAG !ETH !ID (lrg OR kit OR bsh OR xsh OR ush OR uit)]: %NAME% %ORANGE%(Craft)
+//ItemDisplay[MAG !ETH !ID ILVL>70 (lrg OR kit OR bsh OR xsh OR ush OR uit)]: %NAME% %ORANGE%(C)
 
 //- SHIELD - MERC ---------------------
-//ItemDisplay[MAG ETH !ID NORM SHIELD !CL4 !CL3]: %NAME% %ORANGE%(Craft - Merc)
-//ItemDisplay[MAG ETH !ID EXC SHIELD !CL4 !CL3]: %NAME% %ORANGE%(Craft - Merc)
-//ItemDisplay[MAG ETH !ID ELT SHIELD !CL4 !CL3]: %NAME% %ORANGE%(Craft - Merc)
+//ItemDisplay[MAG ETH !ID ILVL>70 NORM SHIELD !CL4 !CL3]: %NAME% %ORANGE%(C - Merc)
+//ItemDisplay[MAG ETH !ID ILVL>70 EXC SHIELD !CL4 !CL3]: %NAME% %ORANGE%(C - Merc)
+//ItemDisplay[MAG ETH !ID ILVL>70 ELT SHIELD !CL4 !CL3]: %NAME% %ORANGE%(C - Merc)
 
 //- AXES ------------------------------
-//ItemDisplay[MAG ETH !ID (wax OR 9wa OR 7wa)]: %NAME% %ORANGE%(Craft)// War Axe, Naga, Berserker Axe
-//ItemDisplay[MAG ETH !ID (btx OR 9bt OR 7bt)]: %NAME% %ORANGE%(Craft)// Battle Axe, Tabar, Decapitator
-//ItemDisplay[MAG ETH !ID (gix OR 9gi OR 7gi)]: %NAME% %ORANGE%(Craft)// Giant Axe, Ancient Axe, Glorious Axe
+ItemDisplay[MAG ETH !ID ILVL>70 (2ax OR 92a OR 72a)]: %NAME% %ORANGE%(C)// Double Axe, Twin Axe, Ettin Axe
+ItemDisplay[MAG ETH !ID ILVL>70 (wax OR 9wa OR 7wa)]: %NAME% %ORANGE%(C)// War Axe, Naga, Berserker Axe
+
+ItemDisplay[MAG ETH !ID ILVL>70 (btx OR 9bt OR 7bt)]: %NAME% %ORANGE%(C)// Battle Axe, Tabar, Decapitator
+ItemDisplay[MAG ETH !ID ILVL>70 (gix OR 9gi OR 7gi)]: %NAME% %ORANGE%(C)// Giant Axe, Ancient Axe, Glorious Axe
 
 //- BOWS ------------------------------
-//ItemDisplay[MAG !ID (lwb OR 8lw OR 6lw)]: %NAME% %ORANGE%(Craft)// Long War Bow, Gothic Bow, Hydra Bow
+//ItemDisplay[MAG !ID ILVL>70 (lbw OR 8lb OR 6lb)]: %NAME% %ORANGE%(C)// Long Bow, Cedar Bow, Shadow Bow
+//ItemDisplay[MAG !ID ILVL>70 (lwb OR 8lw OR 6lw)]: %NAME% %ORANGE%(C)// Long War Bow, Gothic Bow, Hydra Bow
 
 //- CROSSBOWS -------------------------
-//ItemDisplay[MAG !ID (hxb OR 8hx OR 6hx)]: %NAME% %ORANGE%(Craft)// Heavy Crossbow, Ballista, Colossus Crossbow
+//ItemDisplay[MAG !ID ILVL>70 (hxb OR 8hx OR 6hx)]: %NAME% %ORANGE%(C)// Heavy Crossbow, Ballista, Colossus Crossbow
 
 //- DAGGERS ---------------------------
-//ItemDisplay[MAG ETH !ID (kri OR 9kr OR 7kr)]: %NAME% %ORANGE%(Craft)// Kris, Cinquedeas, Fanged Knife
+//ItemDisplay[MAG ETH !ID ILVL>70 (kri OR 9kr OR 7kr)]: %NAME% %ORANGE%(C)// Kris, Cinquedeas, Fanged Knife
 
 //- MACES -----------------------------
-//ItemDisplay[MAG ETH !ID (gma OR 9gm OR 7gm)]: %NAME% %ORANGE%(Craft)// Great Maul, Martel de Fer, Thunder Maul
+ItemDisplay[MAG ETH !ID ILVL>70 (mau OR 9m9 OR 7m7)]: %NAME% %ORANGE%(C)// Maul, War Club, Ogre Maul
+ItemDisplay[MAG ETH !ID ILVL>70 (gma OR 9gm OR 7gm)]: %NAME% %ORANGE%(C)// Great Maul, Martel de Fer, Thunder Maul
 
 //- POLEARMS --------------------------
-//ItemDisplay[MAG ETH !ID ELT (scy OR 9s8 OR 7s8)]: %NAME% %ORANGE%(Craft)// Scythe, Battle Scythe, Thresher
-//ItemDisplay[MAG ETH !ID ELT (wsc OR 9wc OR 7wc)]: %NAME% %ORANGE%(Craft)// War Scythe, Grim Scythe, Giant Thresher
+//ItemDisplay[MAG ETH !ID ILVL>70 ELT (scy OR 9s8 OR 7s8)]: %NAME% %ORANGE%(C)// Scythe, Battle Scythe, Thresher
+//ItemDisplay[MAG ETH !ID ILVL>70 ELT (wsc OR 9wc OR 7wc)]: %NAME% %ORANGE%(C)// War Scythe, Grim Scythe, Giant Thresher
 
 //- SCEPTERS --------------------------
-//ItemDisplay[MAG !ID (wsp OR 9ws OR 7ws)]: %NAME% %ORANGE%(Craft)// War Scepter, Divine Scepter, Caduceus
+//ItemDisplay[MAG !ID ILVL>70 (wsp OR 9ws OR 7ws)]: %NAME% %ORANGE%(C)// War Scepter, Divine Scepter, Caduceus
 
 //- SPEARS ----------------------------
-//ItemDisplay[MAG ETH !ID (brn OR 9br OR 7br)]: %NAME% %ORANGE%(Craft)// Brandistock, War Fork, Mancatcher
-//ItemDisplay[MAG ETH !ID (pik OR 9p9 OR 7p7)]: %NAME% %ORANGE%(Craft)// Pike, Lance, War Pike
+//ItemDisplay[MAG ETH !ID ILVL>70 (brn OR 9br OR 7br)]: %NAME% %ORANGE%(C)// Brandistock, War Fork, Mancatcher
+//ItemDisplay[MAG ETH !ID ILVL>70 (pik OR 9p9 OR 7p7)]: %NAME% %ORANGE%(C)// Pike, Lance, War Pike
+
+//- STAVES ----------------------------
+//ItemDisplay[MAG ETH !ID ILVL>70 (wst OR 8ws OR 6ws)]: %NAME% %ORANGE%(C)// War Staff, Rune Staff, Archon Staff
 
 //- SWORDS ----------------------------
-//ItemDisplay[MAG ETH !ID (crs OR 9cr)]: %NAME% %ORANGE%(Craft)// Crystal Sword, Dimensional Blade
-//ItemDisplay[MAG ETH !ID (gis OR 9gs OR 7gs)]: %NAME% %ORANGE%(Craft)// Giant Sword, Tusk Sword, Balrog Blade
-//ItemDisplay[MAG ETH !ID (gsd OR 9gd OR 7gd)]: %NAME% %ORANGE%(Craft)// Great Sword, Executioner Sword, Colossus Blade
-//ItemDisplay[MAG ETH !ID (flb OR 9fb OR 7fb)]: %NAME% %ORANGE%(Craft)// Flamberge, Zweihander, Colossus Sword
+ItemDisplay[MAG ETH !ID ILVL>70 (crs OR 9cr)]: %NAME% %ORANGE%(C)// Crystal Sword, Dimensional Blade
+ItemDisplay[MAG ETH !ID ILVL>70 (lsd OR 9ls OR 7ls)]: %NAME% %ORANGE%(C)// Long Sword, Rune Sword, Cryptic Sword
+ItemDisplay[MAG ETH !ID ILVL>70 (bsd OR 9bs OR 7bs)]: %NAME% %ORANGE%(C)// Broad Sword, Battle Sword, Conquest Sword
+
+ItemDisplay[MAG ETH !ID ILVL>70 (gis OR 9gs OR 7gs)]: %NAME% %ORANGE%(C)// Giant Sword, Tusk Sword, Balrog Blade
+ItemDisplay[MAG ETH !ID ILVL>70 (gsd OR 9gd OR 7gd)]: %NAME% %ORANGE%(C)// Great Sword, Executioner Sword, Colossus Blade
+ItemDisplay[MAG ETH !ID ILVL>70 (flb OR 9fb OR 7fb)]: %NAME% %ORANGE%(C)// Flamberge, Zweihander, Colossus Sword
 
 //- THROWING --------------------------
-//ItemDisplay[MAG ETH !ID (tkf OR 9tk OR 7tk)]: %NAME% %ORANGE%(Craft)// Throwing Knife, Battle Dart, Flying Knife
-//ItemDisplay[MAG ETH !ID (bkf OR 9bk OR 7bk)]: %NAME% %ORANGE%(Craft)// Balanced Knife, War Dart, Winged Knife
-//ItemDisplay[MAG ETH !ID (bal OR 9b8 OR 7b8)]: %NAME% %ORANGE%(Craft)// Balanced Axe, Hurlbat, Winged Axe
+ItemDisplay[MAG ETH !ID ILVL>70 (tkf OR 9tk OR 7tk)]: %NAME% %ORANGE%(C)// Throwing Knife, Battle Dart, Flying Knife
+ItemDisplay[MAG ETH !ID ILVL>70 (bkf OR 9bk OR 7bk)]: %NAME% %ORANGE%(C)// Balanced Knife, War Dart, Winged Knife
+ItemDisplay[MAG ETH !ID ILVL>70 (bal OR 9b8 OR 7b8)]: %NAME% %ORANGE%(C)// Balanced Axe, Hurlbat, Winged Axe
 
 //- WANDS -----------------------------
-//ItemDisplay[MAG !ID WAND !wnd !9wn !ywn]: %NAME% %ORANGE%(Craft)
+//ItemDisplay[MAG !ID ILVL>70 WAND !wnd !9wn !ywn]: %NAME% %ORANGE%(C)
 
 //- JAVELINS --------------------------
-//ItemDisplay[MAG ETH !ID (tsp OR 9ts OR 7ts)]: %NAME% %ORANGE%(Craft)// Throwing Spear, Harpoon, Winged Harpoon
+ItemDisplay[MAG ETH !ID ILVL>70 (tsp OR 9ts OR 7ts)]: %NAME% %ORANGE%(C)// Throwing Spear, Harpoon, Winged Harpoon
 
 //############################################################################################
 //- MAGICS ---------------- MAGICS ---------------- MAGICS ---------------- MAGICS -----------
